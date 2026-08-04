@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-08-03T07:46:01.000Z",
+  "algorithms": [
+    "Azusa",
+    "Companella",
+    "DanOverlay",
+    "Daniel",
+    "Mixed",
+    "Roxy",
+    "Sunny"
+  ],
+  "files": [
+    {
+      "fileName": "Azusa.csv",
+      "algorithm": "Azusa",
+      "sizeBytes": 63795,
+      "modifiedAt": "2026-06-13T05:03:21.000Z"
+    },
+    {
+      "fileName": "Companella.csv",
+      "algorithm": "Companella",
+      "sizeBytes": 58521,
+      "modifiedAt": "2026-07-31T16:34:40.000Z"
+    },
+    {
+      "fileName": "DanOverlay.csv",
+      "algorithm": "DanOverlay",
+      "sizeBytes": 63370,
+      "modifiedAt": "2026-08-03T07:46:01.000Z"
+    },
+    {
+      "fileName": "Daniel.csv",
+      "algorithm": "Daniel",
+      "sizeBytes": 67505,
+      "modifiedAt": "2026-06-07T10:45:03.000Z"
+    },
+    {
+      "fileName": "Mixed.csv",
+      "algorithm": "Mixed",
+      "sizeBytes": 58605,
+      "modifiedAt": "2026-07-31T16:28:35.000Z"
+    },
+    {
+      "fileName": "Roxy.csv",
+      "algorithm": "Roxy",
+      "sizeBytes": 62919,
+      "modifiedAt": "2026-06-14T05:46:46.000Z"
+    },
+    {
+      "fileName": "Sunny.csv",
+      "algorithm": "Sunny",
+      "sizeBytes": 59042,
+      "modifiedAt": "2026-06-07T10:44:32.000Z"
+    }
+  ]
+}
