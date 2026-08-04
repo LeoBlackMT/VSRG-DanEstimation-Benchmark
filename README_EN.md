@@ -75,6 +75,10 @@ The run method and dependency notes are in [docs/runner_en.md](docs/runner_en.md
 
 See [docs/i18n.md](docs/i18n.md#i18n-contribution-guide) for details.
 
+### Submitting Sample Data
+
+Since sample data affects the benchmark's accuracy, please submit an issue first, showing all sample sources, beatmap metadata, expected numberic difficulty, etc. After review, you may submit a Pull Request.
+
 ## License
 
 - Except for the `samples/` directory, the project's code and documentation are released under the **MIT** license; see [LICENSE](LICENSE).
