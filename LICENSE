@@ -19,3 +19,17 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## Excluded From This License
+
+The following items are NOT covered by the MIT License above. All rights reserved:
+
+1. `samples/samples.7z` - An archive of beatmaps composed of maps created by other players, test maps, or sample maps from the official website. The copyright and related rights of the map content belong to the original authors, arrangers, or their legal rights holders. This project does not claim ownership of these maps, nor does it represent endorsement of their content, naming, difficulty design, or community opinions. See `samples/Disclaimer.md` for details.
+
+2. `samples/data.csv` - The benchmark dataset built by the project maintainer. All rights reserved.
+
+3. `samples/Disclaimer.md` - The disclaimer document for the samples directory.
+
+The `samples/` directory is provided solely for functional testing, algorithm validation, error troubleshooting, and benchmark comparison. It must not be understood as re-publication, commercial use, or transfer of rights of the original works. When using this project, you should independently confirm the permissions for using the relevant materials, maps, and data, and comply with Osu!mania community guidelines and applicable laws and regulations. Please delete the relevant files within 24 hours after downloading to avoid unnecessary copyright disputes, as detailed in `samples/Disclaimer.md`.
