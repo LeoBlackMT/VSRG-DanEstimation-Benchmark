@@ -1,6 +1,5 @@
 ﻿# samples/ Directory Guide
 
-> This document is in English.
 > 中文版: [samples.md](samples.md)
 > **Translation Note**: This document was translated from Chinese to English with the assistance of an AI language model. While efforts have been made to ensure accuracy, please refer to the original Chinese version if any ambiguity arises.
 
@@ -134,7 +133,7 @@ A finer key-type description below the main classification, e.g. `stream tech`, 
 
 The beatmap's reference difficulty given by the benchmark data, i.e. the "correct answer", coming from the numeric difficulty of the dan tier beatmap set.
 
-The definition of numeric difficulty is in [docs/runner.md](runner.md), section 3.
+The definition of numeric difficulty is in [docs/runner_en.md](runner_en.md#3-numeric-difficulty-definition).
 
 - `expected` and `got` share the same numeric difficulty concept; the difference between them is the source of the algorithm error.
 - This field is provided by the dataset; the runner must not modify it.
@@ -179,7 +178,7 @@ deltaAbs = |delta|
 
 ## Integration with the runner
 
-- **Numeric difficulty concept**: the full definition, conversion, and source of the numeric difficulty used by `expected` and `got` are in [runner.md](runner.md); this document does not elaborate.
+- **Numeric difficulty concept**: the full definition, conversion, and source of the numeric difficulty used by `expected` and `got` are in [docs/runner_en.md](runner_en.md#3-numeric-difficulty-definition); this document does not elaborate.
 - **Data flow**:
 
 ```

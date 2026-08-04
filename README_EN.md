@@ -8,7 +8,7 @@
 
 This project mainly benchmarks the accuracy of VSRG difficulty estimation algorithms, comparing them on real beatmap data.
 
-Difficulty estimation (Dan/Difficulty Estimation) is the practice of rating a beatmap's difficulty against the community Dan tier system. Previously, the community already had multiple algorithms for estimating beatmap difficulty, but lacked a unified evaluation standard and dataset. To this end, this project provides manually annotated [beatmap samples](samples/data.csv), the [methodology for writing evaluation scripts](docs/runner.md), and a publicly accessible [results website](https://benchmark.leoblack.top/), for algorithm authors to make side-by-side comparisons. Since different estimation algorithms can disagree wildly on the same beatmap, this project tries to answer one question: **which algorithm is more accurate on real beatmaps?**
+Difficulty estimation (Dan/Difficulty Estimation) is the practice of rating a beatmap's difficulty against the community Dan tier system. Previously, the community already had multiple algorithms for estimating beatmap difficulty, but lacked a unified evaluation standard and dataset. To this end, this project provides manually annotated [beatmap samples](samples/data.csv), the [methodology for writing evaluation scripts](docs/runner_en.md), and a publicly accessible [results website](https://benchmark.leoblack.top/), for algorithm authors to make side-by-side comparisons. Since different estimation algorithms can disagree wildly on the same beatmap, this project tries to answer one question: **which algorithm is more accurate on real beatmaps?**
 
 The annotations in this project are mainly based on the [Reform](https://www.danreform.com/) Dan system by DDMythical. Among them, Zeta uses Emik's Sample Zeta version, Eta uses Thaumiel's version, and Theta uses CloverWisp's version.
 
@@ -18,7 +18,7 @@ This project was migrated from the original project [ManiaMapAnalyzer](https://g
 
 - **Side-by-side comparison**: runs multiple algorithms on exactly the same beatmap samples, producing results that can be compared uniformly.
 - **Real data**: all based on real community beatmaps with manually annotated Dan tiers.
-- **Clear and transparent**: samples and result data are fully public; anyone can view them, and can also [submit results for a new algorithm](docs/algorithm.md).
+- **Clear and transparent**: samples and result data are fully public; anyone can view them, and can also [submit results for a new algorithm](docs/algorithm.md#how-to-show-your-algorithm-on-the-benchmark-result-page).
 
 ### Included Algorithms
 
@@ -62,18 +62,18 @@ The website is driven by the data in the `results/` directory. It supports viewi
 
 ### Running the Benchmark
 
-The run method and dependency notes are in [docs/runner.md](docs/runner.md).
+The run method and dependency notes are in [docs/runner_en.md](docs/runner_en.md).
 
 ### Submitting Results for a New Algorithm
 
 1. Fork this repository.
-2. Generate the CSV file following the requirements in [docs/algorithm.md](docs/algorithm.md).
+2. Generate the CSV file following the requirements in [docs/algorithm.md](docs/algorithm.md#how-to-show-your-algorithm-on-the-benchmark-result-page).
 3. Put the results into `results/` and register them in `index.json`.
 4. Submit a Pull Request describing the algorithm's introduction, principle, source and parameter settings.
 
 ### Submitting Translations
 
-See [docs/i18n.md](docs/i18n.md) for details.
+See [docs/i18n.md](docs/i18n.md#i18n-contribution-guide) for details.
 
 ## License
 

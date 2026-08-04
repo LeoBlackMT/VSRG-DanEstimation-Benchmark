@@ -1,6 +1,5 @@
 # Benchmark Runner Writing Guide (English)
 
-> **中文版**: This is the English edition of the benchmark runner writing guide.
 > 中文版: [runner.md](runner.md)
 > **Translation Note**: This document was translated from Chinese to English with the assistance of an AI language model. While efforts have been made to ensure accuracy, please refer to the original Chinese version if any ambiguity arises.
 
@@ -99,7 +98,7 @@ Mixing the two scales will make the error statistics completely wrong.
 
 ## 4. Output CSV Specification
 
-For a detailed introduction to the CSV, see Chapter 4 of [docs/algorithm.md](algorithm.md).
+For a detailed introduction to the CSV, see [docs/samples_en.md](samples_en.md#datacsv-field-description).
 
 ### 4.1 Header (8 Columns, Fixed)
 

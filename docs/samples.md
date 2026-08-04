@@ -1,6 +1,5 @@
 # samples/ 目录说明
 
-> 本文档为中文。
 > English version: [samples_en.md](samples_en.md)
 
 ## 目录
@@ -88,7 +87,7 @@
 - 若你是谱面作者且不希望作品被用于此类测试，可联系项目维护者处理。
 - 使用者应自行确认素材与数据的使用权限，遵守社区规范与适用法律法规，下载后 24 小时内删除相关文件。
 
-完整条款请阅读 `samples/Disclaimer.md` 原文。
+完整条款请阅读 [samples/Disclaimer.md](samples/Disclaimer.md) 原文。
 
 ---
 
@@ -135,7 +134,7 @@ runner 可依据该字段决定对谱面调用哪一类算法流程，也用于�
 
 谱面由基准数据给出的参考难度，即"正确答案"，来自段位谱面集合的数值化难度。
 
-数值化难度定义见[docs/runner.md](runner.md) 的第 3 节。
+数值化难度定义见 [docs/runner.md](runner.md#3-数值化难度定义)。
 
 - `expected` 与 `got` 共用同一套数值化难度概念，二者的差值就是算法误差的来源。
 - 该字段由数据集提供，runner 不应修改它。
@@ -181,7 +180,7 @@ deltaAbs = |delta|
 
 ## 与 runner 的衔接
 
-- **数值化难度概念**：`expected` 与 `got` 使用的数值化难度的完整定义、换算与来源见 [runner.md](runner.md)，本文档不展开。
+- **数值化难度概念**：`expected` 与 `got` 使用的数值化难度的完整定义、换算与来源见 [docs/runner.md](runner.md#3-数值化难度定义)，本文档不展开。
 - **数据流向**：
 
 ```

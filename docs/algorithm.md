@@ -1,8 +1,6 @@
 # 如何在 Benchmark Result 网页上显示你的算法
 
-> 中文 · English version below ↓ / 下方为英文版
-
-## 中文
+> English version below ↓
 
 本文说明如何让一个新算法出现在 Benchmark Result 网页上：生成数据文件、注册索引、提交合入。网页只读取 `results/` 目录，算法名与显示名都来自文件名。
 
@@ -41,17 +39,15 @@
 
 ### 2. i18n 提示
 
-算法的显示名直接取自 CSV 文件名，不经过翻译。如果需要本地化显示名，请参照 `docs/i18n.md` 中的约定实现。
-
----
-
-## English version below ↓ / 下方为英文版
+算法的显示名直接取自 CSV 文件名，不经过翻译。如果需要本地化显示名，请参照 [docs/i18n.md](i18n.md) 中的约定实现。
 
 ---
 
 > **Translation Note**: This document was translated from Chinese to English with the assistance of an AI language model. While efforts have been made to ensure accuracy, please refer to the original Chinese version if any ambiguity arises.
 
 # How to Show Your Algorithm on the Benchmark Result Page
+
+> 中文版本在上方 ↑
 
 This document explains how to make a new algorithm appear on the Benchmark Result page: generate the data file, register it in the index, and submit a pull request. The page only reads the `results/` directory, and both the algorithm name and the display name come from the filename.
 
@@ -68,8 +64,8 @@ There are four steps:
 
 Before writing anything, read the two documents that define the data format and how to run the benchmark. Both live in the `docs/` folder of this repository:
 
-- Read [docs/samples.md](samples.md) to understand the field semantics and the data contract of `data.csv`.
-- Read [docs/runner.md](runner.md) to learn how to run the benchmark and generate the CSV.
+- Read [docs/samples_en.md](samples_en.md) to understand the field semantics and the data contract of `data.csv`.
+- Read [docs/runner_en.md](runner_en.md) to learn how to run the benchmark and generate the CSV.
 
 **Step 2: Write a runner and generate `results/{Algorithm}.csv`**
 
@@ -94,14 +90,6 @@ Register the file following the `results/index.json` spec in the docs. The entry
 }
 ```
 
-The entry has four required fields plus one optional field:
-
-- `fileName`: the CSV filename, e.g. `"MyAlgo.csv"`.
-- `algorithm`: the algorithm name, e.g. `"MyAlgo"`.
-- `sizeBytes`: the file size in bytes, from the file metadata.
-- `modifiedAt`: the file modification time (ISO 8601 string), from the file metadata.
-- `source` (optional): a link to the algorithm source, such as the repository, paper, or author page.
-
 **Step 4: Submit**
 
 Open a pull request against this repository. The change stays inside the `results/` directory: a new CSV plus an updated `index.json`. Reviewers will check that the CSV and the `index.json` entry match.
@@ -112,4 +100,4 @@ If your data uses beatmaps from the `samples/` directory, you must follow the di
 
 The display name comes straight from the CSV filename and is not translated.
 
-What you see on the page is exactly the filename without the `.csv` extension. If you need localized display names, follow the conventions in `docs/i18n.md`.
+What you see on the page is exactly the filename without the `.csv` extension. If you need localized display names, follow the conventions in [docs/i18n.md](i18n.md#i18n-contribution-guide).

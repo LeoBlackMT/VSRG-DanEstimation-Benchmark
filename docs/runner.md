@@ -1,8 +1,6 @@
 # Benchmark Runner 编写指南（中文）
 
-> **English**: This is the Chinese edition of the benchmark runner writing guide.
-> For the English version, see [runner_en.md](runner_en.md).
-> 本文档为中文版。英文见 [runner_en.md](runner_en.md)。
+> English version: [runner_en.md](runner_en.md).
 
 ---
 
@@ -99,7 +97,7 @@ samples/{pattern}/{name}.osu ──┼──►  逐行运行估计算法  ─�
 
 ## 4. 输出 CSV 规范
 
-csv 的详细介绍见 [docs/algorithm.md](algorithm.md) 的第 4 章。
+csv 的详细介绍见 [docs/samples.md](samples.md#datacsv-字段说明)。
 
 ### 4.1 表头（8 列，固定）
 
