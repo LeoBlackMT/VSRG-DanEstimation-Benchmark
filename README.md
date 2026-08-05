@@ -38,11 +38,10 @@
 
 | 路径 | 说明 |
 |---|---|
-| `samples/` | 含数据集 `data.csv` 与打包后的谱面样本 `samples.7z`，按 `course / jack / ln / speed / stamina / tech` 分类。**注意**：谱面版权归原作者所有，使用请遵守 [samples/Disclaimer.md](samples/Disclaimer.md) |
+| `samples/` | 含数据集 `data.csv` 与打包后的 .osu 谱面样本 `samples.7z`，按 `course / jack / ln / speed / stamina / tech` 分类。**注意**：谱面版权归原作者所有，使用请遵守 [samples/Disclaimer.md](samples/Disclaimer.md) |
 | `results/` | 各算法的 Benchmark 结果数据（`*.csv`）与 `index.json` |
 | `docs/` | 项目文档：样本说明、运行方法、算法介绍、国际化 |
 | `assets/` | 网页资源（CSS、JS、字体、图片等） |
-| `runner/` | Benchmark 运行脚本 |
 | `index.html` | Benchmark 结果网页入口 |
 
 ## 文档索引

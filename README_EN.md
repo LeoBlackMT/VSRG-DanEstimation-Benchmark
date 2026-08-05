@@ -40,11 +40,10 @@ The website is driven by the data in the `results/` directory. It supports viewi
 
 | Path | Description |
 |---|---|
-| `samples/` | Contains the dataset `data.csv` and the packaged beatmap samples `samples.7z`, categorized by `course / jack / ln / speed / stamina / tech`. **Note**: beatmap copyrights belong to their original authors; please follow [samples/Disclaimer.md](samples/Disclaimer.md) when using them |
+| `samples/` | Contains the dataset `data.csv` and the packaged .osu beatmap samples `samples.7z`, categorized by `course / jack / ln / speed / stamina / tech`. **Note**: beatmap copyrights belong to their original authors; please follow [samples/Disclaimer.md](samples/Disclaimer.md) when using them |
 | `results/` | Benchmark result data for each algorithm (`*.csv`) and `index.json` |
 | `docs/` | Project documentation: sample notes, run methods, algorithm overview, internationalization |
 | `assets/` | Website assets (CSS, JS, fonts, images, etc.) |
-| `runner/` | Benchmark run scripts |
 | `index.html` | Entry point of the Benchmark results website |
 
 ## Documentation Index
