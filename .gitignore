@@ -6,4 +6,6 @@ samples/speed
 samples/stamina
 samples/tech
 runner/
+backup/
+temp/
 AGENTS.md
