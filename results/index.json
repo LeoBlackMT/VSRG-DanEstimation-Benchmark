@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-03T07:46:01.000Z",
+  "generatedAt": "2026-08-10T01:26:53.639Z",
   "algorithms": [
     "Azusa",
     "Companella",
-    "DanOverlay",
     "Daniel",
+    "DanOverlay",
     "Mixed",
     "Roxy",
     "Sunny"
@@ -13,22 +13,22 @@
     {
       "fileName": "Azusa.csv",
       "algorithm": "Azusa",
-      "sizeBytes": 63795,
-      "modifiedAt": "2026-06-13T05:03:21.000Z",
+      "sizeBytes": 63354,
+      "modifiedAt": "2026-08-10T01:23:43.801Z",
       "source": "https://github.com/LeoBlackMT/osumania_map_analyser/tree/main/docs/azusa_algorithm.md"
     },
     {
       "fileName": "Companella.csv",
       "algorithm": "Companella",
-      "sizeBytes": 58521,
-      "modifiedAt": "2026-07-31T16:34:40.000Z",
+      "sizeBytes": 58518,
+      "modifiedAt": "2026-08-10T01:26:26.115Z",
       "source": "https://github.com/Leinadix/companella"
     },
     {
       "fileName": "DanOverlay.csv",
       "algorithm": "DanOverlay",
       "sizeBytes": 63370,
-      "modifiedAt": "2026-08-03T07:46:01.000Z",
+      "modifiedAt": "2026-08-03T07:46:01.568Z",
       "source": "https://github.com/acarranzao1a-png/Dan-Overlay/"
     },
     {
@@ -41,22 +41,22 @@
     {
       "fileName": "Mixed.csv",
       "algorithm": "Mixed",
-      "sizeBytes": 58605,
-      "modifiedAt": "2026-07-31T16:28:35.000Z",
+      "sizeBytes": 58603,
+      "modifiedAt": "2026-08-10T01:22:35.206Z",
       "source": "https://github.com/LeoBlackMT/osumania_map_analyser"
     },
     {
       "fileName": "Roxy.csv",
       "algorithm": "Roxy",
-      "sizeBytes": 62919,
-      "modifiedAt": "2026-06-14T05:46:46.000Z",
+      "sizeBytes": 63224,
+      "modifiedAt": "2026-08-10T01:25:26.892Z",
       "source": "https://github.com/LeoBlackMT/osumania_map_analyser/tree/main/docs/roxy_algorithm.md"
     },
     {
       "fileName": "Sunny.csv",
       "algorithm": "Sunny",
-      "sizeBytes": 59042,
-      "modifiedAt": "2026-06-07T10:44:32.000Z",
+      "sizeBytes": 58977,
+      "modifiedAt": "2026-08-10T01:20:03.003Z",
       "source": "https://github.com/sunnyxxy/Star-Rating-Rebirth"
     }
   ]
