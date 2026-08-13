@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T01:26:53.639Z",
+  "generatedAt": "2026-08-13T09:13:06.877Z",
   "algorithms": [
     "Azusa",
     "Companella",
@@ -14,15 +14,22 @@
       "fileName": "Azusa.csv",
       "algorithm": "Azusa",
       "sizeBytes": 63354,
-      "modifiedAt": "2026-08-10T01:23:43.801Z",
+      "modifiedAt": "2026-08-13T09:09:50.199Z",
       "source": "https://github.com/LeoBlackMT/osumania_map_analyser/tree/main/docs/azusa_algorithm.md"
     },
     {
       "fileName": "Companella.csv",
       "algorithm": "Companella",
       "sizeBytes": 58518,
-      "modifiedAt": "2026-08-10T01:26:26.115Z",
+      "modifiedAt": "2026-08-13T09:13:06.866Z",
       "source": "https://github.com/Leinadix/companella"
+    },
+    {
+      "fileName": "Daniel.csv",
+      "algorithm": "Daniel",
+      "sizeBytes": 68252,
+      "modifiedAt": "2026-08-10T05:16:50.937Z",
+      "source": "https://github.com/TheBagelOfMan/Daniel"
     },
     {
       "fileName": "DanOverlay.csv",
@@ -32,31 +39,24 @@
       "source": "https://github.com/acarranzao1a-png/Dan-Overlay/"
     },
     {
-      "fileName": "Daniel.csv",
-      "algorithm": "Daniel",
-      "sizeBytes": 67505,
-      "modifiedAt": "2026-06-07T10:45:03.000Z",
-      "source": "https://github.com/TheBagelOfMan/Daniel"
-    },
-    {
       "fileName": "Mixed.csv",
       "algorithm": "Mixed",
       "sizeBytes": 58603,
-      "modifiedAt": "2026-08-10T01:22:35.206Z",
+      "modifiedAt": "2026-08-13T09:08:36.605Z",
       "source": "https://github.com/LeoBlackMT/osumania_map_analyser"
     },
     {
       "fileName": "Roxy.csv",
       "algorithm": "Roxy",
       "sizeBytes": 63224,
-      "modifiedAt": "2026-08-10T01:25:26.892Z",
+      "modifiedAt": "2026-08-13T09:11:45.923Z",
       "source": "https://github.com/LeoBlackMT/osumania_map_analyser/tree/main/docs/roxy_algorithm.md"
     },
     {
       "fileName": "Sunny.csv",
       "algorithm": "Sunny",
       "sizeBytes": 58977,
-      "modifiedAt": "2026-08-10T01:20:03.003Z",
+      "modifiedAt": "2026-08-13T09:05:57.051Z",
       "source": "https://github.com/sunnyxxy/Star-Rating-Rebirth"
     }
   ]
