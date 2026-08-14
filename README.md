@@ -23,7 +23,7 @@
 - **[Sunny](https://github.com/sunnyxxy/Star-Rating-Rebirth)** by [Crz]sunnyxxy：被广泛认可的星数算法，支持全部Keys/键型。大多数算法都基于 Sunny 进行改进。
 - **[Daniel](https://github.com/TheBagelOfMan/Daniel)** by TheBagelOfMan：基于 Sunny 算法的改进版本。仅支持 4K RC。
 - **[Azusa](https://github.com/LeoBlackMT/osumania_map_analyser/tree/main/docs/azusa_algorithm.md)** by LeoBlackMT：融合 Daniel 和 Sunny 的调校算法。仅支持 4K RC。
-- **[Roxy](https://github.com/LeoBlackMT/osumania_map_analyser/tree/main/docs/roxy_algorithm.md)** by LeoBlackMT：元结构估算器。GBDT 模型训练自 Sunny、Daniel、Azusa 的结果，仅支持 4K RC。
+- **[Roxy](https://github.com/LeoBlackMT/osumania_map_analyser/tree/main/docs/roxy_algorithm.md)** by LeoBlackMT：元结构估算器。通过 Ridge 线性元模型融合 Azusa/Daniel 参考预测，聚焦高难区间（数值 11~17），仅支持 4K RC。
 - **[Companella](https://github.com/Leinadix/companella)** by Leinadix：使用 onnx 模型基于 [Etterna](https://github.com/etternagame/etterna) MinaCalc 的 4K 段位估算。
 - **[Mixed](https://github.com/LeoBlackMT/osumania_map_analyser)** by LeoBlackMT：综合上方算法的混合算法，自动根据谱面特征路由至最佳算法。主要应用于[ManiaMapAnalyzer](https://github.com/LeoBlackMT/osumania_map_analyser)项目中
 - **[DanOverlay](https://github.com/acarranzao1a-png/Dan-Overlay/)** by acarranzao1a-png：基于 Sunny、Etterna MinaCalc 等算法，进行校准和修正后的算法。支持4K RC/LN和7K，支持段位体系 Reform/Celestial/Signicial/Shoegazer。
