@@ -9,7 +9,7 @@
 四步：阅读文档、编写 runner 生成 CSV，注册到 `index.json`，通过 PR 提交。
 
 **第一步：阅读文档**
-- 阅读 [docs/samples.md](samples.md) 了解 `data.csv` 的字段含义与数据契约。
+- 阅读 [docs/samples.md](samples.md) 了解 `data.csv`（含 `osu.csv`、`malody.csv`）的字段含义与数据契约。
 - 阅读 [docs/runner.md](runner.md) 了解如何运行 benchmark、生成 CSV。
 
 **第二步：编写 runner 并生成 `results/{Algorithm}.csv`**
@@ -64,7 +64,7 @@ There are four steps:
 
 Before writing anything, read the two documents that define the data format and how to run the benchmark. Both live in the `docs/` folder of this repository:
 
-- Read [docs/samples_en.md](samples_en.md) to understand the field semantics and the data contract of `data.csv`.
+- Read [docs/samples_en.md](samples_en.md) to understand the field semantics and the data contract of `data.csv` (including `osu.csv` and `malody.csv`).
 - Read [docs/runner_en.md](runner_en.md) to learn how to run the benchmark and generate the CSV.
 
 **Step 2: Write a runner and generate `results/{Algorithm}.csv`**
