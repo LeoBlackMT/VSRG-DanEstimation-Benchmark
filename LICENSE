@@ -28,7 +28,7 @@ The following items are NOT covered by the MIT License above. All rights reserve
 
 1. `samples/samples.7z` - An archive of beatmaps composed of maps created by other players, test maps, or sample maps from the official website. The copyright and related rights of the map content belong to the original authors, arrangers, or their legal rights holders. This project does not claim ownership of these maps, nor does it represent endorsement of their content, naming, difficulty design, or community opinions. See `samples/Disclaimer.md` for details.
 
-2. `samples/data.csv` - The benchmark dataset built by the project maintainer. All rights reserved.
+2. `samples/*.csv` - The benchmark dataset built by the project maintainer. All rights reserved.
 
 3. `samples/Disclaimer.md` - The disclaimer document for the samples directory.
 

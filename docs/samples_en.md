@@ -1,25 +1,28 @@
-﻿# samples/ Directory Guide
+# samples/ Directory Guide
 
 > 中文版: [samples.md](samples.md)
 > **Translation Note**: This document was translated from Chinese to English with the assistance of an AI language model. While efforts have been made to ensure accuracy, please refer to the original Chinese version if any ambiguity arises.
 
-`samples/` is the benchmark's input data directory, holding the test beatmaps and the reference results table. This document explains what is in the directory, what each file is for, and the exact meaning of every field in `data.csv`.
+`samples/` is the benchmark's input data directory, holding the test beatmaps and the reference results table. This document explains what is in the directory, what each file is for, and the exact meaning of every field in the CSV files.
 
 ---
 
 ## Table of Contents
 
 1. [Directory contents overview](#directory-contents-overview)
-2. [samples.7z (beatmap archive)](#samples7z-beatmap-archive)
-3. [Disclaimer.md](#disclaimermd)
-4. [data.csv field description](#datacsv-field-description)
-5. [Integration with the runner](#integration-with-the-runner)
+2. [CSV file split relationship](#csv-file-split-relationship)
+3. [samples.7z (beatmap archive)](#samples7z-beatmap-archive)
+4. [Disclaimer.md](#disclaimermd)
+5. [CSV field description](#csv-field-description)
+6. [Integration with the runner](#integration-with-the-runner)
 
 ## Directory contents overview
 
 | File | Description |
 |---|---|
-| `data.csv` | Reference results table, recording each beatmap's metadata, reference difficulty, and algorithm output |
+| `data.csv` | Combined reference results table (osu! + Malody), recording each beatmap's metadata, reference difficulty, and algorithm output |
+| `osu.csv` | osu! subset (~746 rows), containing only osu! platform beatmaps |
+| `malody.csv` | Malody subset (~1510 rows), containing only Malody platform beatmaps |
 | `Disclaimer.md` | Disclaimer (bilingual zh/en), covering beatmap copyright ownership and usage restrictions |
 | `samples.7z` | Beatmap archive, containing all test beatmaps, grouped by key type |
 
@@ -36,9 +39,31 @@ These directories are the result of extracting `samples.7z`; inside are the `.os
 
 ---
 
+## CSV file split relationship
+
+`data.csv` is a simple concatenation of `osu.csv` and `malody.csv`:
+
+```
+data.csv = osu.csv (osu! subset) + malody.csv (Malody subset)
+```
+
+All three files share the same 8-column header `bid,name,pattern,subPattern,expected,got,delta,deltaAbs` with identical field meanings.
+
+| File | Rows (incl. header) | Data source | Purpose |
+|---|---|---|---|
+| `data.csv` | ~2257 | osu.csv + malody.csv | Complete input manifest for the runner |
+| `osu.csv` | ~747 | osu! platform beatmaps | View/run osu! subset only |
+| `malody.csv` | ~1511 | Malody platform beatmaps | View/run Malody subset only |
+
+- The runner should read `data.csv` as the input manifest and process it line by line.
+- `osu.csv` and `malody.csv` are for platform-filtered viewing only; the runner does not need to read them directly.
+- The `got`, `delta`, and `deltaAbs` columns in all three files are empty, to be filled by the runner after execution.
+
+---
+
 ## samples.7z (beatmap archive)
 
-`samples.7z` is the source of the test beatmaps. The archive contains `.osu` beatmaps grouped by key type, and the grouping matches the `pattern` field of `data.csv` one-to-one (course / jack / ln / speed / stamina / tech).
+`samples.7z` is the source of the test beatmaps. The archive contains beatmap files grouped by key type, including both osu! and Malody platform beatmaps, and the grouping matches the `pattern` field of `data.csv` one-to-one (course / jack / ln / speed / stamina / tech).
 
 ### Download and use
 
@@ -92,9 +117,9 @@ For the full terms, read the original `samples/Disclaimer.md`.
 
 ---
 
-## data.csv field description
+## CSV field description
 
-`data.csv` is the benchmark's core results table, with the header:
+`data.csv` (as well as `osu.csv` and `malody.csv`) is the benchmark's core results table, with the header:
 
 ```
 bid,name,pattern,subPattern,expected,got,delta,deltaAbs
@@ -192,3 +217,5 @@ results/ (algorithm output and statistics)
 ```
 
 In short: the runner reads the beatmap files and the reference difficulties in `data.csv` from `samples/`, runs each algorithm to get `got`, then computes `delta` and `deltaAbs`, writes them back into the results, and finally outputs to `results/`.
+
+`osu.csv` and `malody.csv` are platform-split subsets of `data.csv`, for viewing purposes only; they do not affect runner execution.

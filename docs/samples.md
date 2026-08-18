@@ -5,12 +5,13 @@
 ## 目录
 
 1. [目录内容总览](#目录内容总览)
-2. [samples.7z（谱面压缩包）](#samples7z谱面压缩包)
-3. [Disclaimer.md（免责声明）](#disclaimermd免责声明)
-4. [data.csv 字段说明](#datacsv-字段说明)
-5. [与 runner 的衔接](#与-runner-的衔接)
+2. [CSV 文件拆分关系](#csv-文件拆分关系)
+3. [samples.7z（谱面压缩包）](#samples7z谱面压缩包)
+4. [Disclaimer.md（免责声明）](#disclaimermd免责声明)
+5. [CSV 字段说明](#csv-字段说明)
+6. [与 runner 的衔接](#与-runner-的衔接)
 
-`samples/` 是 benchmark 的输入数据目录，存放测试谱面与基准结果表格。本文档说明目录里有什么、每个文件是干什么的，以及 `data.csv` 中每个字段的确切含义。
+`samples/` 是 benchmark 的输入数据目录，存放测试谱面与基准结果表格。本文档说明目录里有什么、每个文件是干什么的，以及 CSV 文件中每个字段的确切含义。
 
 ---
 
@@ -18,7 +19,9 @@
 
 | 文件 | 说明 |
 |---|---|
-| `data.csv` | 基准结果表格，记录每张谱面的元信息、参考难度与算法输出 |
+| `data.csv` | 合并后的基准结果表格（osu! + Malody），记录每张谱面的元信息、参考难度与算法输出 |
+| `osu.csv` | osu! 子集（~746 行），仅包含 osu! 平台谱面 |
+| `malody.csv` | Malody 子集（~1510 行），仅包含 Malody 平台谱面 |
 | `Disclaimer.md` | 免责声明（中英双语），说明谱面版权归属与使用限制 |
 | `samples.7z` | 谱面压缩包，内含全部测试谱面，按键型分类打包 |
 
@@ -35,9 +38,31 @@
 
 ---
 
+## CSV 文件拆分关系
+
+`data.csv` 是 `osu.csv` 与 `malody.csv` 的简单拼接：
+
+```
+data.csv = osu.csv（osu! 子集） + malody.csv（Malody 子集）
+```
+
+三个文件共享相同的 8 列表头 `bid,name,pattern,subPattern,expected,got,delta,deltaAbs`，字段含义完全一致。
+
+| 文件 | 行数（含表头） | 数据来源 | 用途 |
+|---|---|---|---|
+| `data.csv` | ~2257 | osu.csv + malody.csv | runner 的完整输入清单 |
+| `osu.csv` | ~747 | osu! 平台谱面 | 仅查看/运行 osu! 子集 |
+| `malody.csv` | ~1511 | Malody 平台谱面 | 仅查看/运行 Malody 子集 |
+
+- runner 应读取 `data.csv` 作为输入清单，逐行处理。
+- `osu.csv` 和 `malody.csv` 仅供按平台筛选查看， runner 不需要直接读取它们。
+- 三个文件的 `got`、`delta`、`deltaAbs` 列均为空，由 runner 运行后回填。
+
+---
+
 ## samples.7z（谱面压缩包）
 
-`samples.7z` 是测试谱面的来源。压缩包内是按键型分类的 `.osu` 谱面，分类方式与 `data.csv` 的 `pattern` 字段一一对应（course / jack / ln / speed / stamina / tech）。
+`samples.7z` 是测试谱面的来源。压缩包内是按键型分类的谱面文件，包含 osu! 和 Malody 两个平台的谱面，分类方式与 `data.csv` 的 `pattern` 字段一一对应（course / jack / ln / speed / stamina / tech）。
 
 ### 下载与使用
 
@@ -91,9 +116,9 @@
 
 ---
 
-## data.csv 字段说明
+## CSV 字段说明
 
-`data.csv` 是 benchmark 的核心结果表格，表头为：
+`data.csv`（以及 `osu.csv`、`malody.csv`）是 benchmark 的核心结果表格，表头为：
 
 ```
 bid,name,pattern,subPattern,expected,got,delta,deltaAbs
@@ -194,3 +219,5 @@ results/（算法输出与统计结果）
 ```
 
 简单说：runner 从 `samples/` 读取谱面文件与 `data.csv` 中的参考难度，运行各算法得到 `got`，再算出 `delta` 与 `deltaAbs` 回填结果，最终产出到 `results/`。
+
+`osu.csv` 和 `malody.csv` 是 `data.csv` 按平台拆分的子集，仅供查看，不影响 runner 运行。

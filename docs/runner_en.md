@@ -25,7 +25,9 @@ The associated input/output files are as follows:
 
 | File | Purpose |
 |---|---|
-| `samples/data.csv` | Input manifest; each line is one map record |
+| `samples/data.csv` | Input manifest (osu! + Malody combined); each line is one map record |
+| `samples/osu.csv` | osu! subset (optional, for viewing only) |
+| `samples/malody.csv` | Malody subset (optional, for viewing only) |
 | `samples/{pattern}/{name}.osu` | Map files, stored in directories by pattern and name (you need to unpack `samples.7z` yourself) |
 | `results/{Algorithm}.csv` | One result table per algorithm |
 | `results/index.json` | Index of the results directory, read by the display page |
@@ -57,8 +59,8 @@ The complete workflow is divided into six steps:
 ### 3.1 What Is Numeric Difficulty
 
 Numeric difficulty is the unit used to convert dan ranks into numbers. It is a floating-point number, usually between 0 and 20, that represents how difficult a map is. Please annotate using the dan system based on [Reform](https://www.danreform.com/) by DDMythical. Among them, Zeta uses Emik's Sample Zeta version, Eta uses Thaumiel's version, and Theta uses CloverWisp's version.
-1st dan corresponds to 1.0, 2nd dan to 2.0, and so on. For the Greek letter part, alpha corresponds to 11.0, beta to 12.0, and so on.
-The breakdown is as follows:
+1st dan corresponds to 1.0, 2nd dan to 2.0, and so on. For the Greek letter part, alpha corresponds to 11.0, beta to 12.0, and so on. For the Intro part, Intro-1 ~ 3 correspond to 0, -1, -2 respectively.
+The specific numeric difficulty breakdown can be referred to in the table below:
 | (-0.5,-0.2) | [-0.2,0) | 0 | (0,0.2] | (0.2,0.5] |
 |---|---|---|---|---|
 | Low | Low/Mid | Mid | Mid/High | High |
