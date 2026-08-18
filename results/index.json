@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T02:36:38.911Z",
+  "generatedAt": "2026-08-18T05:13:24.000Z",
   "algorithms": [
     "Azusa",
     "Companella",
@@ -13,50 +13,50 @@
     {
       "fileName": "Azusa.csv",
       "algorithm": "Azusa",
-      "sizeBytes": 63354,
-      "modifiedAt": "2026-08-15T02:36:38.894Z",
+      "sizeBytes": 195301,
+      "modifiedAt": "2026-08-18T05:13:24.000Z",
       "source": "https://github.com/LeoBlackMT/osumania_map_analyser/tree/main/docs/azusa_algorithm.md"
     },
     {
       "fileName": "Companella.csv",
       "algorithm": "Companella",
       "sizeBytes": 58518,
-      "modifiedAt": "2026-08-13T09:13:06.866Z",
+      "modifiedAt": "2026-08-18T05:13:24.000Z",
       "source": "https://github.com/Leinadix/companella"
     },
     {
       "fileName": "Daniel.csv",
       "algorithm": "Daniel",
-      "sizeBytes": 68252,
-      "modifiedAt": "2026-08-10T05:16:50.937Z",
+      "sizeBytes": 259333,
+      "modifiedAt": "2026-08-18T05:13:24.000Z",
       "source": "https://github.com/TheBagelOfMan/Daniel"
     },
     {
       "fileName": "DanOverlay.csv",
       "algorithm": "DanOverlay",
       "sizeBytes": 63370,
-      "modifiedAt": "2026-08-03T07:46:01.568Z",
+      "modifiedAt": "2026-08-18T05:13:24.000Z",
       "source": "https://github.com/acarranzao1a-png/Dan-Overlay/"
     },
     {
       "fileName": "Mixed.csv",
       "algorithm": "Mixed",
-      "sizeBytes": 58621,
-      "modifiedAt": "2026-08-15T02:32:28.956Z",
+      "sizeBytes": 190678,
+      "modifiedAt": "2026-08-18T05:13:24.000Z",
       "source": "https://github.com/LeoBlackMT/osumania_map_analyser"
     },
     {
       "fileName": "Roxy.csv",
       "algorithm": "Roxy",
-      "sizeBytes": 68109,
-      "modifiedAt": "2026-08-15T02:35:20.119Z",
+      "sizeBytes": 209198,
+      "modifiedAt": "2026-08-18T05:13:24.000Z",
       "source": "https://github.com/LeoBlackMT/osumania_map_analyser/tree/main/docs/roxy_algorithm.md"
     },
     {
       "fileName": "Sunny.csv",
       "algorithm": "Sunny",
-      "sizeBytes": 58977,
-      "modifiedAt": "2026-08-13T09:05:57.051Z",
+      "sizeBytes": 190927,
+      "modifiedAt": "2026-08-18T05:13:24.000Z",
       "source": "https://github.com/sunnyxxy/Star-Rating-Rebirth"
     }
   ]
