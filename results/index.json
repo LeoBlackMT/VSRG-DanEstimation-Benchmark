@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T02:36:38.911Z",
+  "generatedAt": "2026-08-30T05:58:13.597Z",
   "algorithms": [
     "Azusa",
     "Companella",
@@ -13,8 +13,8 @@
     {
       "fileName": "Azusa.csv",
       "algorithm": "Azusa",
-      "sizeBytes": 63354,
-      "modifiedAt": "2026-08-15T02:36:38.894Z",
+      "sizeBytes": 63350,
+      "modifiedAt": "2026-08-30T05:58:13.598Z",
       "source": "https://github.com/LeoBlackMT/osumania_map_analyser/tree/main/docs/azusa_algorithm.md"
     },
     {
@@ -34,22 +34,22 @@
     {
       "fileName": "DanOverlay.csv",
       "algorithm": "DanOverlay",
-      "sizeBytes": 63370,
-      "modifiedAt": "2026-08-03T07:46:01.568Z",
+      "sizeBytes": 58636,
+      "modifiedAt": "2026-08-30T05:58:13.599Z",
       "source": "https://github.com/acarranzao1a-png/Dan-Overlay/"
     },
     {
       "fileName": "Mixed.csv",
       "algorithm": "Mixed",
-      "sizeBytes": 58621,
-      "modifiedAt": "2026-08-15T02:32:28.956Z",
+      "sizeBytes": 58611,
+      "modifiedAt": "2026-08-30T05:58:13.599Z",
       "source": "https://github.com/LeoBlackMT/osumania_map_analyser"
     },
     {
       "fileName": "Roxy.csv",
       "algorithm": "Roxy",
-      "sizeBytes": 68109,
-      "modifiedAt": "2026-08-15T02:35:20.119Z",
+      "sizeBytes": 68270,
+      "modifiedAt": "2026-08-30T05:58:13.599Z",
       "source": "https://github.com/LeoBlackMT/osumania_map_analyser/tree/main/docs/roxy_algorithm.md"
     },
     {
