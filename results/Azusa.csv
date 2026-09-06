@@ -49,7 +49,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 ,Stay Alive (Zekk Remix) x1.25,speed,mid stream,14.5,14.71,-0.21,0.21
 ,Paraclete -Miracle,speed,low stream,14.5,14.59,-0.09,0.09
 ,Alpha,tech,stream tech,14.4,14.35,0.05,0.05
-,Ankoku Butoukai,tech,mix tech,14.4,14.06,0.34,0.34
+,Ankoku Butoukai,tech,mix tech,14.4,14.12,0.28,0.28
 ,Kaguyahime(mintapril) x1.2,tech,mix tech,14.4,14.07,0.33,0.33
 ,Heaven's Fall(e7v3) x1.4,stamina,dense handstream,14.4,14.24,0.16,0.16
 ,Ash Statues(wafles)[Passable],stamina,light jumpstream,14.4,14.09,0.31,0.31
@@ -87,7 +87,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 ,Japanese Transformation(fullerene),stamina,dense jumpstream,12.5,12.47,0.03,0.03
 ,Crystal World -Fracture-,speed,Unsigned,12.5,12.96,-0.46,0.46
 ,IMAGE -MATERIAL- Version 0(luminal),stamina,light handstream,12.4,12.33,0.07,0.07
-,Lolit Speed,stamina,dense jumpstream,12.4,10.69,1.71,1.71
+,Lolit Speed,stamina,dense jumpstream,12.4,11.02,1.38,1.38
 ,Pure Ruby,speed,Unsigned,12.4,12.39,0.01,0.01
 ,Odin(fullerene),speed,high stream,12.4,12.27,0.13,0.13
 ,Mario Point[D-Hyper],speed,low stream,12.4,11.37,1.03,1.03
@@ -140,7 +140,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 ,Luv Lab 22ate!,speed,mid stream,6,6.37,-0.37,0.37
 ,SOS,speed,mid stream,6,6.32,-0.32,0.32
 ,Sweet Cherry X,jack,Unsigned,6,5.56,0.44,0.44
-,Back to the Gate[Lv.5100],stamina,dense jumpstream,6,6.01,-0.01,0.01
+,Back to the Gate[Lv.5100],stamina,dense jumpstream,6,6.10,-0.10,0.10
 ,Brainfog,tech,Unsigned,5,5.40,-0.40,0.40
 ,Elektric U-Phoria,stamina,dense jumpstream,5,5.99,-0.99,0.99
 ,Palette GAMMA[Abstract],speed,low stream,5,5.51,-0.51,0.51
@@ -170,7 +170,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 4692669,Everything Black,speed,high stream,15.2,15.06,0.14,0.14
 1455989,Moon Gate,speed,high stream,13,12.32,0.68,0.68
 5111540,angel dust,stamina,light handstream,16.4,16.49,-0.09,0.09
-5195389,Lolit Speed x1.13,stamina,dense jumpstream,14,12.88,1.12,1.12
+5195389,Lolit Speed x1.13,stamina,dense jumpstream,14,13.01,0.99,0.99
 1305297,Tornado,tech,jacky tech,13.4,12.71,0.69,0.69
 2196118,Kaguyahime x1.2,tech,jacky tech,14.4,14.07,0.33,0.33
 1065834,Big Brother,tech,stream tech,10,10.00,0.00,0.00
@@ -186,8 +186,8 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 2308001,Vertex Beta,jack,mid chordjack,15.8,14.18,1.62,1.62
 4706643,EVERYTHING BLACK,jack,high chordjack,13.6,13.70,-0.10,0.10
 3535951,Heaven's Fall x1.3,stamina,dense handstream,13.6,13.44,0.16,0.16
-3107371,Rude Buster (Camellia Remix),stamina,dense handstream,14,13.49,0.51,0.51
-3107368,Rude Buster (Camellia Remix) x1.1,stamina,dense handstream,15,14.54,0.46,0.46
+3107371,Rude Buster (Camellia Remix),stamina,dense handstream,14,13.57,0.43,0.43
+3107368,Rude Buster (Camellia Remix) x1.1,stamina,dense handstream,15,14.56,0.44,0.44
 1937582,Love is War x1.3,stamina,dense handstream,13.6,13.95,-0.35,0.35
 2553924,ametsuchi x1.2,jack,low chordjack,8.6,7.26,1.34,1.34
 ,Oceanus(xfpsb1),ln,hybrid,9.5,Invalid: Azusa algorithm does not support LN benchmark rows,,
@@ -349,7 +349,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 2827581,ch3rry(my angel koishi) x1.4,stamina,dense handstream,14,14.33,-0.33,0.33
 2486099,Sorairo Days(icyworld) x1.5,stamina,dense handstream,14,13.99,0.01,0.01
 5195214,ANOMALY(lynessa) x1.31,stamina,dense handstream,14,13.85,0.15,0.15
-3123873,FUTURE DOMINATORS(icyworld),stamina,dense handstream,9,9.51,-0.51,0.51
+3123873,FUTURE DOMINATORS(icyworld),stamina,dense handstream,9,9.61,-0.61,0.61
 3123869,FUTURE DOMINATORS(icyworld) x1.1,stamina,dense handstream,11,11.30,-0.30,0.30
 3123870,FUTURE DOMINATORS(icyworld) x1.2,stamina,dense handstream,13.2,13.08,0.12,0.12
 3123871,FUTURE DOMINATORS(icyworld) x1.3,stamina,dense handstream,14,13.96,0.04,0.04
@@ -358,10 +358,10 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 4681531,Cartoon Candy(lynessa) x1.2,stamina,dense handstream,15.2,15.44,-0.24,0.24
 3593323,Blackmagik Blazing(teradora),stamina,dense handstream,14,13.89,0.11,0.11
 3928951,Ragnarok(lynessa) x1.07,stamina,dense handstream,13.4,13.03,0.37,0.37
-4421699,H.A.R.D.C.O.R.E(dannypx),stamina,dense handstream,12.8,11.07,1.73,1.73
+4421699,H.A.R.D.C.O.R.E(dannypx),stamina,dense handstream,12.8,11.43,1.37,1.37
 1644635,Zenon(halogen) x1.5,stamina,dense handstream,14,14.01,-0.01,0.01
 3681222,CRIMSON FIGHTER[Armageddon](oxalicacid) x0.9,stamina,dense handstream,11.8,11.35,0.45,0.45
-2168030,SILENT DESERT(teradora),stamina,dense handstream,14.4,13.84,0.56,0.56
+2168030,SILENT DESERT(teradora),stamina,dense handstream,14.4,13.95,0.45,0.45
 3755311,SILENT DESERT(e9v2) x1.2,stamina,dense handstream,16.4,16.42,-0.02,0.02
 3588134,Nibelungen(lynessa) x1.1,stamina,dense handstream,13,12.51,0.49,0.49
 3535954,Heavens Fall(teradora),stamina,dense handstream,9,9.49,-0.49,0.49
@@ -374,7 +374,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 3535952,Heavens Fall(teradora) x1.45,stamina,dense handstream,14.7,14.57,0.13,0.13
 4133253,Love is War(night bunny) x1.15,stamina,dense handstream,12.4,12.45,-0.05,0.05
 5407219,Love is War(night bunny) x1.33,stamina,dense handstream,14,14.18,-0.18,0.18
-4632845,Dimension War(oceanus),stamina,dense handstream,15.4,14.92,0.48,0.48
+4632845,Dimension War(oceanus),stamina,dense handstream,15.4,14.97,0.43,0.43
 4758417,KOKUSHIMUSOU(oceanus) x0.95,stamina,dense handstream,15.4,15.69,-0.29,0.29
 4758412,KOKUSHIMUSOU(oceanus),stamina,dense handstream,16,16.20,-0.20,0.20
 1753421,Quadraphinix(xay) x1.3,stamina,dense handstream,12.4,11.82,0.58,0.58
@@ -538,7 +538,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 5194163,Firmament Castle Velier x1.3,stamina,light handstream,14,13.78,0.22,0.22
 4589591,Speed of Link[Tachyon](shoegazer) 1.23,stamina,light jumpstream,14,14.07,-0.07,0.07
 3348224,FAKE PROMISE(shoegazer) x1.4,stamina,light jumpstream,12.8,12.60,0.20,0.20
-2972845,Gekka Bijin(hylotl),stamina,light jumpstream,14.4,14.25,0.15,0.15
+2972845,Gekka Bijin(hylotl),stamina,light jumpstream,14.4,14.31,0.09,0.09
 2567896,The Fate of(blessia),stamina,light jumpstream,14,14.09,-0.09,0.09
 1887431,Aquaris(snover) x1.2,jack,low chordjack,13,12.93,0.07,0.07
 1426702,Double Universe(hydria),jack,low chordjack,14,14.07,-0.07,0.07
@@ -563,12 +563,12 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 4262736,oddloop(teradora),speed,mid stream,12.2,12.17,0.03,0.03
 4670616,Toromi Hearts 2(rachel),speed,mid stream,14.6,14.69,-0.09,0.09
 3163355,Palette(rachel) x1.2,speed,mid stream,14.6,14.67,-0.07,0.07
-1631150,Green-Eyed Jealousy[True End](rachel),speed,mid stream,14.6,14.80,-0.20,0.20
+1631150,Green-Eyed Jealousy[True End](rachel),speed,mid stream,14.6,14.82,-0.22,0.22
 3824601,GGF(magikarp),speed,mid stream,10.9,10.65,0.25,0.25
 4432306,Hyper Bass(11bit) x1.35,tech,mix tech,15,15.34,-0.34,0.34
 4237589,KOKUSHIMUSOU(nate) x1.15,tech,mix tech,14.6,14.98,-0.38,0.38
 4432307,Looking for Edge of Ground(evening) x1.15,tech,mix tech,14.6,14.71,-0.11,0.11
-2162156,We Could Get More Machinegun Psystyle!(hydria),tech,mix tech,13.5,13.40,0.10,0.10
+2162156,We Could Get More Machinegun Psystyle!(hydria),tech,mix tech,13.5,13.41,0.09,0.09
 3853701,We Could Get More Machinegun Psystyle!(hydria) x1.05,tech,mix tech,14,13.98,0.02,0.02
 5195211,K.Y.A.F.A[UNSTOPPABLE DOMINATION](evening) x1.227,tech,mix tech,14,14.04,-0.04,0.04
 1699242,Trickstarz[STEPMANIA](hi19hi19) x1.3,speed,staircase,15,14.71,0.29,0.29
@@ -580,7 +580,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 3053763,oddloop(ska),tech,stream tech,11.6,11.34,0.26,0.26
 3942033,oddloop(ska) x1.3,tech,stream tech,15,14.90,0.10,0.10
 1712332,northern_limit(underjoy),tech,stream tech,15.6,15.33,0.27,0.27
-3494225,Kimiyo[Agapimenoi](frolica),tech,stream tech,14.2,13.95,0.25,0.25
+3494225,Kimiyo[Agapimenoi](frolica),tech,stream tech,14.2,13.97,0.23,0.23
 3494228,Kimiyo[Eirini](frolica),tech,stream tech,13.6,13.90,-0.30,0.30
 2981901,Acquaintance(skwid),tech,stream tech,10,10.79,-0.79,0.79
 2981895,Acquaintance(skwid) x1.05,tech,stream tech,11,11.53,-0.53,0.53
@@ -601,7 +601,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 5255752,Future Candy(leo137) x1.5,tech,stream tech,15,15.24,-0.24,0.24
 4168392,Luminous Story(Magikarp1234),tech,stream tech,12.7,12.40,0.30,0.30
 3915895,Playing with Ruby(ska) x1.2,tech,stream tech,13.4,13.38,0.02,0.02
-4788540,The Poetic Edda(kilotek),tech,stream tech,14.6,15.00,-0.40,0.40
+4788540,The Poetic Edda(kilotek),tech,stream tech,14.6,15.03,-0.43,0.43
 4432318,Possessed By The Blood(ska) x1.25,tech,stream tech,15.2,15.49,-0.29,0.29
 3681342,Heikousen(lynessa) x1.15,tech,stream tech,14.6,14.47,0.13,0.13
 3681345,Heikousen(lynessa) x1.2,tech,stream tech,15,14.93,0.07,0.07
@@ -611,37 +611,37 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 5167720,Bismuth[Nebula](eclipse),tech,stream tech,11.4,11.51,-0.11,0.11
 3444323,Nostos2021(xingren),tech,stream tech,17,17.16,-0.16,0.16
 4130341,Re Aoharu(11bit),tech,stream tech,13.2,13.32,-0.12,0.12
-,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ 1st ~ (Marathon)],course,rc course,1,1.09,-0.09,0.09
-,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ 2nd ~ (Marathon)],course,rc course,2,2.09,-0.09,0.09
-,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ 3rd ~ (Marathon)],course,rc course,3,2.22,0.78,0.78
-,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ 4th ~ (Marathon)],course,rc course,4,3.97,0.03,0.03
-,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ 5th ~ (Marathon)],course,rc course,5,5.20,-0.20,0.20
-,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ 6th ~ (Marathon)],course,rc course,6,6.56,-0.56,0.56
-,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ 7th ~ (Marathon)],course,rc course,7,6.99,0.01,0.01
-,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ 8th ~ (Marathon)],course,rc course,8,9.28,-1.28,1.28
-,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ 9th ~ (Marathon)],course,rc course,9,9.40,-0.40,0.40
-,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ 10th ~ (Marathon)],course,rc course,10,10.88,-0.88,0.88
-,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ EXTRA-ALPHA ~ (Marathon)],course,rc course,11,11.03,-0.03,0.03
-,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ EXTRA-BETA ~ (Marathon)],course,rc course,12,12.39,-0.39,0.39
-,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ EXTRA-GAMMA ~ (Marathon)],course,rc course,13,13.27,-0.27,0.27
-,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ EXTRA-DELTA ~ (Marathon)],course,rc course,14,14.14,-0.14,0.14
-,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ EXTRA-EPSILON ~ (Marathon)],course,rc course,15,15.45,-0.45,0.45
+,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ 1st ~ (Marathon)],course,rc course,1,1.59,-0.59,0.59
+,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ 2nd ~ (Marathon)],course,rc course,2,2.59,-0.59,0.59
+,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ 3rd ~ (Marathon)],course,rc course,3,2.72,0.28,0.28
+,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ 4th ~ (Marathon)],course,rc course,4,4.47,-0.47,0.47
+,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ 5th ~ (Marathon)],course,rc course,5,5.70,-0.70,0.70
+,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ 6th ~ (Marathon)],course,rc course,6,7.06,-1.06,1.06
+,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ 7th ~ (Marathon)],course,rc course,7,7.49,-0.49,0.49
+,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ 8th ~ (Marathon)],course,rc course,8,9.78,-1.78,1.78
+,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ 9th ~ (Marathon)],course,rc course,9,9.90,-0.90,0.90
+,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ 10th ~ (Marathon)],course,rc course,10,11.27,-1.27,1.27
+,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ EXTRA-ALPHA ~ (Marathon)],course,rc course,11,11.41,-0.41,0.41
+,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ EXTRA-BETA ~ (Marathon)],course,rc course,12,12.67,-0.67,0.67
+,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ EXTRA-GAMMA ~ (Marathon)],course,rc course,13,13.48,-0.48,0.48
+,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ EXTRA-DELTA ~ (Marathon)],course,rc course,14,14.28,-0.28,0.28
+,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ EXTRA-EPSILON ~ (Marathon)],course,rc course,15,15.49,-0.49,0.49
 ,Various Artists - Dan ~ REFORM ~ FINAL ([GB]Thaumiel) [~ FINAL - ETA ~ ( Marathon )],course,rc course,17,17.17,-0.17,0.17
-5319863,Dan - Signicial's Courses[[4K] Stage III - Termination [3rd Dan] (Marathon)],course,rc course,3.1,2.25,0.85,0.85
-5319952,Dan - Signicial's Courses[[4K] Stage IV - Resuscitation [4th Dan] (Marathon)],course,rc course,3.7,3.88,-0.18,0.18
-5031832,Dan - Signicial's Courses[[4K] Stage V - Disturbance [5th Dan] (Marathon)],course,rc course,4.6,4.69,-0.09,0.09
-5031833,Dan - Signicial's Courses[[4K] Stage VI - Revitalization [6th Dan] (Marathon)],course,rc course,5.6,4.96,0.64,0.64
-5320775,Dan - Signicial's Courses[[4K] Stage VII - Motivation [7th Dan] (Marathon)],course,rc course,6.4,5.90,0.50,0.50
-5320776,Dan - Signicial's Courses[[4K] Stage VIII - Misfortune [8th Dan] (Marathon)],course,rc course,7.5,7.00,0.50,0.50
-5320774,Dan - Signicial's Courses[[4K] Stage IX - Catastrophe [9th Dan] (Marathon)],course,rc course,8.7,8.11,0.59,0.59
-5031834,Dan - Signicial's Courses[[4K] Stage X - Finale [10th Dan] (Marathon)],course,rc course,9.6,9.11,0.49,0.49
-3216602,Dan - Signicial's Courses[[4K] Stage XI - Alpha [11th Dan] (Marathon)],course,rc course,10.5,10.86,-0.36,0.36
-5637760,Dan - Signicial's Courses[[4K] Special Stage I - Luminal [11.5th Dan] (Marathon)],course,rc course,11.1,10.97,0.13,0.13
-3216603,Dan - Signicial Courses[[4K] Stage XII - Beta [12th Dan] (Marathon)],course,rc course,11.8,11.83,-0.03,0.03
-3216604,Dan - Signicial's Courses[[4K] Stage XIII - Gamma [13th Dan] (Marathon)],course,rc course,12.7,13.04,-0.34,0.34
-3216606,Dan - Signicial's Courses[[4K] Stage XIV - Delta [14th Dan] (Marathon)],course,rc course,13.7,14.11,-0.41,0.41
-5442562,Dan - Signicial's Courses[[4K] Special Stage II - Tachyon [14.5th Dan] (Marathon)],course,rc course,14.3,14.71,-0.41,0.41
-3216605,Dan - Signicial's Courses[[4K] Last Stage - Epsilon [15th Dan] (Marathon)],course,rc course,14.9,15.31,-0.41,0.41
+5319863,Dan - Signicial's Courses[[4K] Stage III - Termination [3rd Dan] (Marathon)],course,rc course,3.1,2.75,0.35,0.35
+5319952,Dan - Signicial's Courses[[4K] Stage IV - Resuscitation [4th Dan] (Marathon)],course,rc course,3.7,4.38,-0.68,0.68
+5031832,Dan - Signicial's Courses[[4K] Stage V - Disturbance [5th Dan] (Marathon)],course,rc course,4.6,5.19,-0.59,0.59
+5031833,Dan - Signicial's Courses[[4K] Stage VI - Revitalization [6th Dan] (Marathon)],course,rc course,5.6,5.46,0.14,0.14
+5320775,Dan - Signicial's Courses[[4K] Stage VII - Motivation [7th Dan] (Marathon)],course,rc course,6.4,6.40,0.00,0.00
+5320776,Dan - Signicial's Courses[[4K] Stage VIII - Misfortune [8th Dan] (Marathon)],course,rc course,7.5,7.50,0.00,0.00
+5320774,Dan - Signicial's Courses[[4K] Stage IX - Catastrophe [9th Dan] (Marathon)],course,rc course,8.7,8.61,0.09,0.09
+5031834,Dan - Signicial's Courses[[4K] Stage X - Finale [10th Dan] (Marathon)],course,rc course,9.6,9.61,-0.01,0.01
+3216602,Dan - Signicial's Courses[[4K] Stage XI - Alpha [11th Dan] (Marathon)],course,rc course,10.5,11.25,-0.75,0.75
+5637760,Dan - Signicial's Courses[[4K] Special Stage I - Luminal [11.5th Dan] (Marathon)],course,rc course,11.1,11.36,-0.26,0.26
+3216603,Dan - Signicial Courses[[4K] Stage XII - Beta [12th Dan] (Marathon)],course,rc course,11.8,12.15,-0.35,0.35
+3216604,Dan - Signicial's Courses[[4K] Stage XIII - Gamma [13th Dan] (Marathon)],course,rc course,12.7,13.26,-0.56,0.56
+3216606,Dan - Signicial's Courses[[4K] Stage XIV - Delta [14th Dan] (Marathon)],course,rc course,13.7,14.23,-0.53,0.53
+5442562,Dan - Signicial's Courses[[4K] Special Stage II - Tachyon [14.5th Dan] (Marathon)],course,rc course,14.3,14.81,-0.51,0.51
+3216605,Dan - Signicial's Courses[[4K] Last Stage - Epsilon [15th Dan] (Marathon)],course,rc course,14.9,15.37,-0.47,0.47
 5370092,Dan - Signicial's Courses[[4K] Extra Stage I - Zeta [16th Dan] (Marathon)],course,rc course,16.1,16.21,-0.11,0.11
 5597992,Dan - Signicial's Courses[[4K] Extra Stage II - Eta [17th Dan] (Marathon)],course,rc course,17.1,17.04,0.06,0.06
 5680925,Dan - Signicial's Courses[[4K] Extra Stage III - Theta [18th Dan] (Marathon)],course,rc course,17.9,18.07,-0.17,0.17
