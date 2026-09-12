@@ -49,7 +49,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 ,Stay Alive (Zekk Remix) x1.25,speed,mid stream,14.5,14.69,-0.19,0.19
 ,Paraclete -Miracle,speed,low stream,14.5,14.49,0.01,0.01
 ,Alpha,tech,stream tech,14.4,14.11,0.29,0.29
-,Ankoku Butoukai,tech,mix tech,14.4,13.78,0.62,0.62
+,Ankoku Butoukai,tech,mix tech,14.4,13.88,0.52,0.52
 ,Kaguyahime(mintapril) x1.2,tech,mix tech,14.4,14.07,0.33,0.33
 ,Heaven's Fall(e7v3) x1.4,stamina,dense handstream,14.4,14.23,0.17,0.17
 ,Ash Statues(wafles)[Passable],stamina,light jumpstream,14.4,13.97,0.43,0.43
@@ -87,7 +87,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 ,Japanese Transformation(fullerene),stamina,dense jumpstream,12.5,12.49,0.01,0.01
 ,Crystal World -Fracture-,speed,Unsigned,12.5,13.04,-0.54,0.54
 ,IMAGE -MATERIAL- Version 0(luminal),stamina,light handstream,12.4,12.37,0.03,0.03
-,Lolit Speed,stamina,dense jumpstream,12.4,Invalid: estDiff contains bound symbol (< or >),,
+,Lolit Speed,stamina,dense jumpstream,12.4,11.34,1.06,1.06
 ,Pure Ruby,speed,Unsigned,12.4,12.40,0.00,0.00
 ,Odin(fullerene),speed,high stream,12.4,12.25,0.15,0.15
 ,Mario Point[D-Hyper],speed,low stream,12.4,11.68,0.72,0.72
@@ -170,7 +170,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 4692669,Everything Black,speed,high stream,15.2,15.23,-0.03,0.03
 1455989,Moon Gate,speed,high stream,13,12.75,0.25,0.25
 5111540,angel dust,stamina,light handstream,16.4,16.39,0.01,0.01
-5195389,Lolit Speed x1.13,stamina,dense jumpstream,14,12.98,1.02,1.02
+5195389,Lolit Speed x1.13,stamina,dense jumpstream,14,13.18,0.82,0.82
 1305297,Tornado,tech,jacky tech,13.4,13.13,0.27,0.27
 2196118,Kaguyahime x1.2,tech,jacky tech,14.4,14.07,0.33,0.33
 1065834,Big Brother,tech,stream tech,10,Invalid: estDiff contains bound symbol (< or >),,
@@ -186,8 +186,8 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 2308001,Vertex Beta,jack,mid chordjack,15.8,14.25,1.55,1.55
 4706643,EVERYTHING BLACK,jack,high chordjack,13.6,13.53,0.07,0.07
 3535951,Heaven's Fall x1.3,stamina,dense handstream,13.6,13.38,0.22,0.22
-3107371,Rude Buster (Camellia Remix),stamina,dense handstream,14,13.49,0.51,0.51
-3107368,Rude Buster (Camellia Remix) x1.1,stamina,dense handstream,15,14.66,0.34,0.34
+3107371,Rude Buster (Camellia Remix),stamina,dense handstream,14,13.63,0.37,0.37
+3107368,Rude Buster (Camellia Remix) x1.1,stamina,dense handstream,15,14.70,0.30,0.30
 1937582,Love is War x1.3,stamina,dense handstream,13.6,13.88,-0.28,0.28
 2553924,ametsuchi x1.2,jack,low chordjack,8.6,Invalid: estDiff contains bound symbol (< or >),,
 ,Oceanus(xfpsb1),ln,hybrid,9.5,Invalid: Roxy algorithm does not support LN benchmark rows,,
@@ -358,10 +358,10 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 4681531,Cartoon Candy(lynessa) x1.2,stamina,dense handstream,15.2,15.43,-0.23,0.23
 3593323,Blackmagik Blazing(teradora),stamina,dense handstream,14,14.01,-0.01,0.01
 3928951,Ragnarok(lynessa) x1.07,stamina,dense handstream,13.4,13.10,0.30,0.30
-4421699,H.A.R.D.C.O.R.E(dannypx),stamina,dense handstream,12.8,11.10,1.70,1.70
+4421699,H.A.R.D.C.O.R.E(dannypx),stamina,dense handstream,12.8,11.62,1.18,1.18
 1644635,Zenon(halogen) x1.5,stamina,dense handstream,14,14.11,-0.11,0.11
 3681222,CRIMSON FIGHTER[Armageddon](oxalicacid) x0.9,stamina,dense handstream,11.8,11.56,0.24,0.24
-2168030,SILENT DESERT(teradora),stamina,dense handstream,14.4,13.77,0.63,0.63
+2168030,SILENT DESERT(teradora),stamina,dense handstream,14.4,13.93,0.47,0.47
 3755311,SILENT DESERT(e9v2) x1.2,stamina,dense handstream,16.4,16.46,-0.06,0.06
 3588134,Nibelungen(lynessa) x1.1,stamina,dense handstream,13,12.83,0.17,0.17
 3535954,Heavens Fall(teradora),stamina,dense handstream,9,Invalid: estDiff contains bound symbol (< or >),,
@@ -374,7 +374,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 3535952,Heavens Fall(teradora) x1.45,stamina,dense handstream,14.7,14.65,0.05,0.05
 4133253,Love is War(night bunny) x1.15,stamina,dense handstream,12.4,12.37,0.03,0.03
 5407219,Love is War(night bunny) x1.33,stamina,dense handstream,14,14.15,-0.15,0.15
-4632845,Dimension War(oceanus),stamina,dense handstream,15.4,14.88,0.52,0.52
+4632845,Dimension War(oceanus),stamina,dense handstream,15.4,14.95,0.45,0.45
 4758417,KOKUSHIMUSOU(oceanus) x0.95,stamina,dense handstream,15.4,15.74,-0.34,0.34
 4758412,KOKUSHIMUSOU(oceanus),stamina,dense handstream,16,16.27,-0.27,0.27
 1753421,Quadraphinix(xay) x1.3,stamina,dense handstream,12.4,12.09,0.31,0.31
@@ -420,7 +420,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 2121684,Hitogata(ice v),jack,high chordjack,13.6,13.79,-0.19,0.19
 2727203,Hitogata(ice v) x1.05,jack,high chordjack,14.4,14.45,-0.05,0.05
 4387971,Hitogata(ice v) x1.15,jack,high chordjack,15,15.49,-0.49,0.49
-3479384,I Love It(lynessa),jack,high chordjack,10.5,Invalid: estDiff contains bound symbol (< or >),,
+3479384,I Love It(lynessa),jack,high chordjack,10.5,11.65,-1.15,1.15
 3479388,I Love It(lynessa) x1.2,jack,high chordjack,14,14.43,-0.43,0.43
 2808358,I Love It(lynessa) x1.3,jack,high chordjack,15,15.13,-0.13,0.13
 4584948,Dat Phonk(smokydoh),jack,high chordjack,13.6,13.76,-0.16,0.16
@@ -538,7 +538,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 5194163,Firmament Castle Velier x1.3,stamina,light handstream,14,13.82,0.18,0.18
 4589591,Speed of Link[Tachyon](shoegazer) 1.23,stamina,light jumpstream,14,14.04,-0.04,0.04
 3348224,FAKE PROMISE(shoegazer) x1.4,stamina,light jumpstream,12.8,12.73,0.07,0.07
-2972845,Gekka Bijin(hylotl),stamina,light jumpstream,14.4,14.24,0.16,0.16
+2972845,Gekka Bijin(hylotl),stamina,light jumpstream,14.4,14.32,0.08,0.08
 2567896,The Fate of(blessia),stamina,light jumpstream,14,14.09,-0.09,0.09
 1887431,Aquaris(snover) x1.2,jack,low chordjack,13,13.06,-0.06,0.06
 1426702,Double Universe(hydria),jack,low chordjack,14,13.98,0.02,0.02
@@ -563,12 +563,12 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 4262736,oddloop(teradora),speed,mid stream,12.2,12.15,0.05,0.05
 4670616,Toromi Hearts 2(rachel),speed,mid stream,14.6,14.85,-0.25,0.25
 3163355,Palette(rachel) x1.2,speed,mid stream,14.6,14.76,-0.16,0.16
-1631150,Green-Eyed Jealousy[True End](rachel),speed,mid stream,14.6,14.90,-0.30,0.30
+1631150,Green-Eyed Jealousy[True End](rachel),speed,mid stream,14.6,14.93,-0.33,0.33
 3824601,GGF(magikarp),speed,mid stream,10.9,11.01,-0.11,0.11
 4432306,Hyper Bass(11bit) x1.35,tech,mix tech,15,15.20,-0.20,0.20
 4237589,KOKUSHIMUSOU(nate) x1.15,tech,mix tech,14.6,14.92,-0.32,0.32
 4432307,Looking for Edge of Ground(evening) x1.15,tech,mix tech,14.6,14.71,-0.11,0.11
-2162156,We Could Get More Machinegun Psystyle!(hydria),tech,mix tech,13.5,13.39,0.11,0.11
+2162156,We Could Get More Machinegun Psystyle!(hydria),tech,mix tech,13.5,13.41,0.09,0.09
 3853701,We Could Get More Machinegun Psystyle!(hydria) x1.05,tech,mix tech,14,13.92,0.08,0.08
 5195211,K.Y.A.F.A[UNSTOPPABLE DOMINATION](evening) x1.227,tech,mix tech,14,13.86,0.14,0.14
 1699242,Trickstarz[STEPMANIA](hi19hi19) x1.3,speed,staircase,15,14.60,0.40,0.40
@@ -580,7 +580,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 3053763,oddloop(ska),tech,stream tech,11.6,11.41,0.19,0.19
 3942033,oddloop(ska) x1.3,tech,stream tech,15,14.94,0.06,0.06
 1712332,northern_limit(underjoy),tech,stream tech,15.6,15.53,0.07,0.07
-3494225,Kimiyo[Agapimenoi](frolica),tech,stream tech,14.2,13.85,0.35,0.35
+3494225,Kimiyo[Agapimenoi](frolica),tech,stream tech,14.2,13.88,0.32,0.32
 3494228,Kimiyo[Eirini](frolica),tech,stream tech,13.6,13.77,-0.17,0.17
 2981901,Acquaintance(skwid),tech,stream tech,10,Invalid: estDiff contains bound symbol (< or >),,
 2981895,Acquaintance(skwid) x1.05,tech,stream tech,11,11.66,-0.66,0.66
@@ -601,7 +601,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 5255752,Future Candy(leo137) x1.5,tech,stream tech,15,15.03,-0.03,0.03
 4168392,Luminous Story(Magikarp1234),tech,stream tech,12.7,12.45,0.25,0.25
 3915895,Playing with Ruby(ska) x1.2,tech,stream tech,13.4,13.04,0.36,0.36
-4788540,The Poetic Edda(kilotek),tech,stream tech,14.6,14.82,-0.22,0.22
+4788540,The Poetic Edda(kilotek),tech,stream tech,14.6,14.87,-0.27,0.27
 4432318,Possessed By The Blood(ska) x1.25,tech,stream tech,15.2,15.11,0.09,0.09
 3681342,Heikousen(lynessa) x1.15,tech,stream tech,14.6,14.44,0.16,0.16
 3681345,Heikousen(lynessa) x1.2,tech,stream tech,15,14.77,0.23,0.23
@@ -620,12 +620,12 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 ,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ 7th ~ (Marathon)],course,rc course,7,Invalid: estDiff contains bound symbol (< or >),,
 ,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ 8th ~ (Marathon)],course,rc course,8,Invalid: estDiff contains bound symbol (< or >),,
 ,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ 9th ~ (Marathon)],course,rc course,9,Invalid: estDiff contains bound symbol (< or >),,
-,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ 10th ~ (Marathon)],course,rc course,10,Invalid: estDiff contains bound symbol (< or >),,
-,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ EXTRA-ALPHA ~ (Marathon)],course,rc course,11,Invalid: estDiff contains bound symbol (< or >),,
-,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ EXTRA-BETA ~ (Marathon)],course,rc course,12,11.97,0.03,0.03
-,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ EXTRA-GAMMA ~ (Marathon)],course,rc course,13,12.85,0.15,0.15
-,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ EXTRA-DELTA ~ (Marathon)],course,rc course,14,13.89,0.11,0.11
-,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ EXTRA-EPSILON ~ (Marathon)],course,rc course,15,15.26,-0.26,0.26
+,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ 10th ~ (Marathon)],course,rc course,10,11.21,-1.21,1.21
+,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ EXTRA-ALPHA ~ (Marathon)],course,rc course,11,11.43,-0.43,0.43
+,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ EXTRA-BETA ~ (Marathon)],course,rc course,12,12.64,-0.64,0.64
+,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ EXTRA-GAMMA ~ (Marathon)],course,rc course,13,13.19,-0.19,0.19
+,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ EXTRA-DELTA ~ (Marathon)],course,rc course,14,14.12,-0.12,0.12
+,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ EXTRA-EPSILON ~ (Marathon)],course,rc course,15,15.33,-0.33,0.33
 ,Various Artists - Dan ~ REFORM ~ FINAL ([GB]Thaumiel) [~ FINAL - ETA ~ ( Marathon )],course,rc course,17,Invalid: estDiff contains bound symbol (< or >),,
 5319863,Dan - Signicial's Courses[[4K] Stage III - Termination [3rd Dan] (Marathon)],course,rc course,3.1,Invalid: estDiff contains bound symbol (< or >),,
 5319952,Dan - Signicial's Courses[[4K] Stage IV - Resuscitation [4th Dan] (Marathon)],course,rc course,3.7,Invalid: estDiff contains bound symbol (< or >),,
@@ -635,13 +635,13 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 5320776,Dan - Signicial's Courses[[4K] Stage VIII - Misfortune [8th Dan] (Marathon)],course,rc course,7.5,Invalid: estDiff contains bound symbol (< or >),,
 5320774,Dan - Signicial's Courses[[4K] Stage IX - Catastrophe [9th Dan] (Marathon)],course,rc course,8.7,Invalid: estDiff contains bound symbol (< or >),,
 5031834,Dan - Signicial's Courses[[4K] Stage X - Finale [10th Dan] (Marathon)],course,rc course,9.6,Invalid: estDiff contains bound symbol (< or >),,
-3216602,Dan - Signicial's Courses[[4K] Stage XI - Alpha [11th Dan] (Marathon)],course,rc course,10.5,Invalid: estDiff contains bound symbol (< or >),,
-5637760,Dan - Signicial's Courses[[4K] Special Stage I - Luminal [11.5th Dan] (Marathon)],course,rc course,11.1,Invalid: estDiff contains bound symbol (< or >),,
-3216603,Dan - Signicial Courses[[4K] Stage XII - Beta [12th Dan] (Marathon)],course,rc course,11.8,11.60,0.20,0.20
-3216604,Dan - Signicial's Courses[[4K] Stage XIII - Gamma [13th Dan] (Marathon)],course,rc course,12.7,12.55,0.15,0.15
-3216606,Dan - Signicial's Courses[[4K] Stage XIV - Delta [14th Dan] (Marathon)],course,rc course,13.7,14.02,-0.32,0.32
-5442562,Dan - Signicial's Courses[[4K] Special Stage II - Tachyon [14.5th Dan] (Marathon)],course,rc course,14.3,14.57,-0.27,0.27
-3216605,Dan - Signicial's Courses[[4K] Last Stage - Epsilon [15th Dan] (Marathon)],course,rc course,14.9,15.20,-0.30,0.30
+3216602,Dan - Signicial's Courses[[4K] Stage XI - Alpha [11th Dan] (Marathon)],course,rc course,10.5,11.21,-0.71,0.71
+5637760,Dan - Signicial's Courses[[4K] Special Stage I - Luminal [11.5th Dan] (Marathon)],course,rc course,11.1,11.30,-0.20,0.20
+3216603,Dan - Signicial Courses[[4K] Stage XII - Beta [12th Dan] (Marathon)],course,rc course,11.8,12.10,-0.30,0.30
+3216604,Dan - Signicial's Courses[[4K] Stage XIII - Gamma [13th Dan] (Marathon)],course,rc course,12.7,12.92,-0.22,0.22
+3216606,Dan - Signicial's Courses[[4K] Stage XIV - Delta [14th Dan] (Marathon)],course,rc course,13.7,14.19,-0.49,0.49
+5442562,Dan - Signicial's Courses[[4K] Special Stage II - Tachyon [14.5th Dan] (Marathon)],course,rc course,14.3,14.72,-0.42,0.42
+3216605,Dan - Signicial's Courses[[4K] Last Stage - Epsilon [15th Dan] (Marathon)],course,rc course,14.9,15.28,-0.38,0.38
 5370092,Dan - Signicial's Courses[[4K] Extra Stage I - Zeta [16th Dan] (Marathon)],course,rc course,16.1,16.11,-0.01,0.01
 5597992,Dan - Signicial's Courses[[4K] Extra Stage II - Eta [17th Dan] (Marathon)],course,rc course,17.1,Invalid: estDiff contains bound symbol (< or >),,
 5680925,Dan - Signicial's Courses[[4K] Extra Stage III - Theta [18th Dan] (Marathon)],course,rc course,17.9,Invalid: estDiff contains bound symbol (< or >),,

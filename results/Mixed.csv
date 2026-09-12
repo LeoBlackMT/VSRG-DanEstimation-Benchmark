@@ -420,7 +420,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 2121684,Hitogata(ice v),jack,high chordjack,13.6,13.79,-0.19,0.19
 2727203,Hitogata(ice v) x1.05,jack,high chordjack,14.4,14.45,-0.05,0.05
 4387971,Hitogata(ice v) x1.15,jack,high chordjack,15,15.49,-0.49,0.49
-3479384,I Love It(lynessa),jack,high chordjack,10.5,11.54,-1.04,1.04
+3479384,I Love It(lynessa),jack,high chordjack,10.5,11.65,-1.15,1.15
 3479388,I Love It(lynessa) x1.2,jack,high chordjack,14,14.43,-0.43,0.43
 2808358,I Love It(lynessa) x1.3,jack,high chordjack,15,15.13,-0.13,0.13
 4584948,Dat Phonk(smokydoh),jack,high chordjack,13.6,13.76,-0.16,0.16
