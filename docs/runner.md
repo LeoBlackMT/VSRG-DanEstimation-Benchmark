@@ -24,9 +24,7 @@
 
 | 文件 | 作用 |
 |---|---|
-| `samples/data.csv` | 输入清单（osu! + Malody 合并），每行一条谱面记录 |
-| `samples/osu.csv` | osu! 子集（可选，仅供查看） |
-| `samples/malody.csv` | Malody 子集（可选，仅供查看） |
+| `samples/data.csv` | 输入清单，每行一条谱面记录 |
 | `samples/{pattern}/{name}.osu` | 谱面文件，按模式与名称分目录存放（需自行解压`samples.7z`） |
 | `results/{Algorithm}.csv` | 每个算法一份结果表 |
 | `results/index.json` | 结果目录的索引，供展示页读取 |
@@ -58,8 +56,8 @@ samples/{pattern}/{name}.osu ──┼──►  逐行运行估计算法  ─�
 ### 3.1 什么是数值化难度
 
 数值化难度是用于将段位转换为数字的量纲。它是一个浮点数，通常在 0–20 之间，表示谱面的难度大小。请使用基于 [Reform](https://www.danreform.com/) by DDMythical 段位体系进行标注。其中，Zeta 使用 Emik 的 Sample Zeta 版本，Eta 使用 Thaumiel 的版本，Theta 使用 CloverWisp 的版本。
-1st dan 对应 1.0，2nd dan 对应 2.0，依此类推。希腊字母部分 alpha 对应 11.0， beta 对应 12.0，以此类推。Intro 部分，Intro-1 ~ 3 分别对应 0, -1, -2。
-具体的数值化难度细分可参考下表：
+1st dan 对应 1.0，2nd dan 对应 2.0，依此类推。希腊字母部分 alpha 对应 11.0， beta 对应 12.0，以此类推。
+细分如下：
 | (-0.5,-0.2) | [-0.2,0) | 0 | (0,0.2] | (0.2,0.5] |
 |---|---|---|---|---|
 | Low | Low/Mid | Mid | Mid/High | High |
