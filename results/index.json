@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-12T10:56:57.692Z",
+  "generatedAt": "2026-10-10T07:57:17.000Z",
   "algorithms": [
     "Azusa",
     "Companella",
-    "Daniel",
     "DanOverlay",
+    "Daniel",
     "Mixed",
     "Roxy",
     "Sunny"
@@ -13,50 +13,50 @@
     {
       "fileName": "Azusa.csv",
       "algorithm": "Azusa",
-      "sizeBytes": 63354,
-      "modifiedAt": "2026-09-06T04:52:48.500Z",
+      "sizeBytes": 65350,
+      "modifiedAt": "2026-10-10T07:48:16.000Z",
       "source": "https://github.com/LeoBlackMT/osumania_map_analyser/tree/main/docs/azusa_algorithm.md"
     },
     {
       "fileName": "Companella.csv",
       "algorithm": "Companella",
-      "sizeBytes": 59265,
-      "modifiedAt": "2026-08-19T08:11:45.602Z",
+      "sizeBytes": 60508,
+      "modifiedAt": "2026-10-10T07:53:07.000Z",
       "source": "https://github.com/Leinadix/companella"
-    },
-    {
-      "fileName": "Daniel.csv",
-      "algorithm": "Daniel",
-      "sizeBytes": 68252,
-      "modifiedAt": "2026-08-19T08:11:45.605Z",
-      "source": "https://github.com/TheBagelOfMan/Daniel"
     },
     {
       "fileName": "DanOverlay.csv",
       "algorithm": "DanOverlay",
-      "sizeBytes": 58636,
-      "modifiedAt": "2026-08-30T05:58:13.596Z",
+      "sizeBytes": 65476,
+      "modifiedAt": "2026-10-10T07:57:17.000Z",
       "source": "https://github.com/acarranzao1a-png/Dan-Overlay/"
+    },
+    {
+      "fileName": "Daniel.csv",
+      "algorithm": "Daniel",
+      "sizeBytes": 69825,
+      "modifiedAt": "2026-10-10T07:47:07.000Z",
+      "source": "https://github.com/TheBagelOfMan/Daniel"
     },
     {
       "fileName": "Mixed.csv",
       "algorithm": "Mixed",
-      "sizeBytes": 58624,
-      "modifiedAt": "2026-09-12T10:56:57.682Z",
+      "sizeBytes": 60620,
+      "modifiedAt": "2026-10-10T07:52:05.000Z",
       "source": "https://github.com/LeoBlackMT/osumania_map_analyser"
     },
     {
       "fileName": "Roxy.csv",
       "algorithm": "Roxy",
-      "sizeBytes": 68076,
-      "modifiedAt": "2026-09-12T10:49:37.136Z",
+      "sizeBytes": 70073,
+      "modifiedAt": "2026-10-10T07:49:48.000Z",
       "source": "https://github.com/LeoBlackMT/osumania_map_analyser/tree/main/docs/roxy_algorithm.md"
     },
     {
       "fileName": "Sunny.csv",
       "algorithm": "Sunny",
-      "sizeBytes": 59724,
-      "modifiedAt": "2026-08-19T08:11:45.609Z",
+      "sizeBytes": 60963,
+      "modifiedAt": "2026-10-10T07:46:38.000Z",
       "source": "https://github.com/sunnyxxy/Star-Rating-Rebirth"
     }
   ]

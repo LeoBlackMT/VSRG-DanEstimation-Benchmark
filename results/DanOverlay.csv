@@ -169,12 +169,12 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 4692665,Everything Black x0.95,speed,high stream,14.8,14.87,-0.07,0.07
 4692669,Everything Black,speed,high stream,15.2,15.26,-0.06,0.06
 1455989,Moon Gate,speed,high stream,13,12.98,0.02,0.02
-5111540,angel dust,stamina,light handstream,16.4,16.18,0.22,0.22
+5111540,angel dust,stamina,light handstream,16.4,16.23,0.17,0.17
 5195389,Lolit Speed x1.13,stamina,dense jumpstream,14,13.46,0.54,0.54
 1305297,Tornado,tech,jacky tech,13.4,12.91,0.49,0.49
 2196118,Kaguyahime x1.2,tech,jacky tech,14.4,14.51,-0.11,0.11
 1065834,Big Brother,tech,stream tech,10,10.25,-0.25,0.25
-2877294,STRONG 280,stamina,dense handstream,14.4,15.75,-1.35,1.35
+2877294,STRONG 280,stamina,dense handstream,14.4,13.94,0.46,0.46
 716700,slavik goblins,stamina,dense handstream,13.7,13.45,0.25,0.25
 1429738,star of andromeda,jack,low chordjack,11,10.44,0.56,0.56
 3150955,star of andromeda x1.1,jack,low chordjack,13,12.67,0.33,0.33
@@ -190,108 +190,108 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 3107368,Rude Buster (Camellia Remix) x1.1,stamina,dense handstream,15,14.62,0.38,0.38
 1937582,Love is War x1.3,stamina,dense handstream,13.6,13.83,-0.23,0.23
 2553924,ametsuchi x1.2,jack,low chordjack,8.6,7.88,0.72,0.72
-,Oceanus(xfpsb1),ln,hybrid,9.5,7.02,2.48,2.48
-,Otenba Koimusume,ln,density,9.5,7.49,2.01,2.01
-,Gunjou Infinity [Buffed] (Cut),ln,speed,9.5,7.59,1.91,1.91
-,Orca [Broken-],ln,tech,9.5,7.34,2.16,2.16
-,Hanatachi ni Kibouwo 1.15x,ln,hybrid,10.5,9.43,1.07,1.07
-,Akasha 1.05x,ln,density,10.5,9.96,0.54,0.54
-,Ano Yume o Nazotte (Cut) 1.15x,ln,speed,10.5,8.59,1.91,1.91
-,Yoru ni Kakeru (xfpsb2 Cut) 1.05x,ln,tech,10.5,8.02,2.48,2.48
-,L4.8TS,ln,hybrid,11.5,10.21,1.29,1.29
-,Utakatayo Ikanaide [LN Edit] (Cut) 1.265x,ln,density,11.5,10.78,0.72,0.72
-,bullet 1.15x,ln,speed,11.5,11.06,0.44,0.44
-,HAMELN [Fanger] (Cut),ln,tech,11.5,7.05,4.45,4.45
-,Aegleseeker [Galaxy+],ln,hybrid,12.5,11.19,1.31,1.31
-,finorza (Cut),ln,density,12.5,11.56,0.94,0.94
-,Kokoro no Shitsuryou (Edit),ln,speed,12.5,10.56,1.94,1.94
-,Unmei no Haguruma (Edit),ln,tech,12.5,8.19,4.31,4.31
-,ReviveR,ln,hybrid,13.5,12.75,0.75,0.75
-,Unleashed World 1.075x,ln,density,13.5,12.24,1.26,1.26
-,Kairikou 1.125x,ln,speed,13.5,12.88,0.62,0.62
-,Identity Part 5 1.05x,ln,tech,13.5,11.90,1.60,1.60
-,Exitium 1.025x,ln,hybrid,14.5,13.51,0.99,0.99
-,Ultrasonic Anthem [Ultimate+] 1.1x,ln,density,14.5,13.16,1.34,1.34
-,Decoy 1.025x,ln,speed,14.5,13.55,0.95,0.95
-,Flamewall (Cut) [Edit] 1.15x,ln,tech,14.5,15.12,-0.62,0.62
-,Snow Drive (Cut) 1.225x,ln,hybrid,15.5,14.52,0.98,0.98
-,Kaku mo Yuubi na Hi to Narite (Cut) 1.1x,ln,density,15.5,14.29,1.21,1.21
-,Tojita Sekai (xfpsbF Cut),ln,speed,15.5,13.93,1.57,1.57
-,Shuu no Hazama (xfpsbF Cut) 1.15x,ln,tech,15.5,13.80,1.70,1.70
-4608742,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Doki Doki Literature Club! ~ 2nd ~ (Marathon)],ln,hybrid,2,0.96,1.04,1.04
-4608744,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Hitorigoto ~ 1st ~ (Marathon)],ln,hybrid,1,1.09,-0.09,0.09
-4608739,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [aura ~ 3rd ~ (Marathon)],ln,hybrid,3,1.41,1.59,1.59
-4608750,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Otenba Koimusume ~ 4th ~ (Marathon)],ln,hybrid,4,1.75,2.25,2.25
-4608751,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Pink Gold ~ 5th ~ (Marathon)],ln,hybrid,5,4.28,0.72,0.72
-4608745,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Koborezu no Negaigoto ~ 6th ~ (Marathon)],ln,hybrid,6,3.36,2.64,2.64
-4608749,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Missing Banquet ~ 8th ~ (Marathon)],ln,hybrid,8,6.35,1.65,1.65
-4608752,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Rock It ~ 7th ~ (Marathon)],ln,hybrid,7,5.90,1.10,1.10
-4608741,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Dodger's Gadget ~ 9th ~ (Marathon)],ln,hybrid,9,7.31,1.69,1.69
-4614499,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [towa no maigo 1.1x ~ 10th ~ (Marathon)],ln,hybrid,10,9.16,0.84,0.84
-4608747,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Kyouki Ranmai ~ Yoru ~ (Marathon)],ln,hybrid,13,11.57,1.43,1.43
-4608743,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Enigma 1.1x ~ Yoake ~ (Marathon)],ln,hybrid,11,9.36,1.64,1.64
-4608740,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Carnation [ck remix] 1.05x ~ Yuugure ~ (Marathon)],ln,hybrid,12,10.62,1.38,1.38
-4608753,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Protoflicker 1.25x ~ Yokaze ~ (Marathon)],ln,hybrid,16,13.58,2.42,2.42
-4608748,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Mare Nectaris ~ Yami ~ (Marathon)],ln,hybrid,14,13.38,0.62,0.62
-4608746,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Kodoku no Kakurenbo 1.15x ~ Yume ~ (Marathon)],ln,hybrid,15,14.14,0.86,0.86
-4608999,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Dango Daikazoku ~ 1st ~ (Marathon)],ln,release,1,0.50,0.50,0.50
-4614497,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [SPF 420 ~ 2nd ~ (Marathon)],ln,release,2,1.27,0.73,0.73
-4609008,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Power To Progress ~ 6th ~ (Marathon)],ln,release,6,1.50,4.50,4.50
-4609001,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Gee ~ 4th ~ (Marathon)],ln,release,4,3.07,0.93,0.93
-4609011,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [silver temple ~ 3rd ~ (Marathon)],ln,release,3,1.83,1.17,1.17
-4609004,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [MilK ~ 5th ~ (Marathon)],ln,release,5,3.33,1.67,1.67
-4609010,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Shotgun Senorita [Zardonic Remix] ~ 8th ~ (Marathon)],ln,release,8,2.24,5.76,5.76
-4609007,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [On the FM ~ 7th ~ (Marathon)],ln,release,7,4.75,2.25,2.25
-4609009,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Raijin no Hidariude ~ 9th ~ (Marathon)],ln,release,9,5.91,3.09,3.09
-4609000,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Dopamine ~ 10th ~ (Marathon)],ln,release,10,7.30,2.70,2.70
-4609006,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [No. 6 ~ Yuugure ~ (Marathon)],ln,tech,12,7.84,4.16,4.16
-4608998,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Avalon no oka ~ Yoake ~ (Marathon)],ln,inverse,11,5.53,5.47,5.47
-4609003,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Intersect Thunderbolt -Remix ~ Yoru ~ (Marathon)],ln,tech,13,10.41,2.59,2.59
-4609002,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Inaiinai isonshou 1.25x ~ Yume ~ (Marathon)],ln,tech,15,15.26,-0.26,0.26
-4609005,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Nhelv 1.05x ~ Yami ~ (Marathon)],ln,tech,14,13.04,0.96,0.96
-4609012,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Cinderella Cage -Trancecore Mix- 1.6x ~ Yokaze ~ (Marathon)],ln,tech,16,14.20,1.80,1.80
-4609086,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Nerevar Rising ~ 1st ~ (Marathon)],ln,inverse,1,0.50,0.50,0.50
-4609080,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Heartbeats ~ 2nd ~ (Marathon)],ln,inverse,2,0.83,1.17,1.17
-4609079,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [future gazer ~ 4th ~ (Marathon)],ln,inverse,4,1.04,2.96,2.96
-4609081,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [i use raw expectation to unlock placebo. ~ 3rd ~ (Marathon)],ln,inverse,3,1.07,1.93,1.93
-4609076,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [ 3 ~ 7th ~ (Marathon)],ln,inverse,7,1.68,5.32,5.32
-4609085,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Mousou Express [Remix] ~ 6th ~ (Marathon)],ln,inverse,6,3.60,2.40,2.40
-4609087,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Promise ~ 5th ~ (Marathon)],ln,inverse,5,3.94,1.06,1.06
-4609088,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Sakase natsuzora koi no hana. ~ 8th ~ (Marathon)],ln,inverse,8,4.37,3.63,3.63
-4609077,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [cold planet ~ 9th ~ (Marathon)],ln,inverse,9,6.34,2.66,2.66
-4609084,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Love is War ~ Yoake ~ (Marathon)],ln,density,11,10.57,0.43,0.43
-4609089,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Sakura Trip 1.15x ~ 10th ~ (Marathon)],ln,inverse,10,6.85,3.15,3.15
-4609078,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [ENDYMION ~ Yuugure ~ (Marathon)],ln,density,12,10.36,1.64,1.64
-4609083,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Literal Crystal In The Cyphisonia 1.15x ~ Yoru ~],ln,density,13,13.34,-0.34,0.34
-4609082,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Indomitable Spirit [Hommarju Remix] 1.5x ~ Yami ~ (Marathon)],ln,density,14,11.78,2.22,2.22
-4614495,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Lancelot -Flame of the Rebellion- 1.35x ~ Yokaze ~ (Marathon)],ln,density,16,13.87,2.13,2.13
-4609090,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [White Hair Little Swords Girl 1.025x ~ Yume ~ (Marathon)],ln,density,15,13.82,1.18,1.18
-4609231,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Trickl4sh 220 ~ 1st ~ (Marathon)],ln,density,1,0.91,0.09,0.09
-4609229,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Rockhill ~ 2nd ~ (Marathon)],ln,density,2,3.72,-1.72,1.72
-4609227,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [OVERDRIVERS ~ 3rd ~ (Marathon)],ln,density,3,4.08,-1.08,1.08
-4609221,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Blacksphere ~ 5th ~ (Marathon)],ln,density,5,4.46,0.54,0.54
-4609217,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [#FairyJoke #SDVX_Edit ~ 4th ~ (Marathon)],ln,density,4,4.61,-0.61,0.61
-4609220,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Berry Go!! ~ 6th ~ (Marathon)],ln,density,6,6.35,-0.35,0.35
-4609228,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Owari to Hajimari no Oto ~ 8th ~ (Marathon)],ln,density,8,7.61,0.39,0.39
-4614493,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Tsumibito ~ 7th ~ (Marathon)],ln,density,7,7.42,-0.42,0.42
-4609226,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Ordinary world ~ 9th ~ (Marathon)],ln,density,9,7.95,1.05,1.05
-4609222,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Element of SPADA 1.1x ~ 10th ~ (Marathon)],ln,speed,12,8.69,3.31,3.31
-4609219,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [asphyxia 1.05x ~ Yoake ~ (Marathon)],ln,speed,11,9.16,1.84,1.84
-4609230,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [The lost ~ Yami ~ (Marathon)],ln,speed,14,13.28,0.72,0.72
-4609225,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [NUCLEAR-STAR ~ Yume ~ (Marathon)],ln,speed,15,13.58,1.42,1.42
-4609224,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [NEURO-CLOUD-9 ~ Yoru ~ (Marathon)],ln,speed,13,12.37,0.63,0.63
-4609232,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [R U Still xxxx 1.15x ~ Yokaze ~ (Marathon)],ln,speed,16,14.71,1.29,1.29
-4351661,Laur - Kokushi musou [World's Final End (17th edit)],ln,Unsigned,17,14.81,2.19,2.19
-4517847,Ludicin - Onus Rēgulus [In Abyss],ln,Unsigned,17,15.29,1.71,1.71
-5029140,Various Artist - 4K LN Dan Courses - EXTRA - [17th Dan - Yeehee (Marathon)],ln,Unsigned,17,15.18,1.82,1.82
-5366651,Ludicin - Blossom of Ashes [Divination of Calamity],ln,density,14.5,13.65,0.85,0.85
-5366777,takehirotei - 定时地狱 ~The Perpetual Chaotically Unsynced Pendulum~ [Convergence],ln,Unsigned,14,12.74,1.26,1.26
-4824023,Laur - 国士無双 [LN bukbuk],ln,Unsigned,14.8,14.12,0.68,0.68
-4732296,ウォルピスカーター - Oxalis [Imitation],ln,Unsigned,13.6,13.17,0.43,0.43
-4652576,Xyris - Eviternity [LN Eviternity],ln,Unsigned,14.4,14.01,0.39,0.39
-3793375,ああ…翡翠茶漬け… - stεganography [Cipher Encryption],ln,Unsigned,13.8,13.95,-0.15,0.15
-4398536,Various Artists - Begin's 4K LN Pack Level 3 [Nanahoshi Kangengakudan - Andromeda],ln,density,15.2,13.77,1.43,1.43
-4398537,Various Artists - Begin's 4K LN Pack Level 3 [ROKINA - Icicle Stinger],ln,density,15.4,14.09,1.31,1.31
+,Oceanus(xfpsb1),ln,hybrid,9.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,Otenba Koimusume,ln,density,9.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,Gunjou Infinity [Buffed] (Cut),ln,speed,9.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,Orca [Broken-],ln,tech,9.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,Hanatachi ni Kibouwo 1.15x,ln,hybrid,10.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,Akasha 1.05x,ln,density,10.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,Ano Yume o Nazotte (Cut) 1.15x,ln,speed,10.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,Yoru ni Kakeru (xfpsb2 Cut) 1.05x,ln,tech,10.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,L4.8TS,ln,hybrid,11.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,Utakatayo Ikanaide [LN Edit] (Cut) 1.265x,ln,density,11.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,bullet 1.15x,ln,speed,11.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,HAMELN [Fanger] (Cut),ln,tech,11.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,Aegleseeker [Galaxy+],ln,hybrid,12.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,finorza (Cut),ln,density,12.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,Kokoro no Shitsuryou (Edit),ln,speed,12.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,Unmei no Haguruma (Edit),ln,tech,12.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,ReviveR,ln,hybrid,13.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,Unleashed World 1.075x,ln,density,13.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,Kairikou 1.125x,ln,speed,13.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,Identity Part 5 1.05x,ln,tech,13.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,Exitium 1.025x,ln,hybrid,14.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,Ultrasonic Anthem [Ultimate+] 1.1x,ln,density,14.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,Decoy 1.025x,ln,speed,14.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,Flamewall (Cut) [Edit] 1.15x,ln,tech,14.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,Snow Drive (Cut) 1.225x,ln,hybrid,15.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,Kaku mo Yuubi na Hi to Narite (Cut) 1.1x,ln,density,15.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,Tojita Sekai (xfpsbF Cut),ln,speed,15.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+,Shuu no Hazama (xfpsbF Cut) 1.15x,ln,tech,15.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4608742,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Doki Doki Literature Club! ~ 2nd ~ (Marathon)],ln,hybrid,2,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4608744,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Hitorigoto ~ 1st ~ (Marathon)],ln,hybrid,1,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4608739,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [aura ~ 3rd ~ (Marathon)],ln,hybrid,3,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4608750,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Otenba Koimusume ~ 4th ~ (Marathon)],ln,hybrid,4,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4608751,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Pink Gold ~ 5th ~ (Marathon)],ln,hybrid,5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4608745,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Koborezu no Negaigoto ~ 6th ~ (Marathon)],ln,hybrid,6,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4608749,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Missing Banquet ~ 8th ~ (Marathon)],ln,hybrid,8,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4608752,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Rock It ~ 7th ~ (Marathon)],ln,hybrid,7,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4608741,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Dodger's Gadget ~ 9th ~ (Marathon)],ln,hybrid,9,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4614499,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [towa no maigo 1.1x ~ 10th ~ (Marathon)],ln,hybrid,10,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4608747,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Kyouki Ranmai ~ Yoru ~ (Marathon)],ln,hybrid,13,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4608743,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Enigma 1.1x ~ Yoake ~ (Marathon)],ln,hybrid,11,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4608740,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Carnation [ck remix] 1.05x ~ Yuugure ~ (Marathon)],ln,hybrid,12,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4608753,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Protoflicker 1.25x ~ Yokaze ~ (Marathon)],ln,hybrid,16,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4608748,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Mare Nectaris ~ Yami ~ (Marathon)],ln,hybrid,14,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4608746,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Kodoku no Kakurenbo 1.15x ~ Yume ~ (Marathon)],ln,hybrid,15,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4608999,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Dango Daikazoku ~ 1st ~ (Marathon)],ln,release,1,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4614497,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [SPF 420 ~ 2nd ~ (Marathon)],ln,release,2,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609008,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Power To Progress ~ 6th ~ (Marathon)],ln,release,6,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609001,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Gee ~ 4th ~ (Marathon)],ln,release,4,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609011,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [silver temple ~ 3rd ~ (Marathon)],ln,release,3,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609004,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [MilK ~ 5th ~ (Marathon)],ln,release,5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609010,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Shotgun Senorita [Zardonic Remix] ~ 8th ~ (Marathon)],ln,release,8,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609007,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [On the FM ~ 7th ~ (Marathon)],ln,release,7,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609009,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Raijin no Hidariude ~ 9th ~ (Marathon)],ln,release,9,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609000,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Dopamine ~ 10th ~ (Marathon)],ln,release,10,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609006,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [No. 6 ~ Yuugure ~ (Marathon)],ln,tech,12,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4608998,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Avalon no oka ~ Yoake ~ (Marathon)],ln,inverse,11,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609003,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Intersect Thunderbolt -Remix ~ Yoru ~ (Marathon)],ln,tech,13,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609002,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Inaiinai isonshou 1.25x ~ Yume ~ (Marathon)],ln,tech,15,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609005,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Nhelv 1.05x ~ Yami ~ (Marathon)],ln,tech,14,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609012,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Cinderella Cage -Trancecore Mix- 1.6x ~ Yokaze ~ (Marathon)],ln,tech,16,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609086,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Nerevar Rising ~ 1st ~ (Marathon)],ln,inverse,1,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609080,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Heartbeats ~ 2nd ~ (Marathon)],ln,inverse,2,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609079,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [future gazer ~ 4th ~ (Marathon)],ln,inverse,4,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609081,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [i use raw expectation to unlock placebo. ~ 3rd ~ (Marathon)],ln,inverse,3,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609076,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [ 3 ~ 7th ~ (Marathon)],ln,inverse,7,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609085,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Mousou Express [Remix] ~ 6th ~ (Marathon)],ln,inverse,6,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609087,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Promise ~ 5th ~ (Marathon)],ln,inverse,5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609088,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Sakase natsuzora koi no hana. ~ 8th ~ (Marathon)],ln,inverse,8,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609077,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [cold planet ~ 9th ~ (Marathon)],ln,inverse,9,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609084,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Love is War ~ Yoake ~ (Marathon)],ln,density,11,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609089,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Sakura Trip 1.15x ~ 10th ~ (Marathon)],ln,inverse,10,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609078,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [ENDYMION ~ Yuugure ~ (Marathon)],ln,density,12,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609083,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Literal Crystal In The Cyphisonia 1.15x ~ Yoru ~],ln,density,13,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609082,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Indomitable Spirit [Hommarju Remix] 1.5x ~ Yami ~ (Marathon)],ln,density,14,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4614495,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Lancelot -Flame of the Rebellion- 1.35x ~ Yokaze ~ (Marathon)],ln,density,16,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609090,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [White Hair Little Swords Girl 1.025x ~ Yume ~ (Marathon)],ln,density,15,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609231,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Trickl4sh 220 ~ 1st ~ (Marathon)],ln,density,1,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609229,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Rockhill ~ 2nd ~ (Marathon)],ln,density,2,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609227,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [OVERDRIVERS ~ 3rd ~ (Marathon)],ln,density,3,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609221,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Blacksphere ~ 5th ~ (Marathon)],ln,density,5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609217,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [#FairyJoke #SDVX_Edit ~ 4th ~ (Marathon)],ln,density,4,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609220,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Berry Go!! ~ 6th ~ (Marathon)],ln,density,6,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609228,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Owari to Hajimari no Oto ~ 8th ~ (Marathon)],ln,density,8,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4614493,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Tsumibito ~ 7th ~ (Marathon)],ln,density,7,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609226,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Ordinary world ~ 9th ~ (Marathon)],ln,density,9,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609222,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Element of SPADA 1.1x ~ 10th ~ (Marathon)],ln,speed,12,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609219,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [asphyxia 1.05x ~ Yoake ~ (Marathon)],ln,speed,11,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609230,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [The lost ~ Yami ~ (Marathon)],ln,speed,14,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609225,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [NUCLEAR-STAR ~ Yume ~ (Marathon)],ln,speed,15,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609224,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [NEURO-CLOUD-9 ~ Yoru ~ (Marathon)],ln,speed,13,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4609232,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [R U Still xxxx 1.15x ~ Yokaze ~ (Marathon)],ln,speed,16,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4351661,Laur - Kokushi musou [World's Final End (17th edit)],ln,Unsigned,17,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4517847,Ludicin - Onus Rēgulus [In Abyss],ln,Unsigned,17,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+5029140,Various Artist - 4K LN Dan Courses - EXTRA - [17th Dan - Yeehee (Marathon)],ln,Unsigned,17,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+5366651,Ludicin - Blossom of Ashes [Divination of Calamity],ln,density,14.5,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+5366777,takehirotei - 定时地狱 ~The Perpetual Chaotically Unsynced Pendulum~ [Convergence],ln,Unsigned,14,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4824023,Laur - 国士無双 [LN bukbuk],ln,Unsigned,14.8,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4732296,ウォルピスカーター - Oxalis [Imitation],ln,Unsigned,13.6,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4652576,Xyris - Eviternity [LN Eviternity],ln,Unsigned,14.4,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+3793375,ああ…翡翠茶漬け… - stεganography [Cipher Encryption],ln,Unsigned,13.8,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4398536,Various Artists - Begin's 4K LN Pack Level 3 [Nanahoshi Kangengakudan - Andromeda],ln,density,15.2,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
+4398537,Various Artists - Begin's 4K LN Pack Level 3 [ROKINA - Icicle Stinger],ln,density,15.4,Invalid: DanOverlay 4K RC does not support LN benchmark rows,,
 2808346,Dark Sambaland[Easy](mizuki) x1.05,jack,anchor chordjack,14.6,14.49,0.11,0.11
 3580764,Dark Sambaland[Easy](mizuki) x1.2,jack,anchor chordjack,16.4,15.99,0.41,0.41
 3245370,Martial Arts(xingren),jack,anchor chordjack,10.5,10.35,0.15,0.15
@@ -745,3 +745,33 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 5253594,Regression(follow speed dan),speed,high stream,15.4,15.31,0.09,0.09
 5253570,Kinki to Hiiro Gensou -The Primary Plasm-(follow speed dan),speed,mid stream,15.4,15.27,0.13,0.13
 5253582,Decoy(follow speed dan),speed,high stream,15.4,15.34,0.06,0.06
+,Embraced by the Flame (B0JP45),speed,Unsigned,14.4,14.54,-0.14,0.14
+,Newborn (Hylotl),speed,Unsigned,14.4,14.30,0.10,0.10
+,The Initial Day (Auroyavs),speed,Unsigned,14.4,14.36,0.04,0.04
+,Day To Live (YuLuoX),speed,Unsigned,13.6,13.27,0.33,0.33
+,Love Lie (YuLuoX vs RMAILtF930),speed,Unsigned,13.6,13.87,-0.27,0.27
+,Sukisuki Zecchou Shou [1.1](Ginaty),speed,Unsigned,13.6,13.87,-0.27,0.27
+,A Reyvateil's Curse ([Crz]Rachel),speed,Unsigned,14.2,14.59,-0.39,0.39
+,Kairikou (Bulanzel),speed,Unsigned,14.2,14.28,-0.08,0.08
+,Alice [1.1](YuLuoX),speed,Unsigned,13.8,14.06,-0.26,0.26
+,Eien no Mahotsukai [1.05](RMAILtF930 vs YuLuoX),speed,Unsigned,14,14.09,-0.09,0.09
+,Kotodama Refrain(katagiri Bootleg) (Bacon Haniwa),speed,Unsigned,14,14.12,-0.12,0.12
+,Misery [1.07](signupredir111),speed,Unsigned,14,14.23,-0.23,0.23
+,weenywalker(cut) [0.96]([Crz]EzNys),speed,Unsigned,14,14.04,-0.04,0.04
+,Xecus [1.12](YuLuoX),speed,Unsigned,14,14.06,-0.06,0.06
+,Youthful eyes [0.97](FrozenAmilv),speed,Unsigned,14,14.19,-0.19,0.19
+,Dimension tripper!!!! (FrozenAmilv),speed,Unsigned,13.4,13.27,0.13,0.13
+,Euthanasia [1.20]([GS]hina),speed,Unsigned,13.4,13.78,-0.38,0.38
+,Qualia(Choukyorisou) [1.13](Hylotl),speed,Unsigned,13.4,12.66,0.74,0.74
+,Romantic Fall (feat. Mei Ayakura) [1.03](RMAILtF930),speed,Unsigned,13.4,13.12,0.28,0.28
+,Sofia [0.97](Ycloki),speed,Unsigned,13.4,13.46,-0.06,0.06
+,Ultimate Weapon (juan-bing),speed,Unsigned,13.4,13.38,0.02,0.02
+,Aile [0.96](FrozenAmilv),speed,Unsigned,12.6,13.04,-0.44,0.44
+,AIR (RMAILtF930),speed,Unsigned,12.6,12.81,-0.21,0.21
+,golden hour (YuLuoX),speed,Unsigned,12.6,12.10,0.50,0.50
+,Starstream [0.95]([GS]hina),speed,Unsigned,12.6,13.16,-0.56,0.56
+,Sakura no Uta [0.97](YuLuoX),speed,Unsigned,13.2,12.87,0.33,0.33
+,Be_Natural [1.05](ERA Jungle),speed,Unsigned,13,12.61,0.39,0.39
+,Brionac ~Lugh Lamhfhata~ (RMAILtF930),speed,Unsigned,13,13.33,-0.33,0.33
+,LUCIA (OxalicAcid),speed,Unsigned,13,13.47,-0.47,0.47
+,Yuudachi no Ribbon (YuLuoX),speed,Unsigned,13,12.70,0.30,0.30

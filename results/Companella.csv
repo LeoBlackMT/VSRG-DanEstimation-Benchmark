@@ -745,3 +745,33 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 5253594,Regression(follow speed dan),speed,high stream,15.4,15.02,0.38,0.38
 5253570,Kinki to Hiiro Gensou -The Primary Plasm-(follow speed dan),speed,mid stream,15.4,15.00,0.40,0.40
 5253582,Decoy(follow speed dan),speed,high stream,15.4,15.02,0.38,0.38
+,Embraced by the Flame (B0JP45),speed,Unsigned,14.4,14.22,0.18,0.18
+,Newborn (Hylotl),speed,Unsigned,14.4,14.19,0.21,0.21
+,The Initial Day (Auroyavs),speed,Unsigned,14.4,13.26,1.14,1.14
+,Day To Live (YuLuoX),speed,Unsigned,13.6,13.57,0.03,0.03
+,Love Lie (YuLuoX vs RMAILtF930),speed,Unsigned,13.6,13.61,-0.01,0.01
+,Sukisuki Zecchou Shou [1.1](Ginaty),speed,Unsigned,13.6,13.63,-0.03,0.03
+,A Reyvateil's Curse ([Crz]Rachel),speed,Unsigned,14.2,13.85,0.35,0.35
+,Kairikou (Bulanzel),speed,Unsigned,14.2,13.80,0.40,0.40
+,Alice [1.1](YuLuoX),speed,Unsigned,13.8,13.59,0.21,0.21
+,Eien no Mahotsukai [1.05](RMAILtF930 vs YuLuoX),speed,Unsigned,14,13.57,0.43,0.43
+,Kotodama Refrain(katagiri Bootleg) (Bacon Haniwa),speed,Unsigned,14,13.90,0.10,0.10
+,Misery [1.07](signupredir111),speed,Unsigned,14,13.72,0.28,0.28
+,weenywalker(cut) [0.96]([Crz]EzNys),speed,Unsigned,14,13.52,0.48,0.48
+,Xecus [1.12](YuLuoX),speed,Unsigned,14,14.10,-0.10,0.10
+,Youthful eyes [0.97](FrozenAmilv),speed,Unsigned,14,14.27,-0.27,0.27
+,Dimension tripper!!!! (FrozenAmilv),speed,Unsigned,13.4,12.86,0.54,0.54
+,Euthanasia [1.20]([GS]hina),speed,Unsigned,13.4,13.08,0.32,0.32
+,Qualia(Choukyorisou) [1.13](Hylotl),speed,Unsigned,13.4,13.49,-0.09,0.09
+,Romantic Fall (feat. Mei Ayakura) [1.03](RMAILtF930),speed,Unsigned,13.4,12.62,0.78,0.78
+,Sofia [0.97](Ycloki),speed,Unsigned,13.4,13.09,0.31,0.31
+,Ultimate Weapon (juan-bing),speed,Unsigned,13.4,12.92,0.48,0.48
+,Aile [0.96](FrozenAmilv),speed,Unsigned,12.6,12.82,-0.22,0.22
+,AIR (RMAILtF930),speed,Unsigned,12.6,12.47,0.13,0.13
+,golden hour (YuLuoX),speed,Unsigned,12.6,11.73,0.87,0.87
+,Starstream [0.95]([GS]hina),speed,Unsigned,12.6,12.55,0.05,0.05
+,Sakura no Uta [0.97](YuLuoX),speed,Unsigned,13.2,12.75,0.45,0.45
+,Be_Natural [1.05](ERA Jungle),speed,Unsigned,13,12.25,0.75,0.75
+,Brionac ~Lugh Lamhfhata~ (RMAILtF930),speed,Unsigned,13,12.55,0.45,0.45
+,LUCIA (OxalicAcid),speed,Unsigned,13,12.79,0.21,0.21
+,Yuudachi no Ribbon (YuLuoX),speed,Unsigned,13,12.51,0.49,0.49
