@@ -88,8 +88,8 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 ,Crystal World -Fracture-,speed,Unsigned,12.5,12.96,-0.46,0.46
 ,IMAGE -MATERIAL- Version 0(luminal),stamina,light handstream,12.4,12.33,0.07,0.07
 ,Lolit Speed,stamina,dense jumpstream,12.4,11.02,1.38,1.38
-,Pure Ruby,speed,Unsigned,12.4,12.39,0.01,0.01
-,Odin(fullerene),speed,high stream,12.4,12.27,0.13,0.13
+,Pure Ruby,speed,Unsigned,12.4,12.43,-0.03,0.03
+,Odin(fullerene),speed,high stream,12.4,12.26,0.14,0.14
 ,Mario Point[D-Hyper],speed,low stream,12.4,11.37,1.03,1.03
 ,ZENITHALIZE,jack,high chordjack,12.4,12.50,-0.10,0.10
 ,IMAGE -MATERIAL- Version 0(fullerene),stamina,light handstream,12.3,12.19,0.11,0.11
@@ -109,7 +109,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 ,Dark Sambaland,jack,high chordjack,11,11.12,-0.12,0.12
 ,Odoru Mizushibuki x1.1,tech,jack tech,10.8,11.24,-0.44,0.44
 ,Towards the Horizon,tech,Unsigned,10.8,11.33,-0.53,0.53
-,P8107 x0.95,speed,low stream,10.8,11.78,-0.98,0.98
+,P8107 x0.95,speed,low stream,10.8,11.80,-1.00,1.00
 ,Message(e2v2),speed,low stream,10.7,10.74,-0.04,0.04
 ,Moment x1.05,jack,high chordjack,10.6,10.92,-0.32,0.32
 ,Shin Takarajim(sp2v2),speed,Unsigned,10.5,10.71,-0.21,0.21
@@ -560,7 +560,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 4704824,M-A[impossible jack](wllk2) x0.85,jack,mid chordjack,13.9,13.85,0.05,0.05
 5561111,manual of youth(tsumikiyuzu) x1.3,jack,mid chordjack,14,14.10,-0.10,0.10
 3476973,Don't Stop The Music(rg7v3),jack,mid chordjack,6.7,7.03,-0.33,0.33
-4262736,oddloop(teradora),speed,mid stream,12.2,12.17,0.03,0.03
+4262736,oddloop(teradora),speed,mid stream,12.2,12.19,0.01,0.01
 4670616,Toromi Hearts 2(rachel),speed,mid stream,14.6,14.69,-0.09,0.09
 3163355,Palette(rachel) x1.2,speed,mid stream,14.6,14.67,-0.07,0.07
 1631150,Green-Eyed Jealousy[True End](rachel),speed,mid stream,14.6,14.82,-0.22,0.22
@@ -721,9 +721,9 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 5253586,Flower Dance(follow speed dan),speed,high stream,11.2,9.55,1.65,1.65
 5253562,Hymn(follow speed dan),speed,mid stream,11.2,10.84,0.36,0.36
 5253574,yo ma ya ko(follow speed dan),speed,high stream,11.2,9.57,1.63,1.63
-5253587,The Crimson Empire(follow speed dan),speed,high stream,12.4,12.34,0.06,0.06
+5253587,The Crimson Empire(follow speed dan),speed,high stream,12.4,12.36,0.04,0.04
 5253563,Anhedonia(follow speed dan),speed,mid stream,12.4,13.18,-0.78,0.78
-5253575,Sora no Hajimaru Basho(follow speed dan),speed,high stream,12.4,12.51,-0.11,0.11
+5253575,Sora no Hajimaru Basho(follow speed dan),speed,high stream,12.4,12.52,-0.12,0.12
 5253588,ntelecheia(follow speed dan),speed,high stream,13.4,12.94,0.46,0.46
 5253564,Imitation of fragrance(follow speed dan),speed,mid stream,13.4,13.05,0.35,0.35
 5253576,Brionac Lugh Lamhfhata(follow speed dan),speed,high stream,13.4,12.37,1.03,1.03
@@ -768,10 +768,10 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 ,Ultimate Weapon (juan-bing),speed,Unsigned,13.4,13.36,0.04,0.04
 ,Aile [0.96](FrozenAmilv),speed,Unsigned,12.6,12.89,-0.29,0.29
 ,AIR (RMAILtF930),speed,Unsigned,12.6,12.79,-0.19,0.19
-,golden hour (YuLuoX),speed,Unsigned,12.6,12.36,0.24,0.24
-,Starstream [0.95]([GS]hina),speed,Unsigned,12.6,12.58,0.02,0.02
-,Sakura no Uta [0.97](YuLuoX),speed,Unsigned,13.2,12.61,0.59,0.59
+,golden hour (YuLuoX),speed,Unsigned,12.6,12.40,0.20,0.20
+,Starstream [0.95]([GS]hina),speed,Unsigned,12.6,12.67,-0.07,0.07
+,Sakura no Uta [0.97](YuLuoX),speed,Unsigned,13.2,12.75,0.45,0.45
 ,Be_Natural [1.05](ERA Jungle),speed,Unsigned,13,12.75,0.25,0.25
-,Brionac ~Lugh Lamhfhata~ (RMAILtF930),speed,Unsigned,13,12.55,0.45,0.45
+,Brionac ~Lugh Lamhfhata~ (RMAILtF930),speed,Unsigned,13,12.57,0.43,0.43
 ,LUCIA (OxalicAcid),speed,Unsigned,13,13.38,-0.38,0.38
-,Yuudachi no Ribbon (YuLuoX),speed,Unsigned,13,12.53,0.47,0.47
+,Yuudachi no Ribbon (YuLuoX),speed,Unsigned,13,12.57,0.43,0.43
