@@ -88,8 +88,8 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 ,Crystal World -Fracture-,speed,Unsigned,12.5,13.04,-0.54,0.54
 ,IMAGE -MATERIAL- Version 0(luminal),stamina,light handstream,12.4,12.37,0.03,0.03
 ,Lolit Speed,stamina,dense jumpstream,12.4,11.34,1.06,1.06
-,Pure Ruby,speed,Unsigned,12.4,12.40,0.00,0.00
-,Odin(fullerene),speed,high stream,12.4,12.25,0.15,0.15
+,Pure Ruby,speed,Unsigned,12.4,12.41,-0.01,0.01
+,Odin(fullerene),speed,high stream,12.4,12.24,0.16,0.16
 ,Mario Point[D-Hyper],speed,low stream,12.4,11.68,0.72,0.72
 ,ZENITHALIZE,jack,high chordjack,12.4,12.74,-0.34,0.34
 ,IMAGE -MATERIAL- Version 0(fullerene),stamina,light handstream,12.3,12.23,0.07,0.07
@@ -721,7 +721,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 5253586,Flower Dance(follow speed dan),speed,high stream,11.2,9.62,1.58,1.58
 5253562,Hymn(follow speed dan),speed,mid stream,11.2,10.84,0.36,0.36
 5253574,yo ma ya ko(follow speed dan),speed,high stream,11.2,9.93,1.27,1.27
-5253587,The Crimson Empire(follow speed dan),speed,high stream,12.4,12.34,0.06,0.06
+5253587,The Crimson Empire(follow speed dan),speed,high stream,12.4,12.35,0.05,0.05
 5253563,Anhedonia(follow speed dan),speed,mid stream,12.4,12.96,-0.56,0.56
 5253575,Sora no Hajimaru Basho(follow speed dan),speed,high stream,12.4,12.68,-0.28,0.28
 5253588,ntelecheia(follow speed dan),speed,high stream,13.4,12.97,0.43,0.43
@@ -767,11 +767,11 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 ,Sofia [0.97](Ycloki),speed,Unsigned,13.4,13.48,-0.08,0.08
 ,Ultimate Weapon (juan-bing),speed,Unsigned,13.4,13.38,0.02,0.02
 ,Aile [0.96](FrozenAmilv),speed,Unsigned,12.6,12.89,-0.29,0.29
-,AIR (RMAILtF930),speed,Unsigned,12.6,12.70,-0.10,0.10
-,golden hour (YuLuoX),speed,Unsigned,12.6,12.10,0.50,0.50
-,Starstream [0.95]([GS]hina),speed,Unsigned,12.6,12.74,-0.14,0.14
-,Sakura no Uta [0.97](YuLuoX),speed,Unsigned,13.2,12.72,0.48,0.48
+,AIR (RMAILtF930),speed,Unsigned,12.6,12.77,-0.17,0.17
+,golden hour (YuLuoX),speed,Unsigned,12.6,12.13,0.47,0.47
+,Starstream [0.95]([GS]hina),speed,Unsigned,12.6,12.78,-0.18,0.18
+,Sakura no Uta [0.97](YuLuoX),speed,Unsigned,13.2,12.80,0.40,0.40
 ,Be_Natural [1.05](ERA Jungle),speed,Unsigned,13,12.78,0.22,0.22
-,Brionac ~Lugh Lamhfhata~ (RMAILtF930),speed,Unsigned,13,12.79,0.21,0.21
+,Brionac ~Lugh Lamhfhata~ (RMAILtF930),speed,Unsigned,13,12.80,0.20,0.20
 ,LUCIA (OxalicAcid),speed,Unsigned,13,13.45,-0.45,0.45
-,Yuudachi no Ribbon (YuLuoX),speed,Unsigned,13,12.71,0.29,0.29
+,Yuudachi no Ribbon (YuLuoX),speed,Unsigned,13,12.73,0.27,0.27
