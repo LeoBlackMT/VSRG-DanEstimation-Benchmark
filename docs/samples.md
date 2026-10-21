@@ -22,7 +22,7 @@
 | `Disclaimer.md` | 免责声明（中英双语），说明谱面版权归属与使用限制 |
 | `samples.7z` | 谱面压缩包，内含全部测试谱面，按键型分类打包 |
 
-`.gitignore` 中忽略了以下 6 个目录：
+`.gitignore` 中忽略了以下 7 个目录：
 
 - `samples/course`
 - `samples/jack`
@@ -30,6 +30,7 @@
 - `samples/speed`
 - `samples/stamina`
 - `samples/tech`
+- `samples/unsigned`
 
 这些目录是 `samples.7z` 解压后的产物，里面是按按键型分类的 `.osu` 谱面文件。它们体积大且可随时由压缩包重新生成，因此被 git 忽略，不会进入版本库。
 
@@ -37,7 +38,7 @@
 
 ## samples.7z（谱面压缩包）
 
-`samples.7z` 是测试谱面的来源。压缩包内是按键型分类的 `.osu` 谱面，分类方式与 `data.csv` 的 `pattern` 字段一一对应（course / jack / ln / speed / stamina / tech）。
+`samples.7z` 是测试谱面的来源。压缩包内是按键型分类的 `.osu` 谱面，分类方式与 `data.csv` 的 `pattern` 字段一一对应（course / jack / ln / speed / stamina / tech / unsigned）。
 
 ### 下载与使用
 
@@ -48,7 +49,7 @@
 7z x samples.7z -osamples
 ```
 
-- 解压后得到 `samples/course/`、`samples/jack/`、`samples/ln/`、`samples/speed/`、`samples/stamina/`、`samples/tech/` 六个目录，不会污染 git 状态。
+- 解压后得到 `samples/course/`、`samples/jack/`、`samples/ln/`、`samples/speed/`、`samples/stamina/`、`samples/tech/`、`samples/unsigned/` 目录，不会污染 git 状态。
 - 也可以只解压需要的按键型子目录，runner 部分分类。
 
 ### 压缩包内分类与目录的对应关系
@@ -63,6 +64,7 @@
 | `samples/speed/` | speed |
 | `samples/stamina/` | stamina |
 | `samples/tech/` | tech |
+| `samples/unsigned/` | unsigned |
 
 ### 典型使用流程
 
