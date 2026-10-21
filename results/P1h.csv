@@ -775,3 +775,90 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 ,Brionac ~Lugh Lamhfhata~ (RMAILtF930),speed,Unsigned,13,12.44,0.56,0.56
 ,LUCIA (OxalicAcid),speed,Unsigned,13,12.33,0.67,0.67
 ,Yuudachi no Ribbon (YuLuoX),speed,Unsigned,13,12.13,0.87,0.87
+2259508,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ INTRO-1st ~ (Marathon)],course,rc course,-2,-3.53,1.53,1.53
+,Nanamori-chu _ Goraku-bu - Yuriyurarararayuruyuri Daijiken (Lokovodo) [EZ],unsigned,Unsigned,-2,-4.16,2.16,2.16
+,Camellia - Ultimate Ascension (Fresh Chicken) [BASIC],unsigned,Unsigned,-2,-4.62,2.62,2.62
+,Hommarju - Sounds of Summer (Shana Lesus) [Beginner],unsigned,Unsigned,-2,-6.43,4.43,4.43
+,Suzuki Konomi - Redo ( R e m u r i n g ) [Easy],unsigned,Unsigned,-2,-4.50,2.50,2.50
+2259509,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ INTRO-2nd ~ (Marathon)],course,rc course,-1,-3.05,2.05,2.05
+,Banshi - Kotonoha (erlinadewi-) [Normal],unsigned,Unsigned,-1,-2.05,1.05,1.05
+,Jeff Williams - This Will Be the Day (arcwinolivirus) [4K Normal],unsigned,Unsigned,-1,-4.65,3.65,3.65
+,O2i3 - Belly Flopper (Ilham) [NOVICE],unsigned,Unsigned,-1,-3.64,2.64,2.64
+,bbn - Identic Conflict (S a k u r a) [Normal],unsigned,Unsigned,-1,-4.27,3.27,3.27
+2259510,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ INTRO-3rd ~ (Marathon)],course,rc course,0,0.37,-0.37,0.37
+,Avenged Sevenfold - A Little Piece of Heaven (Renard) [MGD3],unsigned,Unsigned,0,0.09,-0.09,0.09
+,TAG - Romancing Layer (AmiShici) [Avalon's MEDIUM],unsigned,Unsigned,0,-0.89,0.89,0.89
+,Memme - Chinese Restaurant (ajeemaniz) [Advanced Saucy Meatball],unsigned,Unsigned,0,0.18,-0.18,0.18
+,S-C-U feat. Qrispy Joybox - anemone (Julie) [4K Hyper],unsigned,Unsigned,0,-0.97,0.97,0.97
+1862813,Various Artists - 4K LN Dan Courses v2 - Level 1 - [1st Dan (Marathon)],course,ln course,1,4.30,-3.30,3.30
+1862814,Various Artists - 4K LN Dan Courses v2 - Level 1 - [2nd Dan (Marathon)],course,ln course,2,5.66,-3.66,3.66
+1862815,Various Artists - 4K LN Dan Courses v2 - Level 1 - [3rd Dan (Marathon)],course,ln course,3,5.37,-2.37,2.37
+1862816,Various Artists - 4K LN Dan Courses v2 - Level 1 - [4th Dan (Marathon)],course,ln course,4,6.29,-2.29,2.29
+1862832,Various Artists - 4K LN Dan Courses v2 - Level 2 - [5th Dan (Marathon)],course,ln course,5,6.05,-1.05,1.05
+1862833,Various Artists - 4K LN Dan Courses v2 - Level 2 - [6th Dan (Marathon)],course,ln course,6,6.70,-0.70,0.70
+2588623,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ 6th ~ (Marathon)],course,rc course,6,6.00,0.00,0.00
+5806704,YuEast - [reg8]IMAGE -MATERIAL- x1.05,speed,high stream,7,7.82,-0.82,0.82
+1862834,Various Artists - 4K LN Dan Courses v2 - Level 2 - [7th Dan (Marathon)],course,ln course,7,7.35,-0.35,0.35
+5806699,snow_stargazer - [reg8]NO EXIT ORION,speed,mid stream,7,6.30,0.70,0.70
+5806695,Hylotl - [reg8]You 0.95x,speed,staircase,7,7.49,-0.49,0.49
+5806702,Ycloki - [reg8]Eternal Love,speed,staircase,7,7.81,-0.81,0.81
+5806698,snow_stargazer - [reg8]Kyoufuu All Back,speed,staircase,7,6.71,0.29,0.29
+5806705,YuEast - [reg8/8+]Vanilla Salt,speed,high stream,7.2,6.55,0.65,0.65
+1862842,Various Artists - 4K LN Dan Courses v2 - Level 3 - [8th Dan (Marathon)],course,ln course,8,7.81,0.19,0.19
+5806696,Hylotl - [reg9]Crucified (Cut) x0.97,speed,staircase,8,8.85,-0.85,0.85
+5806706,YuEast - [reg9/9+]Trust in the Wind (Driftmoon Rework),speed,high stream,8.2,9.22,-1.02,1.02
+5806700,Xingyue - [reg9+]Good-bye sengen,speed,high stream,8.4,6.93,1.47,1.47
+5806697,RMAILtF930 - [reg9+]Promise x0.95,speed,staircase,8.4,7.94,0.46,0.46
+5806692,"[GS]hina - [reg9+]That Girl Ms. Hell's Angel",speed,staircase,8.4,8.99,-0.59,0.59
+5806691,[GS]hina - [reg10]Angelic layer,speed,high stream,9,9.32,-0.32,0.32
+1862843,Various Artists - 4K LN Dan Courses v2 - Level 3 - [9th Dan (Marathon)],course,ln course,9,8.56,0.44,0.44
+5806701,Ycloki - [reg10]You May Not Want To Hear This But,speed,staircase,9,7.48,1.52,1.52
+5806703,YuEast - [reg10+]Fatalism x0.95,speed,low stream,9.4,8.26,1.14,1.14
+5806694,Hylotl - [reg10+]Seiren 'Uruwashi no Ventra' (Cut ver.) x0.93,speed,staircase,9.4,8.22,1.18,1.18
+3451026,Various Artists - xfpsb 4K LN Advanced Dan Course (Part I) [1st Dan - Azure],course,ln course,9.5,8.62,0.88,0.88
+1862841,Various Artists - 4K LN Dan Courses v2 - Level 3 - [10th Dan (Marathon)],course,ln course,10,9.90,0.10,0.10
+3451027,Various Artists - xfpsb 4K LN Advanced Dan Course (Part I) [2nd Dan - Dream],course,ln course,10.5,10.44,0.06,0.06
+5848597,[low]Shoujo to Kemono no Mori- [1.07](Hylotl),speed,low stream,10.6,8.84,1.76,1.76
+5848596,[low]perfect ft. oaf1 & dreamcache(Xingyue),speed,low stream,10.6,9.18,1.42,1.42
+5848606,[mid/low]Affection(Hylotl),speed,high stream,10.8,9.51,1.29,1.29
+5848607,[mid/low]Surrender [1.05](YuEast),speed,mid stream,10.8,8.57,2.23,2.23
+5848601,[mid]Hanjuuryoku no Machi(Xingyue),speed,high stream,11,8.84,2.16,2.16
+1862874,Various Artists - 4K LN Dan Courses v2 - Extra Level - [11th Dan - Yoake (Marathon)],course,ln course,11,10.89,0.11,0.11
+5848600,[mid]Freely Plains(YuLuoX),speed,mid stream,11,10.98,0.02,0.02
+5848598,[mid]Aoi (Cut ver.) (Hylotl),speed,staircase,11,10.53,0.47,0.47
+5848599,[mid]Farewell(Hylotl),speed,staircase,11,10.68,0.32,0.32
+5848604,[mid/high]Otenba Renjyo [0.95](OGccp vs YuLuoX),speed,high stream,11.2,12.23,-1.03,1.03
+5848602,[mid/high]kirihirake! Gracie Star [0.93]([Crz]Rachel),speed,high stream,11.2,12.05,-0.85,0.85
+5848603,[mid/high]KotoNoHa (NightCore Ver.) [0.93](Xingyue),speed,staircase,11.2,10.63,0.57,0.57
+5848605,[mid/high]Towa no Kizuna feat. Another Infinity (TV Size) [0.95] (Xingyue),speed,staircase,11.2,10.42,0.78,0.78
+5848594,[high]Sweet Berry Love [0.95](RMAILtF930),speed,high stream,11.4,10.95,0.45,0.45
+5848595,[high]Utakata Ai no Mahoroba [1.07](YuEast),speed,high stream,11.4,10.96,0.44,0.44
+5848593,[high]hyperReality [0.95](RMAILtF930),speed,high stream,11.4,10.70,0.70,0.70
+3451028,Various Artists - xfpsb 4K LN Advanced Dan Course (Part I) [3rd Dan - Soar],course,ln course,11.5,10.96,0.54,0.54
+5894440,[low]Hibana [1.03] (Xingyue),speed,high stream,11.6,10.00,1.60,1.60
+5894441,[low]Jet set Run [0.95] (Xingyue),speed,low stream,11.6,10.87,0.73,0.73
+5894438,[low]Bokura no 16bit Warz (Hylotl),speed,mid stream,11.6,12.06,-0.46,0.46
+5894439,[low]Eiya no Parade [1.07] (Hylotl),speed,mid stream,11.6,11.03,0.57,0.57
+5894445,[mid]Starry Colors (RMAILtF930),speed,high stream,12,11.23,0.77,0.77
+1862875,Various Artists - 4K LN Dan Courses v2 - Extra Level - [12th Dan - Yuugure (Marathon)],course,ln course,12,12.16,-0.16,0.16
+5894442,[mid]Angel Dream (YuLuoX),speed,low stream,12,11.87,0.13,0.13
+5894444,[mid]Nothingness (tyrcs),speed,low stream,12,12.17,-0.17,0.17
+5894443,[mid]aoi tsu ki no zan ge shi ~ Universal Nemesis (YuLuoX),speed,mid stream,12,11.23,0.77,0.77
+5894447,[mid/high]Shoujo Gensou - Necro-Fantasy [1.03] (HuJin_),speed,high stream,12.2,12.19,0.01,0.01
+5894446,[mid/high]Palette (B0JP45),speed,mid stream,12.2,10.99,1.21,1.21
+5894448,[mid/high]Sugar Princess [0.97] ([Crz]Zetsfy),speed,mid stream,12.2,12.26,-0.06,0.06
+5894434,[high]Becoming Myself (RMAILtF930),speed,high stream,12.4,12.38,0.02,0.02
+5894436,[high]Infiniti Mofulity ([Crz]Rachel),speed,high stream,12.4,12.21,0.19,0.19
+5894437,[high]Loschen [0.93] (RMAILtF930),speed,high stream,12.4,12.38,0.02,0.02
+5894435,[high]Forbidden Lullaby (LightGOD),speed,low stream,12.4,12.26,0.14,0.14
+3451052,Various Artists - xfpsb 4K LN Advanced Dan Course (Part II) [4th Dan - Destiny],course,ln course,12.5,12.54,-0.04,0.04
+5370041,Can you hear me(signicial dan),tech,jack tech,13,12.70,0.30,0.30
+1862876,Various Artists - 4K LN Dan Courses v2 - Extra Level - [13th Dan - Yoru (Marathon)],course,ln course,13,12.79,0.21,0.21
+3451053,Various Artists - xfpsb 4K LN Advanced Dan Course (Part II) [5th Dan - Beyond],course,ln course,13.5,13.23,0.27,0.27
+2332319,Various Artists - 4K LN Dan Courses v2 - FINAL - [14th Dan - Yami (Marathon)],course,ln course,14,14.01,-0.01,0.01
+3451057,Various Artists - xfpsb 4K LN Advanced Dan Course (Part III) [6th Dan - Flame],course,ln course,14.5,14.02,0.48,0.48
+2332320,Various Artists - 4K LN Dan Courses v2 - FINAL - [15th Dan - Yume (Marathon)],course,ln course,15,14.07,0.93,0.93
+3451058,Various Artists - xfpsb 4K LN Advanced Dan Course (Part III) [Final Dan - Nirvana],course,ln course,15.5,14.22,1.28,1.28
+4767800,Various Artists - 4K LN Dan Courses v3 - Extra Level - [16th Dan - Yokaze (Marathon)],course,ln course,16,14.55,1.45,1.45
+4747219,Various Artists - Dan ~ REFORM ~ FINAL (Ext.) [~ FINAL-THETA ~ (Marathon)],course,rc course,18,16.94,1.06,1.06
+4555041,999 (666 Camellia's Unofficial Rejected Remix),tech,mix tech,17.6,16.82,0.78,0.78
