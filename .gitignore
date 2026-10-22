@@ -10,3 +10,4 @@ backup/
 temp/
 AGENTS.md
 /samples/unsigned
+/.local
