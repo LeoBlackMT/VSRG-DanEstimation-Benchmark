@@ -775,3 +775,90 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 ,Brionac ~Lugh Lamhfhata~ (RMAILtF930),speed,Unsigned,13,12.57,0.43,0.43
 ,LUCIA (OxalicAcid),speed,Unsigned,13,13.38,-0.38,0.38
 ,Yuudachi no Ribbon (YuLuoX),speed,Unsigned,13,12.57,0.43,0.43
+2259508,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ INTRO-1st ~ (Marathon)],course,rc course,-2,2.35,-4.35,4.35
+,Nanamori-chu _ Goraku-bu - Yuriyurarararayuruyuri Daijiken (Lokovodo) [EZ],unsigned,Unsigned,-2,Failed: Cannot parse base difficulty from estDiff,,
+,Camellia - Ultimate Ascension (Fresh Chicken) [BASIC],unsigned,Unsigned,-2,2.58,-4.58,4.58
+,Hommarju - Sounds of Summer (Shana Lesus) [Beginner],unsigned,Unsigned,-2,2.32,-4.32,4.32
+,Suzuki Konomi - Redo ( R e m u r i n g ) [Easy],unsigned,Unsigned,-2,2.59,-4.59,4.59
+2259509,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ INTRO-2nd ~ (Marathon)],course,rc course,-1,1.00,-2.00,2.00
+,Banshi - Kotonoha (erlinadewi-) [Normal],unsigned,Unsigned,-1,Failed: Cannot parse base difficulty from estDiff,,
+,Jeff Williams - This Will Be the Day (arcwinolivirus) [4K Normal],unsigned,Unsigned,-1,2.04,-3.04,3.04
+,O2i3 - Belly Flopper (Ilham) [NOVICE],unsigned,Unsigned,-1,1.00,-2.00,2.00
+,bbn - Identic Conflict (S a k u r a) [Normal],unsigned,Unsigned,-1,1.00,-2.00,2.00
+2259510,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ INTRO-3rd ~ (Marathon)],course,rc course,0,1.00,-1.00,1.00
+,Avenged Sevenfold - A Little Piece of Heaven (Renard) [MGD3],unsigned,Unsigned,0,1.00,-1.00,1.00
+,TAG - Romancing Layer (AmiShici) [Avalon's MEDIUM],unsigned,Unsigned,0,1.00,-1.00,1.00
+,Memme - Chinese Restaurant (ajeemaniz) [Advanced Saucy Meatball],unsigned,Unsigned,0,1.00,-1.00,1.00
+,S-C-U feat. Qrispy Joybox - anemone (Julie) [4K Hyper],unsigned,Unsigned,0,1.21,-1.21,1.21
+1862813,Various Artists - 4K LN Dan Courses v2 - Level 1 - [1st Dan (Marathon)],course,ln course,1,Failed: Cannot parse base difficulty from estDiff,,
+1862814,Various Artists - 4K LN Dan Courses v2 - Level 1 - [2nd Dan (Marathon)],course,ln course,2,Failed: Cannot parse base difficulty from estDiff,,
+1862815,Various Artists - 4K LN Dan Courses v2 - Level 1 - [3rd Dan (Marathon)],course,ln course,3,Failed: Cannot parse base difficulty from estDiff,,
+1862816,Various Artists - 4K LN Dan Courses v2 - Level 1 - [4th Dan (Marathon)],course,ln course,4,Failed: Cannot parse base difficulty from estDiff,,
+1862832,Various Artists - 4K LN Dan Courses v2 - Level 2 - [5th Dan (Marathon)],course,ln course,5,Failed: Cannot parse base difficulty from estDiff,,
+1862833,Various Artists - 4K LN Dan Courses v2 - Level 2 - [6th Dan (Marathon)],course,ln course,6,Failed: Cannot parse base difficulty from estDiff,,
+2588623,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ 6th ~ (Marathon)],course,rc course,6,6.94,-0.94,0.94
+5806704,YuEast - [reg8]IMAGE -MATERIAL- x1.05,speed,high stream,7,7.49,-0.49,0.49
+1862834,Various Artists - 4K LN Dan Courses v2 - Level 2 - [7th Dan (Marathon)],course,ln course,7,Failed: Cannot parse base difficulty from estDiff,,
+5806699,snow_stargazer - [reg8]NO EXIT ORION,speed,mid stream,7,6.01,0.99,0.99
+5806695,Hylotl - [reg8]You 0.95x,speed,staircase,7,6.39,0.61,0.61
+5806702,Ycloki - [reg8]Eternal Love,speed,staircase,7,7.48,-0.48,0.48
+5806698,snow_stargazer - [reg8]Kyoufuu All Back,speed,staircase,7,6.38,0.62,0.62
+5806705,YuEast - [reg8/8+]Vanilla Salt,speed,high stream,7.2,6.12,1.08,1.08
+1862842,Various Artists - 4K LN Dan Courses v2 - Level 3 - [8th Dan (Marathon)],course,ln course,8,Failed: Cannot parse base difficulty from estDiff,,
+5806696,Hylotl - [reg9]Crucified (Cut) x0.97,speed,staircase,8,9.50,-1.50,1.50
+5806706,YuEast - [reg9/9+]Trust in the Wind (Driftmoon Rework),speed,high stream,8.2,8.56,-0.36,0.36
+5806700,Xingyue - [reg9+]Good-bye sengen,speed,high stream,8.4,7.46,0.94,0.94
+5806697,RMAILtF930 - [reg9+]Promise x0.95,speed,staircase,8.4,8.16,0.24,0.24
+5806692,"[GS]hina - [reg9+]That Girl Ms. Hell's Angel",speed,staircase,8.4,9.71,-1.31,1.31
+5806691,[GS]hina - [reg10]Angelic layer,speed,high stream,9,9.53,-0.53,0.53
+1862843,Various Artists - 4K LN Dan Courses v2 - Level 3 - [9th Dan (Marathon)],course,ln course,9,Failed: Cannot parse base difficulty from estDiff,,
+5806701,Ycloki - [reg10]You May Not Want To Hear This But,speed,staircase,9,8.07,0.93,0.93
+5806703,YuEast - [reg10+]Fatalism x0.95,speed,low stream,9.4,8.66,0.74,0.74
+5806694,Hylotl - [reg10+]Seiren 'Uruwashi no Ventra' (Cut ver.) x0.93,speed,staircase,9.4,9.61,-0.21,0.21
+3451026,Various Artists - xfpsb 4K LN Advanced Dan Course (Part I) [1st Dan - Azure],course,ln course,9.5,Failed: Cannot parse base difficulty from estDiff,,
+1862841,Various Artists - 4K LN Dan Courses v2 - Level 3 - [10th Dan (Marathon)],course,ln course,10,Failed: Cannot parse base difficulty from estDiff,,
+3451027,Various Artists - xfpsb 4K LN Advanced Dan Course (Part I) [2nd Dan - Dream],course,ln course,10.5,Failed: Cannot parse base difficulty from estDiff,,
+5848597,[low]Shoujo to Kemono no Mori- [1.07](Hylotl),speed,low stream,10.6,9.61,0.99,0.99
+5848596,[low]perfect ft. oaf1 & dreamcache(Xingyue),speed,low stream,10.6,9.56,1.04,1.04
+5848606,[mid/low]Affection(Hylotl),speed,high stream,10.8,9.57,1.23,1.23
+5848607,[mid/low]Surrender [1.05](YuEast),speed,mid stream,10.8,8.66,2.14,2.14
+5848601,[mid]Hanjuuryoku no Machi(Xingyue),speed,high stream,11,10.14,0.86,0.86
+1862874,Various Artists - 4K LN Dan Courses v2 - Extra Level - [11th Dan - Yoake (Marathon)],course,ln course,11,Failed: Cannot parse base difficulty from estDiff,,
+5848600,[mid]Freely Plains(YuLuoX),speed,mid stream,11,11.58,-0.58,0.58
+5848598,[mid]Aoi (Cut ver.) (Hylotl),speed,staircase,11,10.79,0.21,0.21
+5848599,[mid]Farewell(Hylotl),speed,staircase,11,10.81,0.19,0.19
+5848604,[mid/high]Otenba Renjyo [0.95](OGccp vs YuLuoX),speed,high stream,11.2,11.29,-0.09,0.09
+5848602,[mid/high]kirihirake! Gracie Star [0.93]([Crz]Rachel),speed,high stream,11.2,11.72,-0.52,0.52
+5848603,[mid/high]KotoNoHa (NightCore Ver.) [0.93](Xingyue),speed,staircase,11.2,10.67,0.53,0.53
+5848605,[mid/high]Towa no Kizuna feat. Another Infinity (TV Size) [0.95] (Xingyue),speed,staircase,11.2,10.78,0.42,0.42
+5848594,[high]Sweet Berry Love [0.95](RMAILtF930),speed,high stream,11.4,11.32,0.08,0.08
+5848595,[high]Utakata Ai no Mahoroba [1.07](YuEast),speed,high stream,11.4,10.95,0.45,0.45
+5848593,[high]hyperReality [0.95](RMAILtF930),speed,high stream,11.4,10.77,0.63,0.63
+3451028,Various Artists - xfpsb 4K LN Advanced Dan Course (Part I) [3rd Dan - Soar],course,ln course,11.5,Failed: Cannot parse base difficulty from estDiff,,
+5894440,[low]Hibana [1.03] (Xingyue),speed,high stream,11.6,10.66,0.94,0.94
+5894441,[low]Jet set Run [0.95] (Xingyue),speed,low stream,11.6,11.87,-0.27,0.27
+5894438,[low]Bokura no 16bit Warz (Hylotl),speed,mid stream,11.6,12.26,-0.66,0.66
+5894439,[low]Eiya no Parade [1.07] (Hylotl),speed,mid stream,11.6,11.32,0.28,0.28
+5894445,[mid]Starry Colors (RMAILtF930),speed,high stream,12,11.05,0.95,0.95
+1862875,Various Artists - 4K LN Dan Courses v2 - Extra Level - [12th Dan - Yuugure (Marathon)],course,ln course,12,Failed: Cannot parse base difficulty from estDiff,,
+5894442,[mid]Angel Dream (YuLuoX),speed,low stream,12,12.39,-0.39,0.39
+5894444,[mid]Nothingness (tyrcs),speed,low stream,12,12.38,-0.38,0.38
+5894443,[mid]aoi tsu ki no zan ge shi ~ Universal Nemesis (YuLuoX),speed,mid stream,12,11.79,0.21,0.21
+5894447,[mid/high]Shoujo Gensou - Necro-Fantasy [1.03] (HuJin_),speed,high stream,12.2,11.83,0.37,0.37
+5894446,[mid/high]Palette (B0JP45),speed,mid stream,12.2,12.37,-0.17,0.17
+5894448,[mid/high]Sugar Princess [0.97] ([Crz]Zetsfy),speed,mid stream,12.2,12.78,-0.58,0.58
+5894434,[high]Becoming Myself (RMAILtF930),speed,high stream,12.4,12.73,-0.33,0.33
+5894436,[high]Infiniti Mofulity ([Crz]Rachel),speed,high stream,12.4,12.68,-0.28,0.28
+5894437,[high]Loschen [0.93] (RMAILtF930),speed,high stream,12.4,12.74,-0.34,0.34
+5894435,[high]Forbidden Lullaby (LightGOD),speed,low stream,12.4,12.42,-0.02,0.02
+3451052,Various Artists - xfpsb 4K LN Advanced Dan Course (Part II) [4th Dan - Destiny],course,ln course,12.5,Failed: Cannot parse base difficulty from estDiff,,
+5370041,Can you hear me(signicial dan),tech,jack tech,13,13.34,-0.34,0.34
+1862876,Various Artists - 4K LN Dan Courses v2 - Extra Level - [13th Dan - Yoru (Marathon)],course,ln course,13,Failed: Cannot parse base difficulty from estDiff,,
+3451053,Various Artists - xfpsb 4K LN Advanced Dan Course (Part II) [5th Dan - Beyond],course,ln course,13.5,Failed: Cannot parse base difficulty from estDiff,,
+2332319,Various Artists - 4K LN Dan Courses v2 - FINAL - [14th Dan - Yami (Marathon)],course,ln course,14,Failed: Cannot parse base difficulty from estDiff,,
+3451057,Various Artists - xfpsb 4K LN Advanced Dan Course (Part III) [6th Dan - Flame],course,ln course,14.5,Failed: Cannot parse base difficulty from estDiff,,
+2332320,Various Artists - 4K LN Dan Courses v2 - FINAL - [15th Dan - Yume (Marathon)],course,ln course,15,Failed: Cannot parse base difficulty from estDiff,,
+3451058,Various Artists - xfpsb 4K LN Advanced Dan Course (Part III) [Final Dan - Nirvana],course,ln course,15.5,Failed: Cannot parse base difficulty from estDiff,,
+4767800,Various Artists - 4K LN Dan Courses v3 - Extra Level - [16th Dan - Yokaze (Marathon)],course,ln course,16,Failed: Cannot parse base difficulty from estDiff,,
+4747219,Various Artists - Dan ~ REFORM ~ FINAL (Ext.) [~ FINAL-THETA ~ (Marathon)],course,rc course,18,18.11,-0.11,0.11
+4555041,999 (666 Camellia's Unofficial Rejected Remix),tech,mix tech,17.6,18.34,-0.74,0.74

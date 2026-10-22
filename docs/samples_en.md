@@ -1,4 +1,4 @@
-﻿# samples/ Directory Guide
+# samples/ Directory Guide
 
 > 中文版: [samples.md](samples.md)
 > **Translation Note**: This document was translated from Chinese to English with the assistance of an AI language model. While efforts have been made to ensure accuracy, please refer to the original Chinese version if any ambiguity arises.
@@ -23,7 +23,7 @@
 | `Disclaimer.md` | Disclaimer (bilingual zh/en), covering beatmap copyright ownership and usage restrictions |
 | `samples.7z` | Beatmap archive, containing all test beatmaps, grouped by key type |
 
-The following 6 directories are ignored by `.gitignore`:
+The following 7 directories are ignored by `.gitignore`:
 
 - `samples/course`
 - `samples/jack`
@@ -31,6 +31,7 @@ The following 6 directories are ignored by `.gitignore`:
 - `samples/speed`
 - `samples/stamina`
 - `samples/tech`
+- `samples/unsigned`
 
 These directories are the result of extracting `samples.7z`; inside are the `.osu` beatmap files grouped by key type. They are large and can be regenerated from the archive at any time, so git ignores them and they never enter version control.
 
@@ -38,7 +39,7 @@ These directories are the result of extracting `samples.7z`; inside are the `.os
 
 ## samples.7z (beatmap archive)
 
-`samples.7z` is the source of the test beatmaps. The archive contains `.osu` beatmaps grouped by key type, and the grouping matches the `pattern` field of `data.csv` one-to-one (course / jack / ln / speed / stamina / tech).
+`samples.7z` is the source of the test beatmaps. The archive contains `.osu` beatmaps grouped by key type, and the grouping matches the `pattern` field of `data.csv` one-to-one (course / jack / ln / speed / stamina / tech / unsigned).
 
 ### Download and use
 
@@ -49,7 +50,7 @@ These directories are the result of extracting `samples.7z`; inside are the `.os
 7z x samples.7z -osamples
 ```
 
-- After extraction you get six directories, `samples/course/`, `samples/jack/`, `samples/ln/`, `samples/speed/`, `samples/stamina/`, `samples/tech/`, which do not pollute the git status.
+- After extraction you get seven directories, `samples/course/`, `samples/jack/`, `samples/ln/`, `samples/speed/`, `samples/stamina/`, `samples/tech/`, `samples/unsigned/`, which do not pollute the git status.
 - You can also extract only the key-type subdirectories you need; the runner only reads the categories it actually uses.
 
 ### Correspondence between archive categories and directories
@@ -64,6 +65,7 @@ The directory structure inside `samples.7z` matches the extraction target exactl
 | `samples/speed/` | speed |
 | `samples/stamina/` | stamina |
 | `samples/tech/` | tech |
+| `samples/unsigned/` | unsigned |
 
 ### Typical workflow
 
