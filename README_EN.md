@@ -20,7 +20,7 @@ Currently, this project only supports 4K samples, and LN samples are still limit
 
 ### Dan System Baseline
 
-The RC charts in this project are annotated against the [Reform](https://www.danreform.com/) Dan system by DDMythical. Among them, Zeta uses Emik's [Sample Zeta](https://osu.ppy.sh/beatmapsets/1985457#mania/4123991) version, [Eta](https://osu.ppy.sh/beatmapsets/1156299#mania/2738787) uses [Thaumiel](https://osu.ppy.sh/users/15017771)'s version, and [Theta](https://osu.ppy.sh/beatmapsets/2234779#mania/4747219) uses [CloverWisp](https://osu.ppy.sh/users/24748885)'s version. LN charts are annotated against the [4K LN Dan Course V2](https://osu.ppy.sh/beatmapsets/891143#mania/1862816) Dan system by [_underjoy](https://osu.ppy.sh/users/2235750). Among them, [LN16](https://osu.ppy.sh/beatmapsets/2243057#mania/4767800) uses [hypersovae](https://osu.ppy.sh/users/31898985)'s version, and [LN17](https://osu.ppy.sh/beatmapsets/2243057#mania/4767800) uses Lnlism's version.
+The RC charts in this project are annotated against the [Reform](https://www.danreform.com/) Dan system by DDMythical. Among them, Zeta uses Emik's [Sample Zeta](https://osu.ppy.sh/beatmapsets/1985457#mania/4123991) version, [Eta](https://osu.ppy.sh/beatmapsets/1156299#mania/2738787) uses [Thaumiel](https://osu.ppy.sh/users/15017771)'s version, and [Theta](https://osu.ppy.sh/beatmapsets/2234779#mania/4747219) uses [CloverWisp](https://osu.ppy.sh/users/24748885)'s version. LN charts are annotated against the [4K LN Dan Course V2](https://osu.ppy.sh/beatmapsets/891143#mania/1862816) Dan system by [_underjoy](https://osu.ppy.sh/users/2235750). Among them, [LN16](https://osu.ppy.sh/beatmapsets/2243057#mania/4767800) uses [hypersovae](https://osu.ppy.sh/users/31898985)'s version, and [LN17](https://osu.ppy.sh/beatmapsets/2340696#mania/5029140) uses Lnlism's version.
 
 ## Benchmark Results
 
@@ -36,7 +36,7 @@ The website is driven by the data in the `results/` directory. It supports viewi
 - **[Roxy](https://github.com/LeoBlackMT/osumania_map_analyser/tree/main/docs/roxy_algorithm.md)** `v2.1.0` by LeoBlackMT: a meta-structure estimator. It blends Azusa/Daniel reference predictions via a Ridge linear meta-model, focused on the high-difficulty band (numeric 11~17); supports 4K RC only.
 - **[Companella](https://github.com/Leinadix/companella)** `v6.52` by Leinadix: 4K Dan estimation using an ONNX model based on [Etterna](https://github.com/etternagame/etterna) MinaCalc.
 - **[Mixed](https://github.com/LeoBlackMT/osumania_map_analyser)** `v2.1.0` by LeoBlackMT: a hybrid algorithm combining the algorithms above, automatically routing to the best algorithm based on beatmap characteristics. Mainly used in the [ManiaMapAnalyzer](https://github.com/LeoBlackMT/osumania_map_analyser) project.
-- **[ISOR](https://github.com/acarranzao1a-png/Dan-Overlay/)** `v3.1.0` by acarranzao1a-png (formerly DanOverlay): an algorithm calibrated and corrected on top of Sunny, Etterna MinaCalc and other algorithms. Supports 4K RC/LN and 7K, and the Reform/Celestial/Signicial/Shoegazer Dan systems.
+- **[ISOR](https://github.com/acarranzao1a-png/Dan-Overlay/)** `v3.1.0` by acarranzao1a-png: an algorithm calibrated and corrected on top of Sunny, Etterna MinaCalc and other algorithms. Supports 4K RC/LN and 7K, and the Reform/Celestial/Signicial/Shoegazer Dan systems.
 - **[P1h](https://github.com/sky2002/osu-star-web)** `v1.0` by sky2002: a 4K difficulty and Dan estimator combining an action-level Transformer, Student-t timing error probability integration, and 22-feature HistGBDT tree calibration.
 - **[AquaCrest](https://github.com/AquaStoneLZS/AquaCrest)** `v1.0.0` by AquaStoneLZS: A 4K difficulty and Dan estimator using RBF SVR over 924 features, combining AquaTide/AquaReef indices, Azusa local difficulty curves, and chart structure features. Supports 4K RC only.
 
@@ -44,7 +44,7 @@ The website is driven by the data in the `results/` directory. It supports viewi
 
 | Path | Description |
 |---|---|
-| `samples/` | Contains the dataset `data.csv` and the packaged `.osu` beatmap samples `samples.7z`, categorized by `course / jack / ln / speed / stamina / tech / unsigned`. **Note**: beatmap copyrights belong to their original authors; please follow [samples/Disclaimer.md](samples/Disclaimer.md) when using them |
+| `samples/` | Contains the dataset `data.csv` and the packaged `.osu` beatmap samples `samples.7z`, categorized by `course / jack / ln / speed / stamina / tech`. **Note**: beatmap copyrights belong to their original authors; please follow [samples/Disclaimer.md](samples/Disclaimer.md) when using them |
 | `results/` | Benchmark result data for each algorithm (`*.csv`) and `index.json` |
 | `docs/` | Project documentation: sample notes, run methods, algorithm overview, internationalization |
 | `assets/` | Website assets (CSS, JS, fonts, images, etc.) |

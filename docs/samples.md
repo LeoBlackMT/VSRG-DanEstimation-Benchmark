@@ -22,7 +22,7 @@
 | `Disclaimer.md` | 免责声明（中英双语），说明谱面版权归属与使用限制 |
 | `samples.7z` | 谱面压缩包，内含全部测试谱面，按键型分类打包 |
 
-`.gitignore` 中忽略了以下 6 个目录：
+`.gitignore` 中忽略了以下 7 个目录：
 
 - `samples/course`
 - `samples/jack`
@@ -30,6 +30,7 @@
 - `samples/speed`
 - `samples/stamina`
 - `samples/tech`
+- `samples/unsigned`
 
 这些目录是 `samples.7z` 解压后的产物，里面是按按键型分类的 `.osu` 谱面文件。它们体积大且可随时由压缩包重新生成，因此被 git 忽略，不会进入版本库。
 
@@ -72,7 +73,7 @@
 3. 阅读 samples/Disclaimer.md 确认使用条件
 4. 编写并运行 runner（详见 [docs/runner.md](runner.md)）
 5. 查看 results/ 下的输出
-6. 进入网页上传结果。
+6. 进入网页查看可视化结果。
 ```
 
 ---
@@ -122,6 +123,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 
 谱面的主分类，决定它属于哪种按键型 benchmark。
 runner 可依据该字段决定对谱面调用哪一类算法流程，也用于按分类输出统计结果。
+目前的所有键型为：`course`、`jack`、`ln`、`speed`、`stamina`、`tech`
 
 ### subPattern —— 子分类
 
