@@ -6,8 +6,6 @@
 
 ### 1. 核心流程
 
-四步：阅读文档、编写 runner 生成 CSV，注册到 `index.json`，通过 PR 提交。
-
 **第一步：阅读文档**
 - 阅读 [docs/samples.md](samples.md) 了解 `data.csv` 的字段含义与数据契约。
 - 阅读 [docs/runner.md](runner.md) 了解如何运行 benchmark、生成 CSV。
@@ -31,10 +29,11 @@
   "source": "https://example.com/algorithm-repo"
 }
 ```
+随后在`README.md`和`README_EN.md`的收录算法小结新增你的算法。如果你不清楚某种语言，可以使用AI翻译或等候维护者补充。
 
 **第四步：提交**
 
-向本仓库发起 Pull Request，改动集中在 `results/` 目录（新增 CSV 并更新 `index.json`）。如果你的数据使用了 `samples/` 目录下的谱面，必须遵守 `samples/Disclaimer.md` 中的声明与限制。
+向本仓库发起 Pull Request，详细说明你的算法详情。改动应当集中在 `results/` 目录以及`README.md`和`README_EN.md`文件。你必须遵守 `samples/Disclaimer.md` 中的声明与限制。
 
 
 ### 2. i18n 提示
@@ -52,13 +51,6 @@
 This document explains how to make a new algorithm appear on the Benchmark Result page: generate the data file, register it in the index, and submit a pull request. The page only reads the `results/` directory, and both the algorithm name and the display name come from the filename.
 
 ## 1. Core Workflow
-
-There are four steps:
-
-1. Read the docs.
-2. Write a runner and generate the CSV.
-3. Register the file in `results/index.json`.
-4. Submit a pull request.
 
 **Step 1: Read the docs**
 
@@ -90,11 +82,13 @@ Register the file following the `results/index.json` spec in the docs. The entry
 }
 ```
 
+Then add your algorithm to the included-algorithms list in `README.md` and `README_EN.md`. If you are not confident writing in one of the languages, use machine translation or wait for a maintainer to fill it in.
+
 **Step 4: Submit**
 
-Open a pull request against this repository. The change stays inside the `results/` directory: a new CSV plus an updated `index.json`. Reviewers will check that the CSV and the `index.json` entry match.
+Open a pull request against this repository with a detailed description of your algorithm. The change should stay inside the `results/` directory plus `README.md` and `README_EN.md`: a new CSV, an updated `index.json`, and the README entry. Reviewers will check that the CSV and the `index.json` entry match.
 
-If your data uses beatmaps from the `samples/` directory, you must follow the disclaimer and restrictions in `samples/Disclaimer.md`.
+You must follow the disclaimer and restrictions in `samples/Disclaimer.md`.
 
 ## 2. i18n Notes
 

@@ -1,6 +1,7 @@
 # Benchmark Runner Writing Guide (English)
 
 > 中文版: [runner.md](runner.md)
+>
 > **Translation Note**: This document was translated from Chinese to English with the assistance of an AI language model. While efforts have been made to ensure accuracy, please refer to the original Chinese version if any ambiguity arises.
 
 ---
@@ -56,10 +57,10 @@ The complete workflow is divided into six steps:
 
 ### 3.1 What Is Numeric Difficulty
 
-Numeric difficulty is the unit used to convert dan ranks into numbers. It is a floating-point number, usually between 0 and 20, that represents how difficult a map is. Please annotate using the dan system based on [Reform](https://www.danreform.com/) by DDMythical. Among them, Zeta uses Emik's Sample Zeta version, Eta uses Thaumiel's version, and Theta uses CloverWisp's version.
+Numeric difficulty is the unit used to convert dan ranks into numbers. It is a floating-point number, usually between 0 and 20, that represents how difficult a map is. Please annotate using the dan system based on [Reform](https://www.danreform.com/) by DDMythical. Among them, Zeta uses Emik's [Sample Zeta](https://osu.ppy.sh/beatmapsets/1985457#mania/4123991) version, [Eta](https://osu.ppy.sh/beatmapsets/1156299#mania/2738787) uses [Thaumiel](https://osu.ppy.sh/users/15017771)'s version, and [Theta](https://osu.ppy.sh/beatmapsets/2234779#mania/4747219) uses [CloverWisp](https://osu.ppy.sh/users/24748885)'s version. LN charts are annotated against the [4K LN Dan Course V2](https://osu.ppy.sh/beatmapsets/891143#mania/1862816) dan system by [_underjoy](https://osu.ppy.sh/users/2235750). Among them, [LN16](https://osu.ppy.sh/beatmapsets/2243057#mania/4767800) uses [hypersovae](https://osu.ppy.sh/users/31898985)'s version, and [LN17](https://osu.ppy.sh/beatmapsets/2243057#mania/4767800) uses Lnlism's version.
 1st dan corresponds to 1.0, 2nd dan to 2.0, and so on. For the Greek letter part, alpha corresponds to 11.0, beta to 12.0, and so on.
 The breakdown is as follows:
-| (-0.5,-0.2) | [-0.2,0) | 0 | (0,0.2] | (0.2,0.5] |
+| [-0.5,-0.3] | (-0.3,-0.1] | (-0.1,0.1] | (0.1,0.3] | (0.3,0.5] |
 |---|---|---|---|---|
 | Low | Low/Mid | Mid | Mid/High | High |
 
@@ -112,9 +113,9 @@ The meaning of each column:
 |---|---|
 | `bid` | Map ID, may be empty |
 | `name` | Map name |
-| `pattern` | Main pattern classification (e.g. rc / ln) |
-| `subPattern` | Sub pattern classification (e.g. stream tech / light jumpstream) |
-| `expected` | Reference numeric difficulty |
+| `pattern` | Main pattern classification (e.g. jack / ln) |
+| `subPattern` | Sub pattern classification (e.g. stream tech / light jumpstream); use `Unsigned` when unknown |
+| `expected` | Calibrated numeric difficulty |
 | `got` | Numeric difficulty output by the algorithm, or an error marker |
 | `delta` | `expected - got` |
 | `deltaAbs` | `\|delta\|` |

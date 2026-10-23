@@ -55,10 +55,10 @@ samples/{pattern}/{name}.osu ──┼──►  逐行运行估计算法  ─�
 
 ### 3.1 什么是数值化难度
 
-数值化难度是用于将段位转换为数字的量纲。它是一个浮点数，通常在 0–20 之间，表示谱面的难度大小。请使用基于 [Reform](https://www.danreform.com/) by DDMythical 段位体系进行标注。其中，Zeta 使用 Emik 的 Sample Zeta 版本，Eta 使用 Thaumiel 的版本，Theta 使用 CloverWisp 的版本。
+数值化难度是用于将段位转换为数字的量纲。它是一个浮点数，通常在 0–20 之间，表示谱面的难度大小。请使用基于 [Reform](https://www.danreform.com/) by DDMythical 段位体系进行标注。其中，Zeta 使用 Emik 的 [Sample Zeta](https://osu.ppy.sh/beatmapsets/1985457#mania/4123991) 版本，[Eta](https://osu.ppy.sh/beatmapsets/1156299#mania/2738787) 使用 [Thaumiel](https://osu.ppy.sh/users/15017771) 的版本，[Theta](https://osu.ppy.sh/beatmapsets/2234779#mania/4747219) 使用 [CloverWisp](https://osu.ppy.sh/users/24748885) 的版本。LN 谱面基于 [4K LN Dan Course V2](https://osu.ppy.sh/beatmapsets/891143#mania/1862816) by [_underjoy](https://osu.ppy.sh/users/2235750) 段位体系进行标注。其中 [LN16](https://osu.ppy.sh/beatmapsets/2243057#mania/4767800) 使用 [hypersovae](https://osu.ppy.sh/users/31898985) 版本, [LN17](https://osu.ppy.sh/beatmapsets/2243057#mania/4767800) 使用 Lnlism 版本。
 1st dan 对应 1.0，2nd dan 对应 2.0，依此类推。希腊字母部分 alpha 对应 11.0， beta 对应 12.0，以此类推。
 细分如下：
-| (-0.5,-0.2) | [-0.2,0) | 0 | (0,0.2] | (0.2,0.5] |
+| [-0.5,-0.3] | (-0.3,-0.1] | (-0.1,0.1] | (0.1,0.3] | (0.3,0.5] |
 |---|---|---|---|---|
 | Low | Low/Mid | Mid | Mid/High | High |
 
@@ -111,9 +111,9 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 |---|---|
 | `bid` | 谱面 ID，可为空 |
 | `name` | 谱面名 |
-| `pattern` | 主模式分类（如 rc / ln） |
-| `subPattern` | 子模式分类（如 stream tech / light jumpstream） |
-| `expected` | 参考数值化难度 |
+| `pattern` | 主模式分类（如 jack / ln） |
+| `subPattern` | 子模式分类（如 stream tech / light jumpstream），未知时使用 Unsigned |
+| `expected` | 标定数值化难度 |
 | `got` | 算法输出的数值化难度，或错误标记 |
 | `delta` | `expected - got` |
 | `deltaAbs` | `\|delta\|` |
