@@ -6,19 +6,27 @@
 
 ## Project Overview
 
-This project mainly benchmarks the accuracy of VSRG difficulty estimation algorithms, comparing them on real beatmap data.
+This project mainly benchmarks the accuracy of VSRG difficulty estimation algorithms. It was migrated from the original project [ManiaMapAnalyzer](https://github.com/LeoBlackMT/osumania_map_analyser).
 
-Difficulty estimation (Dan/Difficulty Estimation) is the practice of rating a beatmap's difficulty against the community Dan tier system. Previously, the community already had multiple algorithms for estimating beatmap difficulty, but lacked a unified evaluation standard and dataset. To this end, this project provides manually annotated [beatmap samples](samples/data.csv), the [methodology for writing evaluation scripts](docs/runner_en.md), and a publicly accessible [results website](https://benchmark.leoblack.top/), for algorithm authors to make side-by-side comparisons. Since different estimation algorithms can disagree wildly on the same beatmap, this project tries to answer one question: **which algorithm is more accurate on real beatmaps?**
+Difficulty estimation (Dan/Difficulty Estimation) is the practice of rating a beatmap's difficulty against the community Dan tier system. Previously, the community already had multiple algorithms for estimating beatmap difficulty, but lacked a unified evaluation standard and dataset. Since different estimation algorithms can disagree wildly on the same beatmap, this project provides manually annotated [beatmap samples](samples/data.csv), the [methodology for writing evaluation scripts](docs/runner_en.md), and a publicly accessible [results website](https://benchmark.leoblack.top/), for algorithm authors to make side-by-side comparisons.
 
-The annotations in this project are mainly based on the [Reform](https://www.danreform.com/) Dan system by DDMythical. Among them, Zeta uses Emik's Sample Zeta version, Eta uses Thaumiel's version, and Theta uses CloverWisp's version.
-
-This project was migrated from the original project [ManiaMapAnalyzer](https://github.com/LeoBlackMT/osumania_map_analyser).
+Currently, this project only supports 4K samples, and LN samples are still limited. We welcome anyone to submit samples to expand our sample library!
 
 ### What Problems It Solves
 
 - **Side-by-side comparison**: runs multiple algorithms on exactly the same beatmap samples, producing results that can be compared uniformly.
 - **Real data**: all based on real community beatmaps with manually annotated Dan tiers.
 - **Clear and transparent**: samples and result data are fully public; anyone can view them, and can also [submit results for a new algorithm](docs/algorithm.md#how-to-show-your-algorithm-on-the-benchmark-result-page).
+
+### Dan System Baseline
+
+The RC charts in this project are annotated against the [Reform](https://www.danreform.com/) Dan system by DDMythical. Among them, Zeta uses Emik's [Sample Zeta](https://osu.ppy.sh/beatmapsets/1985457#mania/4123991) version, [Eta](https://osu.ppy.sh/beatmapsets/1156299#mania/2738787) uses [Thaumiel](https://osu.ppy.sh/users/15017771)'s version, and [Theta](https://osu.ppy.sh/beatmapsets/2234779#mania/4747219) uses [CloverWisp](https://osu.ppy.sh/users/24748885)'s version. LN charts are annotated against the [4K LN Dan Course V2](https://osu.ppy.sh/beatmapsets/891143#mania/1862816) Dan system by [_underjoy](https://osu.ppy.sh/users/2235750). Among them, [LN16](https://osu.ppy.sh/beatmapsets/2243057#mania/4767800) uses [hypersovae](https://osu.ppy.sh/users/31898985)'s version, and [LN17](https://osu.ppy.sh/beatmapsets/2243057#mania/4767800) uses Lnlism's version.
+
+## Benchmark Results
+
+Online results page: [https://benchmark.leoblack.top/](https://benchmark.leoblack.top/)
+
+The website is driven by the data in the `results/` directory. It supports viewing accuracy comparisons by algorithm, key mode and difficulty range, including metrics such as error distribution, mean error and bias.
 
 ### Included Algorithms
 
@@ -29,19 +37,13 @@ This project was migrated from the original project [ManiaMapAnalyzer](https://g
 - **[Companella](https://github.com/Leinadix/companella)** `v6.52` by Leinadix: 4K Dan estimation using an ONNX model based on [Etterna](https://github.com/etternagame/etterna) MinaCalc.
 - **[Mixed](https://github.com/LeoBlackMT/osumania_map_analyser)** `v2.1.0` by LeoBlackMT: a hybrid algorithm combining the algorithms above, automatically routing to the best algorithm based on beatmap characteristics. Mainly used in the [ManiaMapAnalyzer](https://github.com/LeoBlackMT/osumania_map_analyser) project.
 - **[DanOverlay](https://github.com/acarranzao1a-png/Dan-Overlay/)** `v3.1.0` by acarranzao1a-png: an algorithm calibrated and corrected on top of Sunny, Etterna MinaCalc and other algorithms. Supports 4K RC/LN and 7K, and the Reform/Celestial/Signicial/Shoegazer Dan systems.
-- **[P1h](https://github.com/sky2002/osu-star-web)** `v1.0 (P1h)` by sky2002: a 4K difficulty and Dan estimator combining action-level Transformer, Student-t timing error probability integration, and a 22-feature HistGBDT tree calibration. RC maps to REFORM Dan, LN maps to LN Dan Courses v2.
-
-## Benchmark Results
-
-Online results page: [https://benchmark.leoblack.top/](https://benchmark.leoblack.top/)
-
-The website is driven by the data in the `results/` directory. It supports viewing accuracy comparisons by algorithm, key mode and difficulty range, including metrics such as error distribution, mean error and bias.
+- **[P1h](https://github.com/sky2002/osu-star-web)** `v1.0` by sky2002: a 4K difficulty and Dan estimator combining an action-level Transformer, Student-t timing error probability integration, and 22-feature HistGBDT tree calibration.
 
 ## Repository Structure
 
 | Path | Description |
 |---|---|
-| `samples/` | Contains the dataset `data.csv` and the packaged `.osu` beatmap samples `samples.7z`, categorized by `course / jack / ln / speed / stamina / tech`. **Note**: beatmap copyrights belong to their original authors; please follow [samples/Disclaimer.md](samples/Disclaimer.md) when using them |
+| `samples/` | Contains the dataset `data.csv` and the packaged `.osu` beatmap samples `samples.7z`, categorized by `course / jack / ln / speed / stamina / tech / unsigned`. **Note**: beatmap copyrights belong to their original authors; please follow [samples/Disclaimer.md](samples/Disclaimer.md) when using them |
 | `results/` | Benchmark result data for each algorithm (`*.csv`) and `index.json` |
 | `docs/` | Project documentation: sample notes, run methods, algorithm overview, internationalization |
 | `assets/` | Website assets (CSS, JS, fonts, images, etc.) |
@@ -88,9 +90,12 @@ Since sample data affects the benchmark's accuracy, please submit an issue first
 ## Disclaimer
 
 - Benchmark results are statistical references and do not represent a conclusion that one algorithm is absolutely better or worse.
+- All beatmap samples are manually annotated, so misjudgments, omissions or errors may exist.
 - Actual gameplay experience is affected by many factors such as personal skill, hardware and mods; please use your own judgment.
 - This project is not affiliated with the related community organizations; algorithm names belong to their respective authors.
 
 ## Special Thanks
 
-- [inuiyumegan](https://github.com/inuiyumegan): provided a large amount of beatmap data for algorithm debugging and Benchmark.
+- [inuiyumegan](https://github.com/inuiyumegan): aggregated and provided 700+ beatmap samples.
+- [YuLuoX](https://osu.ppy.sh/users/36113882): provided a large number of high-quality stream/speed samples.
+- [Tsumikiyuzu](https://osu.ppy.sh/users/15288539) & [Hx032 / Hoshiikunn](https://osu.ppy.sh/users/11603156): created the [δ图纲目](https://docs.qq.com/sheet/DQ3JpZVF4SnZCWEpy), containing 500+ high-quality manually annotated samples around delta.
