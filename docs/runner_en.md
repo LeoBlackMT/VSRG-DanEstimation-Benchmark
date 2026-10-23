@@ -57,10 +57,10 @@ The complete workflow is divided into six steps:
 
 ### 3.1 What Is Numeric Difficulty
 
-Numeric difficulty is the unit used to convert dan ranks into numbers. It is a floating-point number, usually between 0 and 20, that represents how difficult a map is. Please annotate using the dan system based on [Reform](https://www.danreform.com/) by DDMythical. Among them, Zeta uses Emik's [Sample Zeta](https://osu.ppy.sh/beatmapsets/1985457#mania/4123991) version, [Eta](https://osu.ppy.sh/beatmapsets/1156299#mania/2738787) uses [Thaumiel](https://osu.ppy.sh/users/15017771)'s version, and [Theta](https://osu.ppy.sh/beatmapsets/2234779#mania/4747219) uses [CloverWisp](https://osu.ppy.sh/users/24748885)'s version. LN charts are annotated against the [4K LN Dan Course V2](https://osu.ppy.sh/beatmapsets/891143#mania/1862816) dan system by [_underjoy](https://osu.ppy.sh/users/2235750). Among them, [LN16](https://osu.ppy.sh/beatmapsets/2243057#mania/4767800) uses [hypersovae](https://osu.ppy.sh/users/31898985)'s version, and [LN17](https://osu.ppy.sh/beatmapsets/2243057#mania/4767800) uses Lnlism's version.
-1st dan corresponds to 1.0, 2nd dan to 2.0, and so on. For the Greek letter part, alpha corresponds to 11.0, beta to 12.0, and so on.
+Numeric difficulty is the unit used to convert dan ranks into numbers. It is a floating-point number, usually between 0 and 20, that represents how difficult a map is. Please annotate using the dan system based on [Reform](https://www.danreform.com/) by DDMythical. Among them, Zeta uses Emik's [Sample Zeta](https://osu.ppy.sh/beatmapsets/1985457#mania/4123991) version, [Eta](https://osu.ppy.sh/beatmapsets/1156299#mania/2738787) uses [Thaumiel](https://osu.ppy.sh/users/15017771)'s version, and [Theta](https://osu.ppy.sh/beatmapsets/2234779#mania/4747219) uses [CloverWisp](https://osu.ppy.sh/users/24748885)'s version. LN charts are annotated against the [4K LN Dan Course V2](https://osu.ppy.sh/beatmapsets/891143#mania/1862816) dan system by [_underjoy](https://osu.ppy.sh/users/2235750). Among them, [LN16](https://osu.ppy.sh/beatmapsets/2243057#mania/4767800) uses [hypersovae](https://osu.ppy.sh/users/31898985)'s version, and [LN17](https://osu.ppy.sh/beatmapsets/2340696#mania/5029140) uses Lnlism's version.
+1st dan corresponds to 1.0, 2nd dan to 2.0, and so on. For the Greek letter part, alpha corresponds to 11.0, beta to 12.0, and so on. For the intro part, 3rd dan corresponds to 0.0, 2nd dan to -1.0, and so on.
 The breakdown is as follows:
-| [-0.5,-0.3] | (-0.3,-0.1] | (-0.1,0.1] | (0.1,0.3] | (0.3,0.5] |
+| [-0.5,-0.3] | (-0.3,-0.1] | (-0.1,0.1] | (0.1,0.3] | (0.3,0.5) |
 |---|---|---|---|---|
 | Low | Low/Mid | Mid | Mid/High | High |
 
@@ -79,7 +79,7 @@ Only when both columns are on the same numeric scale do the error statistics mak
 
 Different projects hold different opinions on the mapping between "numeric difficulty" and "dan difficulty", and directly reusing another project's numbers can lead to wrong conclusions. One common difference is: **some other projects define numeric difficulty = the numeric difficulty defined in this project + 0.5**.
 
-[ISOR](https://github.com/acarranzao1a-png/Dan-Overlay/)'s (formerly DanOverlay) DP is an instance of this convention; its numeric difficulty scale differs from this repository's by 0.5. Its definition is as follows:
+[DanOverlay](https://github.com/acarranzao1a-png/Dan-Overlay/)'s DP is an instance of this convention; its numeric difficulty scale differs from this repository's by 0.5. Its definition is as follows:
 | [0,+0.2] | (+0.2,+0.4] | (+0.4,+0.6] | (+0.6,+0.8] | (+0.8,+1.0) |
 |---|---|---|---|---|
 | Low | Low/Mid | Mid | Mid/High | High |

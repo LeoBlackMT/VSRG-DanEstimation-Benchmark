@@ -18,7 +18,7 @@
 
 ### 段位体系基准
 
-本项目 RC 谱面基于 [Reform](https://www.danreform.com/) by DDMythical 段位体系进行标注。其中，Zeta 使用 Emik 的 [Sample Zeta](https://osu.ppy.sh/beatmapsets/1985457#mania/4123991) 版本，[Eta](https://osu.ppy.sh/beatmapsets/1156299#mania/2738787) 使用 [Thaumiel](https://osu.ppy.sh/users/15017771) 的版本，[Theta](https://osu.ppy.sh/beatmapsets/2234779#mania/4747219) 使用 [CloverWisp](https://osu.ppy.sh/users/24748885) 的版本。LN 谱面基于 [4K LN Dan Course V2](https://osu.ppy.sh/beatmapsets/891143#mania/1862816) by [_underjoy](https://osu.ppy.sh/users/2235750) 段位体系进行标注。其中 [LN16](https://osu.ppy.sh/beatmapsets/2243057#mania/4767800) 使用 [hypersovae](https://osu.ppy.sh/users/31898985) 版本, [LN17](https://osu.ppy.sh/beatmapsets/2243057#mania/4767800) 使用 Lnlism 版本。
+本项目 RC 谱面基于 [Reform](https://www.danreform.com/) by DDMythical 段位体系进行标注。其中，Zeta 使用 Emik 的 [Sample Zeta](https://osu.ppy.sh/beatmapsets/1985457#mania/4123991) 版本，[Eta](https://osu.ppy.sh/beatmapsets/1156299#mania/2738787) 使用 [Thaumiel](https://osu.ppy.sh/users/15017771) 的版本，[Theta](https://osu.ppy.sh/beatmapsets/2234779#mania/4747219) 使用 [CloverWisp](https://osu.ppy.sh/users/24748885) 的版本。LN 谱面基于 [4K LN Dan Course V2](https://osu.ppy.sh/beatmapsets/891143#mania/1862816) by [_underjoy](https://osu.ppy.sh/users/2235750) 段位体系进行标注。其中 [LN16](https://osu.ppy.sh/beatmapsets/2243057#mania/4767800) 使用 [hypersovae](https://osu.ppy.sh/users/31898985) 版本, [LN17](https://osu.ppy.sh/beatmapsets/2340696#mania/5029140) 使用 Lnlism 版本。
 
 ## Benchmark 结果
 
