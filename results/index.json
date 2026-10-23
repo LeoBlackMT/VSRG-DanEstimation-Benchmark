@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-19T05:33:17.364Z",
+  "generatedAt": "2026-10-22T14:57:42.753Z",
   "algorithms": [
+    "AquaCrest",
     "Azusa",
     "Companella",
     "Daniel",
@@ -11,6 +12,13 @@
     "Sunny"
   ],
   "files": [
+    {
+      "fileName": "AquaCrest.csv",
+      "algorithm": "AquaCrest",
+      "sizeBytes": 89262,
+      "modifiedAt": "2026-10-22T14:57:42.753Z",
+      "source": "https://github.com/AquaStoneLZS/AquaCrest"
+    },
     {
       "fileName": "Azusa.csv",
       "algorithm": "Azusa",
