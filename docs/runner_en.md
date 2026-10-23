@@ -78,7 +78,7 @@ Only when both columns are on the same numeric scale do the error statistics mak
 
 Different projects hold different opinions on the mapping between "numeric difficulty" and "dan difficulty", and directly reusing another project's numbers can lead to wrong conclusions. One common difference is: **some other projects define numeric difficulty = the numeric difficulty defined in this project + 0.5**.
 
-[DanOverlay](https://github.com/acarranzao1a-png/Dan-Overlay/)'s DP is an instance of this convention; its numeric difficulty scale differs from this repository's by 0.5. Its definition is as follows:
+[ISOR](https://github.com/acarranzao1a-png/Dan-Overlay/)'s (formerly DanOverlay) DP is an instance of this convention; its numeric difficulty scale differs from this repository's by 0.5. Its definition is as follows:
 | [0,+0.2] | (+0.2,+0.4] | (+0.4,+0.6] | (+0.6,+0.8] | (+0.8,+1.0) |
 |---|---|---|---|---|
 | Low | Low/Mid | Mid | Mid/High | High |

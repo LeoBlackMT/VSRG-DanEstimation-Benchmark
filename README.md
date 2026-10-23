@@ -4,19 +4,27 @@
 
 ## 项目简介
 
-本项目主要针对 VSRG 难度估算算法检验其准确度，在真实谱面数据上进行对比。
+本项目主要针对 VSRG 难度估算算法检验其准确度，迁移自原始项目[ManiaMapAnalyzer](https://github.com/LeoBlackMT/osumania_map_analyser)。
 
-难度估算（Dan/Difficulty Estimation）是依据社区段位（Dan）体系对谱面进行难度标定的做法。此前，社区中已有多种算法用于估算谱面难度，但缺乏统一的评测标准与数据集。为此，本项目提供了人工标注的[谱面样本](samples/data.csv)、评测脚本的[编写方法](docs/runner.md)、以及可公开访问的[结果网页](https://benchmark.leoblack.top/)，供算法作者进行横向对比。由于不同估算算法对同一张谱面的判断可能相差巨大，本项目试图回答一个问题：**哪个算法在真实谱面上更准？**
+难度估算（Dan/Difficulty Estimation）是依据社区段位（Dan）体系对谱面进行难度标定的做法。此前，社区中已有多种算法用于估算谱面难度，但缺乏统一的评测标准与数据集。由于不同估算算法对同一张谱面的判断可能相差巨大，为此，本项目提供了人工标注的[谱面样本](samples/data.csv)、评测脚本的[编写方法](docs/runner.md)、以及公开访问的[结果网页](https://benchmark.leoblack.top/)，供算法作者进行横向对比。
 
-本项目主要基于 [Reform](https://www.danreform.com/) by DDMythical 段位体系进行标注。其中，Zeta 使用 Emik 的 Sample Zeta 版本，Eta 使用 Thaumiel 的版本，Theta 使用 CloverWisp 的版本。
-
-本项目迁移自原始项目[ManiaMapAnalyzer](https://github.com/LeoBlackMT/osumania_map_analyser)。
+目前为止，本项目暂不支持 4K 以外的样本。LN样本也较少。我们欢迎任何人提交样本扩充我们的样本库！
 
 ### 解决什么问题
 
 - **横向对比**：让多种算法在完全相同的谱面样本上运行，产出可统一比较的结果。
 - **真实数据**：全部基于社区真实谱面并人工进行段位标注。
 - **清晰透明**：样本、结果数据全部公开，任何人都可以查看，也可以[提交新算法的结果](docs/algorithm.md)。
+
+### 段位体系基准
+
+本项目 RC 谱面基于 [Reform](https://www.danreform.com/) by DDMythical 段位体系进行标注。其中，Zeta 使用 Emik 的 [Sample Zeta](https://osu.ppy.sh/beatmapsets/1985457#mania/4123991) 版本，[Eta](https://osu.ppy.sh/beatmapsets/1156299#mania/2738787) 使用 [Thaumiel](https://osu.ppy.sh/users/15017771) 的版本，[Theta](https://osu.ppy.sh/beatmapsets/2234779#mania/4747219) 使用 [CloverWisp](https://osu.ppy.sh/users/24748885) 的版本。LN 谱面基于 [4K LN Dan Course V2](https://osu.ppy.sh/beatmapsets/891143#mania/1862816) by [_underjoy](https://osu.ppy.sh/users/2235750) 段位体系进行标注。其中 [LN16](https://osu.ppy.sh/beatmapsets/2243057#mania/4767800) 使用 [hypersovae](https://osu.ppy.sh/users/31898985) 版本, [LN17](https://osu.ppy.sh/beatmapsets/2243057#mania/4767800) 使用 Lnlism 版本。
+
+## Benchmark 结果
+
+在线结果页面：[https://benchmark.leoblack.top/](https://benchmark.leoblack.top/)
+
+网页由 `results/` 目录下的数据驱动，支持按算法、键型、难度区间查看准确性对比，包括误差分布、平均误差、偏差等指标。
 
 ### 收录的算法
 
@@ -26,21 +34,15 @@
 - **[Roxy](https://github.com/LeoBlackMT/osumania_map_analyser/tree/main/docs/roxy_algorithm.md)** `v2.1.0` by LeoBlackMT：元结构估算器。通过 Ridge 线性元模型融合 Azusa/Daniel 参考预测，聚焦高难区间（数值 11~17），仅支持 4K RC。
 - **[Companella](https://github.com/Leinadix/companella)** `v6.52` by Leinadix：使用 onnx 模型基于 [Etterna](https://github.com/etternagame/etterna) MinaCalc 的 4K 段位估算。
 - **[Mixed](https://github.com/LeoBlackMT/osumania_map_analyser)** `v2.1.0` by LeoBlackMT：综合上方算法的混合算法，自动根据谱面特征路由至最佳算法。主要应用于[ManiaMapAnalyzer](https://github.com/LeoBlackMT/osumania_map_analyser)项目中
-- **[DanOverlay](https://github.com/acarranzao1a-png/Dan-Overlay/)** `v3.1.0` by acarranzao1a-png：基于 Sunny、Etterna MinaCalc 等算法，进行校准和修正后的算法。支持4K RC/LN和7K，支持段位体系 Reform/Celestial/Signicial/Shoegazer。
-- **[P1h](https://github.com/sky2002/osu-star-web)** `v1.0 (P1h)` by sky2002：基于动作级微型 Transformer + Student-t 击打误差概率积分 + 22 项宏观特征 HistGBDT 树校准的 4K 难度与段位估计器。RC 对应 REFORM 米段位，LN 对应 LN Dan Courses v2 面段位。
+- **[ISOR](https://github.com/acarranzao1a-png/Dan-Overlay/)** `v3.1.0` by acarranzao1a-png（原 DanOverlay）：基于 Sunny、Etterna MinaCalc 等算法，进行校准和修正后的算法。支持4K RC/LN和7K，支持段位体系 Reform/Celestial/Signicial/Shoegazer。
+- **[P1h](https://github.com/sky2002/osu-star-web)** `v1.0` by sky2002：基于动作级微型 Transformer + Student-t 击打误差概率积分 + 22 项宏观特征 HistGBDT 树校准的 4K 难度与段位估计器。
 - **[AquaCrest](https://github.com/AquaStoneLZS/AquaCrest)** `v1.0.0` by AquaStoneLZS：基于 924 维特征与 RBF SVR 的 4K 谱面难度计算模型，融合 AquaTide/AquaReef 指标、Azusa 局部难度曲线及谱面结构特征。仅支持 4K RC。
-
-## Benchmark 结果
-
-在线结果页面：[https://benchmark.leoblack.top/](https://benchmark.leoblack.top/)
-
-网页由 `results/` 目录下的数据驱动，支持按算法、键型、难度区间查看准确性对比，包括误差分布、平均误差、偏差等指标。
 
 ## 仓库结构
 
 | 路径 | 说明 |
 |---|---|
-| `samples/` | 含数据集 `data.csv` 与打包后的 .osu 谱面样本 `samples.7z`，按 `course / jack / ln / speed / stamina / tech` 分类。**注意**：谱面版权归原作者所有，使用请遵守 [samples/Disclaimer.md](samples/Disclaimer.md) |
+| `samples/` | 含数据集 `data.csv` 与打包后的 .osu 谱面样本 `samples.7z`，按 `course / jack / ln / speed / stamina / tech / unsigned` 分类。**注意**：谱面版权归原作者所有，使用请遵守 [samples/Disclaimer.md](samples/Disclaimer.md) |
 | `results/` | 各算法的 Benchmark 结果数据（`*.csv`）与 `index.json` |
 | `docs/` | 项目文档：样本说明、运行方法、算法介绍、国际化 |
 | `assets/` | 网页资源（CSS、JS、字体、图片等） |
@@ -78,7 +80,6 @@
 
 由于数据样本涉及到 Benchmark 准确性，请在 issue 中提出申请，展示全部样本来源、谱面元信息、期望值等信息。经审核后可提交 Pull Request。
 
-
 ## 许可
 
 - 除 `samples/` 目录外，本项目的代码与文档以 **MIT** 许可发布，详见 [LICENSE](LICENSE)。
@@ -88,9 +89,12 @@
 ## 免责声明
 
 - Benchmark 结果为统计意义上的参考，不代表某个算法绝对更好或更差的结论。
+- 所有谱面样本全部为人工标注，因此可能存在错判、漏判、误判的情况。
 - 实际游玩体验受个人能力、设备、mod 等多种因素影响，请结合自身判断。
 - 本项目与相关社区组织无隶属关系，算法名称均属其各自作者。
 
 ## 特别鸣谢
 
-- [inuiyumegan](https://github.com/inuiyumegan): 提供了大量谱面数据用于算法调试和Benchmark。
+- [inuiyumegan](https://github.com/inuiyumegan): 汇总并提供了700+谱面样本。
+- [YuLuoX](https://osu.ppy.sh/users/36113882): 提供了大量高质乱键谱面样本。
+- [Tsumikiyuzu](https://osu.ppy.sh/users/15288539) & [Hx032 / Hoshiikunn](https://osu.ppy.sh/users/11603156): 制作了 [δ图纲目](https://docs.qq.com/sheet/DQ3JpZVF4SnZCWEpy)，包含delta附近的500+高质人工标注样本。

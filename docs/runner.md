@@ -77,7 +77,7 @@ samples/{pattern}/{name}.osu ──┼──►  逐行运行估计算法  ─�
 
 不同项目对"数值化难度"与"段位难度"之间的映射存在不同的看法，直接套用别的项目的数值可能得出错误结论。其中一种常见的差异是：**部分其他项目定义的数值化难度 = 本项目定义的数值化难度 + 0.5**。
 
-[DanOverlay](https://github.com/acarranzao1a-png/Dan-Overlay/) 的 DP 就是这一惯例的实例，它的数值化难度尺度与本仓库相差 0.5。其定义如下：
+[ISOR](https://github.com/acarranzao1a-png/Dan-Overlay/)（原 DanOverlay）的 DP 就是这一惯例的实例，它的数值化难度尺度与本仓库相差 0.5。其定义如下：
 | [0,+0.2] | (+0.2,+0.4] | (+0.4,+0.6] | (+0.6,+0.8] | (+0.8,+1.0) |
 |---|---|---|---|---|
 | Low | Low/Mid | Mid | Mid/High | High |
