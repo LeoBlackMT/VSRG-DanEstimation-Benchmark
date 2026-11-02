@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T03:35:04.124Z",
+  "generatedAt": "2026-11-02T15:23:56.000Z",
   "algorithms": [
     "AquaCrest",
     "Azusa",
@@ -8,6 +8,7 @@
     "ISOR",
     "Mixed",
     "P1h",
+    "proj7k",
     "Roxy",
     "Sunny"
   ],
@@ -60,6 +61,13 @@
       "sizeBytes": 101127,
       "modifiedAt": "2026-10-23T03:13:43.513Z",
       "source": "https://github.com/sky2002/osu-star-web"
+    },
+    {
+      "fileName": "proj7k.csv",
+      "algorithm": "proj7k",
+      "sizeBytes": 100423,
+      "modifiedAt": "2026-11-02T15:23:56.000Z",
+      "source": "https://github.com/ka1z07/proj7k"
     },
     {
       "fileName": "Roxy.csv",

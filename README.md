@@ -37,6 +37,7 @@
 - **[ISOR](https://github.com/acarranzao1a-png/Dan-Overlay/)** `v3.1.0` by acarranzao1a-png：基于 Sunny、Etterna MinaCalc 等算法，进行校准和修正后的算法。支持4K RC/LN和7K，支持段位体系 Reform/Celestial/Signicial/Shoegazer。
 - **[P1h](https://github.com/sky2002/osu-star-web)** `v1.0` by sky2002：基于动作级微型 Transformer + Student-t 击打误差概率积分 + 22 项宏观特征 HistGBDT 树校准的 4K 难度与段位估计器。
 - **[AquaCrest](https://github.com/AquaStoneLZS/AquaCrest)** `v1.0.0` by AquaStoneLZS：基于 924 维特征与 RBF SVR 的 4K 谱面难度计算模型，融合 AquaTide/AquaReef 指标、Azusa 局部难度曲线及谱面结构特征。仅支持 4K RC。
+- **[proj7k](https://github.com/ka1z07/proj7k)** `c544e65` by ka1z07：osu!mania 7K 难度引擎（以手指为单位的负荷模型 + 阈值求解），4K 四列映射到 7K 手型后直接运行；星级→数值化难度用基准拟合的保序表换算。支持 4K RC/LN。
 
 ## 仓库结构
 

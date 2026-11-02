@@ -39,6 +39,7 @@ The website is driven by the data in the `results/` directory. It supports viewi
 - **[ISOR](https://github.com/acarranzao1a-png/Dan-Overlay/)** `v3.1.0` by acarranzao1a-png: an algorithm calibrated and corrected on top of Sunny, Etterna MinaCalc and other algorithms. Supports 4K RC/LN and 7K, and the Reform/Celestial/Signicial/Shoegazer Dan systems.
 - **[P1h](https://github.com/sky2002/osu-star-web)** `v1.0` by sky2002: a 4K difficulty and Dan estimator combining an action-level Transformer, Student-t timing error probability integration, and 22-feature HistGBDT tree calibration.
 - **[AquaCrest](https://github.com/AquaStoneLZS/AquaCrest)** `v1.0.0` by AquaStoneLZS: A 4K difficulty and Dan estimator using RBF SVR over 924 features, combining AquaTide/AquaReef indices, Azusa local difficulty curves, and chart structure features. Supports 4K RC only.
+- **[proj7k](https://github.com/ka1z07/proj7k)** `c544e65` by ka1z07: An osu!mania 7K difficulty engine (per-finger load model + threshold solve), run on 4K by mapping the four columns onto its 7K hand model; stars are mapped to numeric difficulty with an isotonic table fitted on this benchmark. Supports 4K RC/LN.
 
 ## Repository Structure
 
