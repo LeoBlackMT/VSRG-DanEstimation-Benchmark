@@ -37,6 +37,7 @@
 - **[ISOR](https://github.com/acarranzao1a-png/Dan-Overlay/)** `v3.1.0` by acarranzao1a-png：基于 Sunny、Etterna MinaCalc 等算法，进行校准和修正后的算法。支持4K RC/LN和7K，支持段位体系 Reform/Celestial/Signicial/Shoegazer。
 - **[P1h](https://github.com/sky2002/osu-star-web)** `v1.0` by sky2002：基于动作级微型 Transformer + Student-t 击打误差概率积分 + 22 项宏观特征 HistGBDT 树校准的 4K 难度与段位估计器。
 - **[AquaCrest](https://github.com/AquaStoneLZS/AquaCrest)** `v1.0.0` by AquaStoneLZS：基于 924 维特征与 RBF SVR 的 4K 谱面难度计算模型，融合 AquaTide/AquaReef 指标、Azusa 局部难度曲线及谱面结构特征。仅支持 4K RC。
+- **[XDC1](https://github.com/TheBagelOfMan/xdc1)** `v1.0` by TheBagelOfMan：从零构建的 4K 单手模型。每只手的压力由手指、手腕与抖动三种技术混合而成，并计入长条代价与体力消耗。最终难度为在整张谱面上打出 98% 所需的实力。支持 4K RC/LN，范围为 Alpha 至 Theta。基于本基准 Alpha 至 Theta 的 RC 谱面调校，在该区间 MAE 为 0.173（RC，期望值 10.5 至 18.5，不含 course）。由于体力模型，会高估段位课程（course）谱面。
 
 ## 仓库结构
 

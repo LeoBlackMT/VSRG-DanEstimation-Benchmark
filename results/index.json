@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T05:26:43.000Z",
+  "generatedAt": "2026-11-04T14:05:21.000Z",
   "algorithms": [
     "AquaCrest",
     "Azusa",
@@ -9,7 +9,8 @@
     "Mixed",
     "P1h",
     "Roxy",
-    "Sunny"
+    "Sunny",
+    "XDC1"
   ],
   "files": [
     {
@@ -74,6 +75,13 @@
       "sizeBytes": 101478,
       "modifiedAt": "2026-11-03T04:45:04.000Z",
       "source": "https://github.com/sunnyxxy/Star-Rating-Rebirth"
+    },
+    {
+      "fileName": "XDC1.csv",
+      "algorithm": "XDC1",
+      "sizeBytes": 107995,
+      "modifiedAt": "2026-11-04T14:05:21.000Z",
+      "source": "https://github.com/TheBagelOfMan/xdc1"
     }
   ]
 }
