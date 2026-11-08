@@ -40,6 +40,7 @@ The website is driven by the data in the `results/` directory. It supports viewi
 - **[P1h](https://github.com/sky2002/osu-star-web)** `v1.0` by sky2002: a 4K difficulty and Dan estimator combining an action-level Transformer, Student-t timing error probability integration, and 22-feature HistGBDT tree calibration.
 - **[AquaCrest](https://github.com/AquaStoneLZS/AquaCrest)** `v1.0.0` by AquaStoneLZS: A 4K difficulty and Dan estimator using RBF SVR over 924 features, combining AquaTide/AquaReef indices, Azusa local difficulty curves, and chart structure features. Supports 4K RC only.
 - **[XDC1](https://github.com/TheBagelOfMan/xdc1)** `v1.0` by TheBagelOfMan: a from scratch per hand model of 4K play. Each hand's strain blends finger, wrist and jitter technique, plus hold costs and a stamina tank. The rating is the skill that would score 98% over the whole map. Supports 4K RC/LN from Alpha to Theta. Tuned on this benchmark's Alpha to Theta RC maps: 0.173 MAE there (RC, expected 10.5 to 18.5, course excluded). It overrates dan courses due to stamina.
+- **[Koishi](https://github.com/AquaStoneLZS/Koishi)** `v5.1` by AquaStoneLZS: A difficulty estimation model for 4K RC charts.
 
 ## Repository Structure
 

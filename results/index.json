@@ -49,6 +49,13 @@
       "source": "https://github.com/acarranzao1a-png/Dan-Overlay/"
     },
     {
+      "fileName": "Koishi.csv",
+      "algorithm": "Koishi",
+      "sizeBytes": 147001,
+      "modifiedAt": "2026-11-08T03:43:48.666Z",
+      "source": "https://github.com/AquaStoneLZS/Koishi"
+    },
+    {
       "fileName": "Mixed.csv",
       "algorithm": "Mixed",
       "sizeBytes": 101334,
