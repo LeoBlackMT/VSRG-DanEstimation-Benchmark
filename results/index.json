@@ -14,13 +14,6 @@
   ],
   "files": [
     {
-      "fileName": "AquaCrest.csv",
-      "algorithm": "AquaCrest",
-      "sizeBytes": 108481,
-      "modifiedAt": "2026-11-03T05:17:25.000Z",
-      "source": "https://github.com/AquaStoneLZS/AquaCrest"
-    },
-    {
       "fileName": "Azusa.csv",
       "algorithm": "Azusa",
       "sizeBytes": 106210,
@@ -47,6 +40,13 @@
       "sizeBytes": 105601,
       "modifiedAt": "2026-11-03T05:26:43.000Z",
       "source": "https://github.com/acarranzao1a-png/Dan-Overlay/"
+    },
+    {
+      "fileName": "Koishi.csv",
+      "algorithm": "Koishi",
+      "sizeBytes": 147001,
+      "modifiedAt": "2026-11-08T03:43:48.666Z",
+      "source": "https://github.com/AquaStoneLZS/Koishi"
     },
     {
       "fileName": "Mixed.csv",
