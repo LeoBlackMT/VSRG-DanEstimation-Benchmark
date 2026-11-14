@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Benchmark Documentation (文档)
+    url: https://github.com/LeoBlackMT/VSRG-DanEstimation-Benchmark/tree/main/docs
+    about: Read the specification for samples, algorithms, and runners.
+  - name: Sample Dataset Contract (数据契约)
+    url: https://github.com/LeoBlackMT/VSRG-DanEstimation-Benchmark/blob/main/docs/samples.md
+    about: Learn about data.csv columns, difficulty scale, and beatmap rules.

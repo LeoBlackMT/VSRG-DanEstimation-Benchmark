@@ -1,0 +1,36 @@
+name: Bug Report / Suggestion (问题反馈与建议)
+description: Report a bug or suggest an improvement for the website, dataset, or runner (反馈网站、数据集或脚本问题)
+title: "[Bug/Feedback]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve the VSRG Dan Estimation Benchmark!
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description (问题或建议描述)
+      description: A clear and concise description of the bug or suggestion.
+      placeholder: What happened? What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: Steps to Reproduce (复现步骤)
+      description: How can we reproduce the issue? (If applicable)
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment (环境信息)
+      description: Browser version, OS, Node.js version, etc. (If applicable)
+      placeholder: e.g. Chrome 128 / Windows 11 / Node v22
