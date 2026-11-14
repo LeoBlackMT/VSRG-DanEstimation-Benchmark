@@ -1,0 +1,52 @@
+name: Algorithm Proposal & Discussion (新算法提议与探讨)
+description: Propose a new estimation algorithm or discuss runner integration before opening a PR (提议新算法或在提交 PR 前讨论接入)
+title: "[Algorithm Proposal]: "
+labels: ["algorithm"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 💡 Ready to submit your benchmark results?
+        If you have already generated `results/{Algorithm}.csv` and registered it in `results/index.json`, please submit directly via a **[Pull Request](https://github.com/LeoBlackMT/VSRG-DanEstimation-Benchmark/compare?template=algorithm_submission.md)** using the **Algorithm Submission** PR template.
+
+        Use this form if you want to propose a new algorithm, discuss compatibility, ask for help writing a runner, or discuss algorithm mechanics.
+
+  - type: input
+    id: algorithm_name
+    attributes:
+      label: Algorithm Name (算法名称)
+      description: The name or working title of the algorithm.
+      placeholder: e.g. Sunny, Daniel, Roxy, MyNewEstimator
+    validations:
+      required: true
+
+  - type: input
+    id: repo_url
+    attributes:
+      label: Algorithm Repository / Source URL (算法仓库或开源链接)
+      placeholder: e.g. https://github.com/username/algorithm-repo
+
+  - type: textarea
+    id: algorithm_overview
+    attributes:
+      label: Algorithm Overview & Mechanics (算法原理与设计概述)
+      description: Briefly describe how the algorithm works (strain modeling, machine learning, pattern detection, target keys/modes).
+      placeholder: Describe the key concepts, mathematical model, or scoring philosophy.
+    validations:
+      required: true
+
+  - type: textarea
+    id: support_scope
+    attributes:
+      label: Scope & Target Patterns (支持模式与键型)
+      description: What modes, key counts, and pattern categories does the algorithm support? (e.g. 4K Regular Chordjack, LN, Tech, etc.)
+      placeholder: e.g. 4K non-LN (RC) charts, speed/stamina streams.
+    validations:
+      required: true
+
+  - type: textarea
+    id: runner_status
+    attributes:
+      label: Runner Status / Integration Plan (Runner 编写与测试现状)
+      description: Have you written a runner script? Do you need help integrating it with the benchmark dataset?
+      placeholder: e.g. Standalone Python script ready, need guidance on Node.js / data.csv integration.

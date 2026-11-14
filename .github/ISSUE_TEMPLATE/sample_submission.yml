@@ -1,0 +1,65 @@
+name: Sample Beatmap Submission (谱面样本提交)
+description: Submit new beatmap sample(s) for the benchmark dataset (提交新谱面样本)
+title: "[Sample]: "
+labels: ["sample"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to the VSRG Dan Estimation Benchmark!
+        Please read [samples.md](docs/samples.md) and [runner.md](docs/runner.md) before submitting.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission Checklist (提交前检查)
+      options:
+        - label: All beatmaps are 4K osu!mania charts. (所有谱面均为 4K osu!mania 谱面)
+          required: true
+        - label: Charts run at native 1.0x rate (rate-modified charts must have the rate baked into hitobject timestamps, named like `Song Name x1.1`). (基准测试速率恒为 1.0x，倍速版本必须已内嵌时间戳且命名形如 `Song Name x1.1`)
+          required: true
+        - label: The `expected` difficulty follows the Reform Dan scale with 1 decimal place (e.g. 1.0 = 1st Dan, 11.0 = Alpha, 18.0 = Theta; steps of 0.2). (参考难度符合 Reform 段位量纲，至多 1 位小数)
+          required: true
+        - label: The difficulty does not exceed current human consensus (< 18.0 / below Theta). (难度在当前人类共识范围内，暂不接收 > 18.0 / > Theta 的极端谱面)
+          required: true
+        - label: I confirm the copyright/usage complies with [samples/Disclaimer.md](samples/Disclaimer.md). (确认谱面使用符合免责声明)
+          required: true
+
+  - type: textarea
+    id: csv_rows
+    attributes:
+      label: CSV Rows (CSV 数据行)
+      description: |
+        Please provide the CSV rows formatted according to the benchmark contract:
+        `bid,name,pattern,subPattern,expected,,,`
+
+        **Formatting rules:**
+        - **`bid`**: The specific osu! **BeatmapID** (diff ID), **NOT** the BeatmapSetID. Leave empty (keep leading comma `,`) if unsubmitted.
+        - **`name`**: Must match the beatmap filename stem exactly (e.g., `Banzai - Zodiac` matches `samples/{pattern}/Banzai - Zodiac.osu`).
+        - **`pattern`**: Must be one of `course`, `jack`, `ln`, `speed`, `stamina`, `tech`.
+        - **`subPattern`**: Finer pattern classification (e.g., `mid chordjack`, `dense handstream`, or `Unsigned`).
+        - **`expected`**: Reference numeric difficulty (single decimal digit, e.g. `11.2`, `12.4`, `15.8`).
+        - **No extra spaces around commas!** (e.g., write `,jack,mid chordjack,`, NOT `, jack, mid chordjack,`).
+      placeholder: |
+        5808951,4k Earthquake Jack Pack - Banzai - Zodiac,jack,mid chordjack,6.1,,,
+        5862203,4k Earthquake Jack Pack - -45 - Kuroneko Yanagi,jack,mid chordjack,12.3,,,
+    validations:
+      required: true
+
+  - type: textarea
+    id: sample_files
+    attributes:
+      label: Beatmap Files (.osu / .zip) (谱面文件)
+      description: Please attach `.osu` files or a `.zip` archive here (drag and drop), or provide a download link. Ensure filenames match the `name` column in your CSV.
+      placeholder: Drag and drop your .osu / .zip files here, or paste a link.
+    validations:
+      required: true
+
+  - type: textarea
+    id: difficulty_context
+    attributes:
+      label: Difficulty Context & Source (参考难度来源依据)
+      description: Please explain how the `expected` difficulty was determined (e.g. recognized Dan course, community clear rate / consensus, mapper tiering).
+      placeholder: e.g. Taken from Reform Dan Course v2 / Shoegazer Dan / Community playtesting consensus.
+    validations:
+      required: true
