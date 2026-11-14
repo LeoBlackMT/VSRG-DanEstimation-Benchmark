@@ -33,7 +33,7 @@
 
 **第四步：提交**
 
-向本仓库发起 Pull Request，详细说明你的算法详情。改动应当集中在 `results/` 目录以及`README.md`和`README_EN.md`文件。你必须遵守 `samples/Disclaimer.md` 中的声明与限制。
+向本仓库发起 [Pull Request](https://github.com/LeoBlackMT/VSRG-DanEstimation-Benchmark/compare?template=algorithm_submission.md)（请选用 Algorithm Submission PR 模板），详细说明你的算法详情。改动应当集中在 `results/` 目录以及`README.md`和`README_EN.md`文件。你必须遵守 `samples/Disclaimer.md` 中的声明与限制。
 
 
 ### 2. i18n 提示
@@ -86,7 +86,7 @@ Then add your algorithm to the included-algorithms list in `README.md` and `READ
 
 **Step 4: Submit**
 
-Open a pull request against this repository with a detailed description of your algorithm. The change should stay inside the `results/` directory plus `README.md` and `README_EN.md`: a new CSV, an updated `index.json`, and the README entry. Reviewers will check that the CSV and the `index.json` entry match.
+Open a [pull request](https://github.com/LeoBlackMT/VSRG-DanEstimation-Benchmark/compare?template=algorithm_submission.md) against this repository using the Algorithm Submission PR template, with a detailed description of your algorithm. The change should stay inside the `results/` directory plus `README.md` and `README_EN.md`: a new CSV, an updated `index.json`, and the README entry. Reviewers will check that the CSV and the `index.json` entry match.
 
 You must follow the disclaimer and restrictions in `samples/Disclaimer.md`.
 
