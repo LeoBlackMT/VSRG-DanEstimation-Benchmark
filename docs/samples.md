@@ -9,6 +9,7 @@
 3. [Disclaimer.md（免责声明）](#disclaimermd免责声明)
 4. [data.csv 字段说明](#datacsv-字段说明)
 5. [与 runner 的衔接](#与-runner-的衔接)
+6. [提交新样本](#提交新样本)
 
 `samples/` 是 benchmark 的输入数据目录，存放测试谱面与基准结果表格。本文档说明目录里有什么、每个文件是干什么的，以及 `data.csv` 中每个字段的确切含义。
 
@@ -196,3 +197,14 @@ results/（算法输出与统计结果）
 ```
 
 简单说：runner 从 `samples/` 读取谱面文件与 `data.csv` 中的参考难度，运行各算法得到 `got`，再算出 `delta` 与 `deltaAbs` 回填结果，最终产出到 `results/`。
+
+---
+
+## 提交新样本
+
+若你想向本仓库推荐或提交新的测试谱面样本，请前往 GitHub Issues 选择 [Sample Beatmap Submission](https://github.com/LeoBlackMT/VSRG-DanEstimation-Benchmark/issues/new?template=sample_submission.yml) 模板提交。
+
+提交前请确认：
+- 谱面为 4K osu!mania 谱面，基准速率为 1.0x（倍速版本需时间戳内嵌且命名形如 `Song Name x1.1`）；
+- 参考难度属于当前人类共识范围（< 18.0 / Theta 以下）；
+- 附带合规的 CSV 数据行与对应 `.osu` 谱面文件（谱面文件名需与 `name` 列完全一致）。

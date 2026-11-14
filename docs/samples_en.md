@@ -15,6 +15,7 @@
 3. [Disclaimer.md](#disclaimermd)
 4. [data.csv field description](#datacsv-field-description)
 5. [Integration with the runner](#integration-with-the-runner)
+6. [Submitting new samples](#submitting-new-samples)
 
 ## Directory contents overview
 
@@ -195,3 +196,14 @@ results/ (algorithm output and statistics)
 ```
 
 In short: the runner reads the beatmap files and the reference difficulties in `data.csv` from `samples/`, runs each algorithm to get `got`, then computes `delta` and `deltaAbs`, writes them back into the results, and finally outputs to `results/`.
+
+---
+
+## Submitting new samples
+
+If you would like to recommend or submit new test samples to this repository, please go to GitHub Issues and select the [Sample Beatmap Submission](https://github.com/LeoBlackMT/VSRG-DanEstimation-Benchmark/issues/new?template=sample_submission.yml) template.
+
+Before submitting, please make sure:
+- The charts are 4K osu!mania beatmaps at native 1.0x rate (rate-modified charts must have the rate baked in and be named like `Song Name x1.1`);
+- The reference difficulty falls within current human consensus (< 18.0 / below Theta);
+- You provide compliant CSV rows and matching `.osu` beatmap files (filenames must match the `name` column exactly).
