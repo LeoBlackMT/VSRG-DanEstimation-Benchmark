@@ -135,15 +135,15 @@ Because this repository was originally created for internal use with sub-pattern
 
 All currently used sub-patterns are summarized in the table below:
 
-| Main Pattern (`pattern`) | Used Sub-Patterns (`subPattern`) | Description |
-| :--- | :--- | :--- |
-| `course` | `rc course` | Dan reform marathon courses |
-| `jack` | `anchor chordjack`, `dense chordjack`, `high chordjack`, `mid chordjack`, `low chordjack` | Chordjacks differentiated by density and anchor notes (high / mid / low) |
-| `ln` | `density`, `hybrid`, `inverse`, `release`, `speed`, `tech` | Long note charts categorized by high density, hybrid, inverse, releases, speed, and technical |
-| `speed` | `high stream`, `mid stream`, `low stream`, `staircase` | Streams by speed density, plus staircases |
-| `stamina` | `dense handstream`, `light handstream`, `dense jumpstream`, `light jumpstream` | Endurance jumpstreams and handstreams categorized by density |
-| `tech` | `stream tech`, `jack tech`, `jacky tech`, `mix tech` | Irregular rhythms, speed variations, and complex technical patterns |
-| *(Common)* | `Unsigned` | Default literal when no sub-pattern is designated or applicable |
+| Main Pattern | Sub-Patterns |
+| :--- | :--- |
+| `course` | `rc course` |
+| `jack` | `anchor chordjack`, `dense chordjack`, `high chordjack`, `mid chordjack`, `low chordjack` |
+| `ln` | `density`, `hybrid`, `inverse`, `release`, `speed`, `tech` |
+| `speed` | `high stream`, `mid stream`, `low stream`, `staircase` |
+| `stamina` | `dense handstream`, `light handstream`, `dense jumpstream`, `light jumpstream` |
+| `tech` | `stream tech`, `jack tech`, `jacky tech`, `mix tech` |
+| *(Common)* | `Unsigned` |
 
 - Rows without a sub-classification have the literal `Unsigned` in this field.
 - The sub-classification is used for finer-grained comparison: beatmaps with the same `pattern` but different `subPattern` can behave very differently in difficulty curves.

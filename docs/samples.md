@@ -134,15 +134,15 @@ runner 依据该字段从分类的目录中找到对应的谱面，也用于按�
 
 目前所有使用过的子键型如下表所示：
 
-| 主分类 (`pattern`) | 已使用的子键型 (`subPattern`) | 说明 |
-| :--- | :--- | :--- |
-| `course` | `rc course` | 段位 |
-| `jack` | `anchor chordjack`, `dense chordjack`, `high chordjack`, `mid chordjack`, `low chordjack` | 叠键/和弦叠键，按密度与锚键细分（对应中文大/中/小叠语境） |
-| `ln` | `density`, `hybrid`, `inverse`, `release`, `speed`, `tech` | 面条/长押，按高密/混合/反键/放手/速度/技巧细分 |
-| `speed` | `high stream`, `mid stream`, `low stream`, `staircase` | 乱打流速与楼梯型 |
-| `stamina` | `dense handstream`, `light handstream`, `dense jumpstream`, `light jumpstream` | 耐力切分型（高密/低密 Handstream、Jumpstream） |
-| `tech` | `stream tech`, `jack tech`, `jacky tech`, `mix tech` | 变速、切连、复合技巧键型 |
-| *(通用)* | `Unsigned` | 未设置或不确定子分类时的默认值 |
+| 主键型 (`pattern`) | 子键型 (`subPattern`) |
+| :--- | :--- |
+| `course` | `rc course` |
+| `jack` | `anchor chordjack`, `dense chordjack`, `high chordjack`, `mid chordjack`, `low chordjack` |
+| `ln` | `density`, `hybrid`, `inverse`, `release`, `speed`, `tech` |
+| `speed` | `high stream`, `mid stream`, `low stream`, `staircase` |
+| `stamina` | `dense handstream`, `light handstream`, `dense jumpstream`, `light jumpstream` |
+| `tech` | `stream tech`, `jack tech`, `jacky tech`, `mix tech` |
+| *(通用)* | `Unsigned` |
 
 - 未设置子分类的行，该字段为字面量 `Unsigned`。
 - 子分类用于 finer 粒度对比：同一 `pattern` 下不同 `subPattern` 的谱面，难度曲线的行为可能差异很大。
