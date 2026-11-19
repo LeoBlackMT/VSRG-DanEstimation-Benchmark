@@ -9,6 +9,7 @@
 3. [Disclaimer.md（免责声明）](#disclaimermd免责声明)
 4. [data.csv 字段说明](#datacsv-字段说明)
 5. [与 runner 的衔接](#与-runner-的衔接)
+6. [提交新样本](#提交新样本)
 
 `samples/` 是 benchmark 的输入数据目录，存放测试谱面与基准结果表格。本文档说明目录里有什么、每个文件是干什么的，以及 `data.csv` 中每个字段的确切含义。
 
@@ -104,9 +105,10 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 
 ### bid —— 谱面 ID
 
-谱面在 osu! 网站上的唯一 ID，可选字段。
+谱面在 osu! 网站上的唯一 ID，可选字段。请注意是 BeatmapID 而不是 BeatmapSetID。
+即谱面 URL 中最后一串数字：https://osu.ppy.sh/beatmapsets/{BeatmapSetID}#mania/{BeatmapID}
 
-- 该字段可用于 runner 直接从 osu! 网站下载谱面，填写后在网页中可点击下载按钮直接下载对应谱面。
+- 当遇到缺失谱面时，该字段可用于 runner 直接从 osu! 网站下载谱面。填写后在结果页中可点击下载按钮直接下载对应谱面。
 - 是否填写不影响 runner 运行，属可选字段。
 
 注意不填写时开头需要有一个逗号。
@@ -122,12 +124,25 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 ### pattern —— 主键型分类
 
 谱面的主分类，决定它属于哪种按键型 benchmark。
-runner 可依据该字段决定对谱面调用哪一类算法流程，也用于按分类输出统计结果。
-目前的所有键型为：`course`、`jack`、`ln`、`speed`、`stamina`、`tech`
+runner 依据该字段从分类的目录中找到对应的谱面，也用于按分类统计结果。
+目前的所有主键型为：`course`（段位）、`jack`（叠）、`ln`（面条）、`speed`（乱）、`stamina`（切/耐力）、`tech`（技）
 
 ### subPattern —— 子分类
 
 在主分类之下更细的键型描述，例如 `stream tech`、`high chordjack`、`dense handstream`、`mid stream` 等。
+由于本仓库最初为内部使用，而且采用的是中文语境下的子键型分类，故与英文常用键型标准名称不符。例如“大叠(chordjack)”“中叠”“小叠(minijack)”中，中叠没有对应的英文翻译，因此采用了high mid low三档对应。其余键型也如此。如果您不清楚如何标定，可以标为`Unsigned`（未分配）。
+
+目前所有使用过的子键型如下表所示：
+
+| 主分类 (`pattern`) | 已使用的子键型 (`subPattern`) | 说明 |
+| :--- | :--- | :--- |
+| `course` | `rc course` | 段位 |
+| `jack` | `anchor chordjack`, `dense chordjack`, `high chordjack`, `mid chordjack`, `low chordjack` | 叠键/和弦叠键，按密度与锚键细分（对应中文大/中/小叠语境） |
+| `ln` | `density`, `hybrid`, `inverse`, `release`, `speed`, `tech` | 面条/长押，按高密/混合/反键/放手/速度/技巧细分 |
+| `speed` | `high stream`, `mid stream`, `low stream`, `staircase` | 乱打流速与楼梯型 |
+| `stamina` | `dense handstream`, `light handstream`, `dense jumpstream`, `light jumpstream` | 耐力切分型（高密/低密 Handstream、Jumpstream） |
+| `tech` | `stream tech`, `jack tech`, `jacky tech`, `mix tech` | 变速、切连、复合技巧键型 |
+| *(通用)* | `Unsigned` | 未设置或不确定子分类时的默认值 |
 
 - 未设置子分类的行，该字段为字面量 `Unsigned`。
 - 子分类用于 finer 粒度对比：同一 `pattern` 下不同 `subPattern` 的谱面，难度曲线的行为可能差异很大。
@@ -140,6 +155,7 @@ runner 可依据该字段决定对谱面调用哪一类算法流程，也用于�
 
 - `expected` 与 `got` 共用同一套数值化难度概念，二者的差值就是算法误差的来源。
 - 该字段由数据集提供，runner 不应修改它。
+- 一般情况下，精确度不要超过一位小数。该分度值已足够。
 
 ### got —— 算法输出
 
@@ -196,3 +212,14 @@ results/（算法输出与统计结果）
 ```
 
 简单说：runner 从 `samples/` 读取谱面文件与 `data.csv` 中的参考难度，运行各算法得到 `got`，再算出 `delta` 与 `deltaAbs` 回填结果，最终产出到 `results/`。
+
+---
+
+## 提交新样本
+
+若你想向本仓库推荐或提交新的测试谱面样本，请前往 GitHub Issues 选择 [Sample Beatmap Submission](https://github.com/LeoBlackMT/VSRG-DanEstimation-Benchmark/issues/new?template=sample_submission.yml) 模板提交。
+
+提交前请确认：
+- 谱面为 4K osu!mania 谱面，基准速率为 1.0x（倍速版本需时间戳内嵌且命名形如 `Song Name x1.1`）；
+- 参考难度属于当前人类共识范围（< 18.0 / Theta 以下）；
+- 附带合规的 CSV 数据行与对应 `.osu` 谱面文件（谱面文件名需与 `name` 列完全一致）。

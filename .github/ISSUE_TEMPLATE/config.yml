@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Benchmark Documentation
+    url: https://github.com/LeoBlackMT/VSRG-DanEstimation-Benchmark/tree/main/docs
+    about: Read the specification for samples, algorithms, and runners.

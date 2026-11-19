@@ -237,6 +237,13 @@ When the run ends, output a summary for each algorithm:
 
 `ok + invalid + missing + failed` should equal `total`, which should also equal the total number of lines in data.csv. If they do not match, some lines were not processed.
 
+### 6.4 Information Access Restrictions for Runners
+
+- During estimation, the **only** input an algorithm is permitted to access is the beatmap path or the beatmap file content (`.osu`) itself.
+- The `pattern` and `subPattern` columns in the benchmark CSV are intended strictly for statistical aggregation, categorization, and management; estimation algorithms must **never** read or consume this metadata. Reading the `expected` column is, of course, strictly prohibited.
+- If your estimation algorithm requires pattern classification as an input, it must compute and detect this independently from the chart notes.
+- Otherwise, severe data leakage and overfitting will occur. Furthermore, in real in-game overlays and runtime environments, such external pattern labels do not exist, causing the algorithm to fail in practice.
+
 ---
 
 ## 7. Writer's Self-Check List

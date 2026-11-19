@@ -15,6 +15,7 @@
 3. [Disclaimer.md](#disclaimermd)
 4. [data.csv field description](#datacsv-field-description)
 5. [Integration with the runner](#integration-with-the-runner)
+6. [Submitting new samples](#submitting-new-samples)
 
 ## Directory contents overview
 
@@ -106,12 +107,13 @@ Each field is explained below.
 
 ### bid - beatmap ID
 
-The beatmap's unique ID on the osu! website; an optional field.
+The beatmap's unique ID on the osu! website; an optional field. Please note that this is the BeatmapID, not the BeatmapSetID.
+It corresponds to the final numeric string in the beatmap URL: `https://osu.ppy.sh/beatmapsets/{BeatmapSetID}#mania/{BeatmapID}`
 
-- This field can be used by the runner to download the beatmap directly from the osu! website; when filled in, the download button on the webpage can download the corresponding beatmap with one click.
-- Whether it is filled in or not does not affect the runner; it is an optional field.
+- When a beatmap file is missing locally, this field can be used by the runner to download the beatmap directly from the osu! website. When filled in, users can also click the download button on the results page to download the corresponding chart.
+- Whether it is filled in or not does not affect runner execution; it is strictly an optional field.
 
-Note: when the field is not filled in, the line must start with a comma.
+Note: when this field is empty, the CSV line must still begin with a leading comma.
 
 ### name - beatmap display name
 
@@ -122,12 +124,26 @@ The beatmap's display name, used to identify which beatmap a result row refers t
 
 ### pattern - main key-type classification
 
-The beatmap's main classification, deciding which key-type benchmark it belongs to. The runner can use this field to decide which kind of algorithm flow to call for the beatmap, and it is also used to output statistics grouped by classification.
-All current key types are: `course`, `jack`, `ln`, `speed`, `stamina`, `tech`.
+The beatmap's main classification, deciding which key-type benchmark it belongs to.
+The runner uses this field to locate the corresponding beatmap in the categorized directories, and it is also used to aggregate statistics by classification.
+All current main key types are: `course` (Dan course), `jack` (chordjack), `ln` (long notes / hold notes), `speed` (streams), `stamina` (jumpstream/handstream endurance), and `tech` (technical).
 
 ### subPattern - sub-classification
 
 A finer key-type description below the main classification, e.g. `stream tech`, `high chordjack`, `dense handstream`, `mid stream`.
+Because this repository was originally created for internal use with sub-patterns defined under Chinese community conventions, some terms do not map 1:1 to standard English naming. For instance, Chinese differentiates "大叠 (chordjack)", "中叠", and "小叠 (minijack)"; because "中叠" has no direct English equivalent, three tiers (`high`, `mid`, `low`) were adopted. Other patterns follow a similar tiering. If you are unsure how to label a chart, you may specify `Unsigned`.
+
+All currently used sub-patterns are summarized in the table below:
+
+| Main Pattern (`pattern`) | Used Sub-Patterns (`subPattern`) | Description |
+| :--- | :--- | :--- |
+| `course` | `rc course` | Dan reform marathon courses |
+| `jack` | `anchor chordjack`, `dense chordjack`, `high chordjack`, `mid chordjack`, `low chordjack` | Chordjacks differentiated by density and anchor notes (high / mid / low) |
+| `ln` | `density`, `hybrid`, `inverse`, `release`, `speed`, `tech` | Long note charts categorized by high density, hybrid, inverse, releases, speed, and technical |
+| `speed` | `high stream`, `mid stream`, `low stream`, `staircase` | Streams by speed density, plus staircases |
+| `stamina` | `dense handstream`, `light handstream`, `dense jumpstream`, `light jumpstream` | Endurance jumpstreams and handstreams categorized by density |
+| `tech` | `stream tech`, `jack tech`, `jacky tech`, `mix tech` | Irregular rhythms, speed variations, and complex technical patterns |
+| *(Common)* | `Unsigned` | Default literal when no sub-pattern is designated or applicable |
 
 - Rows without a sub-classification have the literal `Unsigned` in this field.
 - The sub-classification is used for finer-grained comparison: beatmaps with the same `pattern` but different `subPattern` can behave very differently in difficulty curves.
@@ -140,6 +156,7 @@ The definition of numeric difficulty is in [docs/runner_en.md](runner_en.md#3-nu
 
 - `expected` and `got` share the same numeric difficulty concept; the difference between them is the source of the algorithm error.
 - This field is provided by the dataset; the runner must not modify it.
+- Under normal circumstances, precision should not exceed one decimal place; this resolution is sufficient for dan estimation calibration.
 
 ### got - algorithm output
 
@@ -195,3 +212,14 @@ results/ (algorithm output and statistics)
 ```
 
 In short: the runner reads the beatmap files and the reference difficulties in `data.csv` from `samples/`, runs each algorithm to get `got`, then computes `delta` and `deltaAbs`, writes them back into the results, and finally outputs to `results/`.
+
+---
+
+## Submitting new samples
+
+If you would like to recommend or submit new test samples to this repository, please go to GitHub Issues and select the [Sample Beatmap Submission](https://github.com/LeoBlackMT/VSRG-DanEstimation-Benchmark/issues/new?template=sample_submission.yml) template.
+
+Before submitting, please make sure:
+- The charts are 4K osu!mania beatmaps at native 1.0x rate (rate-modified charts must have the rate baked in and be named like `Song Name x1.1`);
+- The reference difficulty falls within current human consensus (< 18.0 / below Theta);
+- You provide compliant CSV rows and matching `.osu` beatmap files (filenames must match the `name` column exactly).

@@ -1,0 +1,47 @@
+name: Sample Beatmap Submission
+description: Submit new beatmap sample(s) for the benchmark dataset
+title: "[Sample]: "
+labels: ["sample"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to the VSRG Dan Estimation Benchmark!
+        Please read [samples.md](docs/samples.md) and [runner.md](docs/runner.md) before submitting.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Submission Checklist
+      options:
+        - label: All beatmaps are osu!mania charts.
+          required: true
+        - label: I promise that the difficulty is correct and does not exceed current human consensus.
+          required: true
+        - label: I confirm the samples' copyright/usage complies with [samples/Disclaimer.md](samples/Disclaimer.md).
+          required: true
+
+  - type: textarea
+    id: csv_rows
+    attributes:
+      label: CSV Rows
+      description: |
+        Please provide the CSV rows formatted according to the benchmark contract:
+        `bid,name,pattern,subPattern,expected,,,`
+
+        If the content is too long, you can attach a `.csv` file instead. 
+        See samples documentation for more details on the CSV format.
+      placeholder: |
+        1919810,jack beatmap,jack,mid chordjack,6.1,,,
+        114514,stream beatmap,stamina,dense handstream,12.3,,,
+    validations:
+      required: true
+
+  - type: textarea
+    id: sample_files
+    attributes:
+      label: Beatmap Files
+      description: Please attach `.osu` files or any archive here, or provide a download link. Ensure filenames match the `name` column in your CSV.
+      placeholder: Drag and drop your files here, or paste a link.
+    validations:
+      required: true
