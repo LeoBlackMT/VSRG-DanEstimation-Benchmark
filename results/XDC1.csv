@@ -112,52 +112,52 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 ,Torikago,speed,mid stream,10.4,10.77,-0.37,0.37
 ,The Lost Dedicated(loved),jack,high chordjack,10.4,10.95,-0.55,0.55
 ,Eiya no Parade x1.05,speed,low stream,10.3,10.61,-0.31,0.31
-,Dope Monkeys x1.02,speed,low stream,10.1,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Tailin no Soul x1.2,tech,stream tech,10,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+,Dope Monkeys x1.02,speed,low stream,10.1,Invalid: below Alpha Low,,
+,Tailin no Soul x1.2,tech,stream tech,10,Invalid: below Alpha Low,,
 ,Rave 7 [Hard] x1.1,tech,stream tech,10,10.75,-0.75,0.75
 ,Chandelier(10),stamina,dense jumpstream,10,10.52,-0.52,0.52
-,Oh Curry! x0.9,speed,staircase,10,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,The Lost Dedicated(10),jack,high chordjack,10,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Cicadidae,tech,stream tech,9,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Firmament Castle Velier(9) x1.05,stamina,dense jumpstream,9,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Disconnected Trance(9),speed,low stream,9,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Scorpion Dance,jack,high chordjack,9,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Can't Take my Eyes,jack,low chordjack,9,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,RATO,tech,stream tech,8,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Anguish(8),stamina,dense jumpstream,8,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Trickstarz,speed,staircase,8,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,To The Limit(8),jack,high chordjack,8,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,WAVE,tech,mix tech,7,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Hymn,stamina,light jumpstream,7,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Last Chance,jack,Unsigned,7,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Five Five Five Guys,speed,low stream,6.6,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,M-A[Expert Lv.15],stamina,dense jumpstream,6.2,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,The Bird's Midair Heatstroke,tech,Unsigned,6,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Luv Lab 22ate!,speed,mid stream,6,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,SOS,speed,mid stream,6,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Sweet Cherry X,jack,Unsigned,6,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Back to the Gate[Lv.5100],stamina,dense jumpstream,6,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Brainfog,tech,Unsigned,5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Elektric U-Phoria,stamina,dense jumpstream,5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Palette GAMMA[Abstract],speed,low stream,5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,TDPDG,speed,low stream,5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Energy Flower 3007,jack,Unsigned,5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Angel Of Darkness,stamina,light jumpstream,4.2,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Ephemera,tech,Unsigned,4,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Shannon's Theorem,tech,stream tech,4,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,CrossOver,jack,Unsigned,4,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Kirlian Shores,tech,Unsigned,3,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,True Blue,stamina,Unsigned,3,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Entelechia,speed,mid stream,3,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Dimension Trippere!!!!,jack,Unsigned,3,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Vermillion,tech,Unsigned,2,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Eternal Drain,stamina,Unsigned,2,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Snow Storm,speed,Unsigned,2,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Flashes,jack,Unsigned,2,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Want U 2,tech,Unsigned,1,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Tommorow Perfume,stamina,Unsigned,1,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Shelter,speed,Unsigned,1,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Miracle Chance,jack,Unsigned,1,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+,Oh Curry! x0.9,speed,staircase,10,Invalid: below Alpha Low,,
+,The Lost Dedicated(10),jack,high chordjack,10,Invalid: below Alpha Low,,
+,Cicadidae,tech,stream tech,9,Invalid: below Alpha Low,,
+,Firmament Castle Velier(9) x1.05,stamina,dense jumpstream,9,Invalid: below Alpha Low,,
+,Disconnected Trance(9),speed,low stream,9,Invalid: below Alpha Low,,
+,Scorpion Dance,jack,high chordjack,9,Invalid: below Alpha Low,,
+,Can't Take my Eyes,jack,low chordjack,9,Invalid: below Alpha Low,,
+,RATO,tech,stream tech,8,Invalid: below Alpha Low,,
+,Anguish(8),stamina,dense jumpstream,8,Invalid: below Alpha Low,,
+,Trickstarz,speed,staircase,8,Invalid: below Alpha Low,,
+,To The Limit(8),jack,high chordjack,8,Invalid: below Alpha Low,,
+,WAVE,tech,mix tech,7,Invalid: below Alpha Low,,
+,Hymn,stamina,light jumpstream,7,Invalid: below Alpha Low,,
+,Last Chance,jack,Unsigned,7,Invalid: below Alpha Low,,
+,Five Five Five Guys,speed,low stream,6.6,Invalid: below Alpha Low,,
+,M-A[Expert Lv.15],stamina,dense jumpstream,6.2,Invalid: below Alpha Low,,
+,The Bird's Midair Heatstroke,tech,Unsigned,6,Invalid: below Alpha Low,,
+,Luv Lab 22ate!,speed,mid stream,6,Invalid: below Alpha Low,,
+,SOS,speed,mid stream,6,Invalid: below Alpha Low,,
+,Sweet Cherry X,jack,Unsigned,6,Invalid: below Alpha Low,,
+,Back to the Gate[Lv.5100],stamina,dense jumpstream,6,Invalid: below Alpha Low,,
+,Brainfog,tech,Unsigned,5,Invalid: below Alpha Low,,
+,Elektric U-Phoria,stamina,dense jumpstream,5,Invalid: below Alpha Low,,
+,Palette GAMMA[Abstract],speed,low stream,5,Invalid: below Alpha Low,,
+,TDPDG,speed,low stream,5,Invalid: below Alpha Low,,
+,Energy Flower 3007,jack,Unsigned,5,Invalid: below Alpha Low,,
+,Angel Of Darkness,stamina,light jumpstream,4.2,Invalid: below Alpha Low,,
+,Ephemera,tech,Unsigned,4,Invalid: below Alpha Low,,
+,Shannon's Theorem,tech,stream tech,4,Invalid: below Alpha Low,,
+,CrossOver,jack,Unsigned,4,Invalid: below Alpha Low,,
+,Kirlian Shores,tech,Unsigned,3,Invalid: below Alpha Low,,
+,True Blue,stamina,Unsigned,3,Invalid: below Alpha Low,,
+,Entelechia,speed,mid stream,3,Invalid: below Alpha Low,,
+,Dimension Trippere!!!!,jack,Unsigned,3,Invalid: below Alpha Low,,
+,Vermillion,tech,Unsigned,2,Invalid: below Alpha Low,,
+,Eternal Drain,stamina,Unsigned,2,Invalid: below Alpha Low,,
+,Snow Storm,speed,Unsigned,2,Invalid: below Alpha Low,,
+,Flashes,jack,Unsigned,2,Invalid: below Alpha Low,,
+,Want U 2,tech,Unsigned,1,Invalid: below Alpha Low,,
+,Tommorow Perfume,stamina,Unsigned,1,Invalid: below Alpha Low,,
+,Shelter,speed,Unsigned,1,Invalid: below Alpha Low,,
+,Miracle Chance,jack,Unsigned,1,Invalid: below Alpha Low,,
 3079544,Night Club Junkie x0.95,speed,low stream,14.6,14.65,-0.05,0.05
 3079545,Night Club Junkie,speed,low stream,15,15.14,-0.14,0.14
 3933034,kizuato x1.25,speed,staircase,15.8,15.70,0.10,0.10
@@ -169,15 +169,15 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 5195389,Lolit Speed x1.13,stamina,dense jumpstream,14,13.67,0.33,0.33
 1305297,Tornado,tech,jacky tech,13.4,12.66,0.74,0.74
 2196118,Kaguyahime x1.2,tech,jacky tech,14.4,14.18,0.22,0.22
-1065834,Big Brother,tech,stream tech,10,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+1065834,Big Brother,tech,stream tech,10,Invalid: below Alpha Low,,
 2877294,STRONG 280(11bit),stamina,dense handstream,14.4,14.15,0.25,0.25
 716700,slavik goblins,stamina,dense handstream,13.7,13.51,0.19,0.19
-1429738,star of andromeda,jack,low chordjack,11,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+1429738,star of andromeda,jack,low chordjack,11,Invalid: below Alpha Low,,
 3150955,star of andromeda x1.1,jack,low chordjack,13,12.39,0.61,0.61
 3150957,star of andromeda x1.2,jack,low chordjack,13.9,13.68,0.22,0.22
 3150959,star of andromeda x1.3,jack,low chordjack,15,14.42,0.58,0.58
 3580775,star of andromeda x1.4,jack,low chordjack,16,14.96,1.04,1.04
-2552927,paranoia,jack,low chordjack,10,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+2552927,paranoia,jack,low chordjack,10,Invalid: below Alpha Low,,
 3260902,The Truth Never Spoken,jack,mid chordjack,12.6,12.48,0.12,0.12
 2308001,Vertex Beta(spz cut),jack,mid chordjack,15.8,15.51,0.29,0.29
 4706643,EVERYTHING BLACK,jack,high chordjack,13.6,13.72,-0.12,0.12
@@ -185,112 +185,112 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 3107371,Rude Buster (Camellia Remix),stamina,dense handstream,14,13.83,0.17,0.17
 3107368,Rude Buster (Camellia Remix) x1.1,stamina,dense handstream,15,14.65,0.35,0.35
 1937582,Love is War x1.3,stamina,dense handstream,13.6,13.87,-0.27,0.27
-2553924,ametsuchi x1.2,jack,low chordjack,8.6,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Oceanus(xfpsb1),ln,hybrid,9.5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Otenba Koimusume,ln,density,9.5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Gunjou Infinity [Buffed] (Cut),ln,speed,9.5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Orca [Broken-],ln,tech,9.5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Hanatachi ni Kibouwo 1.15x,ln,hybrid,10.5,10.66,-0.16,0.16
-4246503,Akasha 1.05x,ln,density,10.5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Ano Yume o Nazotte (Cut) 1.15x,ln,speed,10.5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Yoru ni Kakeru (xfpsb2 Cut) 1.05x,ln,tech,10.5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,L4.8TS,ln,hybrid,11.5,11.07,0.43,0.43
-,Utakatayo Ikanaide [LN Edit] (Cut) 1.265x,ln,density,11.5,10.78,0.72,0.72
-,bullet 1.15x,ln,speed,11.5,11.56,-0.06,0.06
-,HAMELN [Fanger] (Cut),ln,tech,11.5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Aegleseeker [Galaxy+],ln,hybrid,12.5,11.80,0.70,0.70
-,finorza (Cut),ln,density,12.5,12.04,0.46,0.46
-,Kokoro no Shitsuryou (Edit),ln,speed,12.5,12.33,0.17,0.17
-,Unmei no Haguruma (Edit),ln,tech,12.5,11.06,1.44,1.44
-,ReviveR,ln,hybrid,13.5,12.86,0.64,0.64
-,Unleashed World 1.075x,ln,density,13.5,13.16,0.34,0.34
-,Kairikou 1.125x,ln,speed,13.5,13.51,-0.01,0.01
-,Identity Part 5 1.05x,ln,tech,13.5,12.94,0.56,0.56
-,Exitium 1.025x,ln,hybrid,14.5,13.61,0.89,0.89
-,Ultrasonic Anthem [Ultimate+] 1.1x,ln,density,14.5,13.71,0.79,0.79
-,Decoy 1.025x,ln,speed,14.5,13.82,0.68,0.68
-,Flamewall (Cut) [Edit] 1.15x,ln,tech,14.5,13.58,0.92,0.92
-,Snow Drive (Cut) 1.225x,ln,hybrid,15.5,14.37,1.13,1.13
-,Kaku mo Yuubi na Hi to Narite (Cut) 1.1x,ln,density,15.5,14.33,1.17,1.17
-,Tojita Sekai (xfpsbF Cut),ln,speed,15.5,14.00,1.50,1.50
-,Shuu no Hazama (xfpsbF Cut) 1.15x,ln,tech,15.5,13.99,1.51,1.51
-4608742,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Doki Doki Literature Club! ~ 2nd ~ (Marathon)],ln,hybrid,2,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4608744,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Hitorigoto ~ 1st ~ (Marathon)],ln,hybrid,1,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4608739,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [aura ~ 3rd ~ (Marathon)],ln,hybrid,3,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4608750,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Otenba Koimusume ~ 4th ~ (Marathon)],ln,hybrid,4,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4608751,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Pink Gold ~ 5th ~ (Marathon)],ln,hybrid,5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4608745,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Koborezu no Negaigoto ~ 6th ~ (Marathon)],ln,hybrid,6,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4608749,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Missing Banquet ~ 8th ~ (Marathon)],ln,hybrid,8,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4608752,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Rock It ~ 7th ~ (Marathon)],ln,hybrid,7,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4608741,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Dodger's Gadget ~ 9th ~ (Marathon)],ln,hybrid,9,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4614499,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [towa no maigo 1.1x ~ 10th ~ (Marathon)],ln,hybrid,10,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4608747,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Kyouki Ranmai ~ Yoru ~ (Marathon)],ln,hybrid,13,12.55,0.45,0.45
-4608743,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Enigma 1.1x ~ Yoake ~ (Marathon)],ln,hybrid,11,11.03,-0.03,0.03
-4608740,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Carnation [ck remix] 1.05x ~ Yuugure ~ (Marathon)],ln,hybrid,12,11.81,0.19,0.19
-4608753,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Protoflicker 1.25x ~ Yokaze ~ (Marathon)],ln,hybrid,16,13.79,2.21,2.21
-4608748,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Mare Nectaris ~ Yami ~ (Marathon)],ln,hybrid,14,13.50,0.50,0.50
-4608746,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Kodoku no Kakurenbo 1.15x ~ Yume ~ (Marathon)],ln,hybrid,15,14.08,0.92,0.92
-4608999,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Dango Daikazoku ~ 1st ~ (Marathon)],ln,release,1,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4614497,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [SPF 420 ~ 2nd ~ (Marathon)],ln,release,2,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609008,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Power To Progress ~ 6th ~ (Marathon)],ln,release,6,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609001,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Gee ~ 4th ~ (Marathon)],ln,release,4,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609011,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [silver temple ~ 3rd ~ (Marathon)],ln,release,3,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609004,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [MilK ~ 5th ~ (Marathon)],ln,release,5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609010,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Shotgun Senorita [Zardonic Remix] ~ 8th ~ (Marathon)],ln,release,8,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609007,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [On the FM ~ 7th ~ (Marathon)],ln,release,7,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609009,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Raijin no Hidariude ~ 9th ~ (Marathon)],ln,release,9,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609000,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Dopamine ~ 10th ~ (Marathon)],ln,release,10,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609006,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [No. 6 ~ Yuugure ~ (Marathon)],ln,tech,12,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4608998,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Avalon no oka ~ Yoake ~ (Marathon)],ln,inverse,11,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609003,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Intersect Thunderbolt -Remix ~ Yoru ~ (Marathon)],ln,tech,13,11.81,1.19,1.19
-4609002,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Inaiinai isonshou 1.25x ~ Yume ~ (Marathon)],ln,tech,15,13.75,1.25,1.25
-4609005,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Nhelv 1.05x ~ Yami ~ (Marathon)],ln,tech,14,13.75,0.25,0.25
-4609012,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Cinderella Cage -Trancecore Mix- 1.6x ~ Yokaze ~ (Marathon)],ln,tech,16,14.20,1.80,1.80
-4609086,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Nerevar Rising ~ 1st ~ (Marathon)],ln,inverse,1,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609080,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Heartbeats ~ 2nd ~ (Marathon)],ln,inverse,2,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609079,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [future gazer ~ 4th ~ (Marathon)],ln,inverse,4,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609081,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [i use raw expectation to unlock placebo. ~ 3rd ~ (Marathon)],ln,inverse,3,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609076,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [ 3 ~ 7th ~ (Marathon)],ln,inverse,7,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609085,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Mousou Express [Remix] ~ 6th ~ (Marathon)],ln,inverse,6,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609087,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Promise ~ 5th ~ (Marathon)],ln,inverse,5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609088,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Sakase natsuzora koi no hana. ~ 8th ~ (Marathon)],ln,inverse,8,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609077,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [cold planet ~ 9th ~ (Marathon)],ln,inverse,9,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609084,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Love is War ~ Yoake ~ (Marathon)],ln,density,11,10.88,0.12,0.12
-4609089,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Sakura Trip 1.15x ~ 10th ~ (Marathon)],ln,inverse,10,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609078,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [ENDYMION ~ Yuugure ~ (Marathon)],ln,density,12,11.95,0.05,0.05
-4609083,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Literal Crystal In The Cyphisonia 1.15x ~ Yoru ~],ln,density,13,13.24,-0.24,0.24
-4609082,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Indomitable Spirit [Hommarju Remix] 1.5x ~ Yami ~ (Marathon)],ln,density,14,13.35,0.65,0.65
-4614495,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Lancelot -Flame of the Rebellion- 1.35x ~ Yokaze ~ (Marathon)],ln,density,16,14.02,1.98,1.98
-4609090,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [White Hair Little Swords Girl 1.025x ~ Yume ~ (Marathon)],ln,density,15,14.11,0.89,0.89
-4609231,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Trickl4sh 220 ~ 1st ~ (Marathon)],ln,density,1,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609229,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Rockhill ~ 2nd ~ (Marathon)],ln,density,2,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609227,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [OVERDRIVERS ~ 3rd ~ (Marathon)],ln,density,3,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609221,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Blacksphere ~ 5th ~ (Marathon)],ln,density,5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609217,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [#FairyJoke #SDVX_Edit ~ 4th ~ (Marathon)],ln,density,4,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609220,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Berry Go!! ~ 6th ~ (Marathon)],ln,density,6,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609228,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Owari to Hajimari no Oto ~ 8th ~ (Marathon)],ln,density,8,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4614493,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Tsumibito ~ 7th ~ (Marathon)],ln,density,7,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609226,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Ordinary world ~ 9th ~ (Marathon)],ln,density,9,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609222,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Element of SPADA 1.1x ~ 10th ~ (Marathon)],ln,speed,12,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-4609219,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [asphyxia 1.05x ~ Yoake ~ (Marathon)],ln,speed,11,10.60,0.40,0.40
-4609230,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [The lost ~ Yami ~ (Marathon)],ln,speed,14,13.52,0.48,0.48
-4609225,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [NUCLEAR-STAR ~ Yume ~ (Marathon)],ln,speed,15,13.90,1.10,1.10
-4609224,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [NEURO-CLOUD-9 ~ Yoru ~ (Marathon)],ln,speed,13,13.02,-0.02,0.02
-4609232,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [R U Still xxxx 1.15x ~ Yokaze ~ (Marathon)],ln,speed,16,14.27,1.73,1.73
-4351661,Laur - Kokushi musou [World's Final End (17th edit)],ln,Unsigned,17,14.93,2.07,2.07
-4517847,Ludicin - Onus Rēgulus [In Abyss],ln,Unsigned,17,15.02,1.98,1.98
-5029140,Various Artist - 4K LN Dan Courses - EXTRA - [17th Dan - Yeehee (Marathon)],ln,Unsigned,17,15.16,1.84,1.84
-5366651,Ludicin - Blossom of Ashes [Divination of Calamity],ln,density,14.5,13.86,0.64,0.64
-5366777,takehirotei - 定时地狱 ~The Perpetual Chaotically Unsynced Pendulum~ [Convergence],ln,Unsigned,14,13.43,0.57,0.57
-4824023,Laur - 国士無双 [LN bukbuk],ln,Unsigned,14.8,14.08,0.72,0.72
-4732296,ウォルピスカーター - Oxalis [Imitation],ln,Unsigned,13.6,13.40,0.20,0.20
-4652576,Xyris - Eviternity [LN Eviternity],ln,Unsigned,14.4,13.81,0.59,0.59
-3793375,ああ…翡翠茶漬け… - stεganography [Cipher Encryption],ln,Unsigned,13.8,14.00,-0.20,0.20
-4398536,Various Artists - Begin's 4K LN Pack Level 3 [Nanahoshi Kangengakudan - Andromeda],ln,density,15.2,14.15,1.05,1.05
-4398537,Various Artists - Begin's 4K LN Pack Level 3 [ROKINA - Icicle Stinger],ln,density,15.4,14.07,1.33,1.33
+2553924,ametsuchi x1.2,jack,low chordjack,8.6,Invalid: below Alpha Low,,
+,Oceanus(xfpsb1),ln,hybrid,9.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,Otenba Koimusume,ln,density,9.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,Gunjou Infinity [Buffed] (Cut),ln,speed,9.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,Orca [Broken-],ln,tech,9.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,Hanatachi ni Kibouwo 1.15x,ln,hybrid,10.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4246503,Akasha 1.05x,ln,density,10.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,Ano Yume o Nazotte (Cut) 1.15x,ln,speed,10.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,Yoru ni Kakeru (xfpsb2 Cut) 1.05x,ln,tech,10.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,L4.8TS,ln,hybrid,11.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,Utakatayo Ikanaide [LN Edit] (Cut) 1.265x,ln,density,11.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,bullet 1.15x,ln,speed,11.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,HAMELN [Fanger] (Cut),ln,tech,11.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,Aegleseeker [Galaxy+],ln,hybrid,12.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,finorza (Cut),ln,density,12.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,Kokoro no Shitsuryou (Edit),ln,speed,12.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,Unmei no Haguruma (Edit),ln,tech,12.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,ReviveR,ln,hybrid,13.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,Unleashed World 1.075x,ln,density,13.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,Kairikou 1.125x,ln,speed,13.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,Identity Part 5 1.05x,ln,tech,13.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,Exitium 1.025x,ln,hybrid,14.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,Ultrasonic Anthem [Ultimate+] 1.1x,ln,density,14.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,Decoy 1.025x,ln,speed,14.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,Flamewall (Cut) [Edit] 1.15x,ln,tech,14.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,Snow Drive (Cut) 1.225x,ln,hybrid,15.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,Kaku mo Yuubi na Hi to Narite (Cut) 1.1x,ln,density,15.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,Tojita Sekai (xfpsbF Cut),ln,speed,15.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+,Shuu no Hazama (xfpsbF Cut) 1.15x,ln,tech,15.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4608742,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Doki Doki Literature Club! ~ 2nd ~ (Marathon)],ln,hybrid,2,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4608744,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Hitorigoto ~ 1st ~ (Marathon)],ln,hybrid,1,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4608739,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [aura ~ 3rd ~ (Marathon)],ln,hybrid,3,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4608750,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Otenba Koimusume ~ 4th ~ (Marathon)],ln,hybrid,4,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4608751,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Pink Gold ~ 5th ~ (Marathon)],ln,hybrid,5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4608745,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Koborezu no Negaigoto ~ 6th ~ (Marathon)],ln,hybrid,6,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4608749,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Missing Banquet ~ 8th ~ (Marathon)],ln,hybrid,8,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4608752,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Rock It ~ 7th ~ (Marathon)],ln,hybrid,7,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4608741,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Dodger's Gadget ~ 9th ~ (Marathon)],ln,hybrid,9,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4614499,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [towa no maigo 1.1x ~ 10th ~ (Marathon)],ln,hybrid,10,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4608747,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Kyouki Ranmai ~ Yoru ~ (Marathon)],ln,hybrid,13,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4608743,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Enigma 1.1x ~ Yoake ~ (Marathon)],ln,hybrid,11,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4608740,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Carnation [ck remix] 1.05x ~ Yuugure ~ (Marathon)],ln,hybrid,12,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4608753,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Protoflicker 1.25x ~ Yokaze ~ (Marathon)],ln,hybrid,16,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4608748,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Mare Nectaris ~ Yami ~ (Marathon)],ln,hybrid,14,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4608746,Various Artists - 4K LN Dan Courses v2 ~ Stage 1 Map Pack ~ [Kodoku no Kakurenbo 1.15x ~ Yume ~ (Marathon)],ln,hybrid,15,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4608999,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Dango Daikazoku ~ 1st ~ (Marathon)],ln,release,1,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4614497,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [SPF 420 ~ 2nd ~ (Marathon)],ln,release,2,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609008,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Power To Progress ~ 6th ~ (Marathon)],ln,release,6,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609001,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Gee ~ 4th ~ (Marathon)],ln,release,4,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609011,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [silver temple ~ 3rd ~ (Marathon)],ln,release,3,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609004,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [MilK ~ 5th ~ (Marathon)],ln,release,5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609010,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Shotgun Senorita [Zardonic Remix] ~ 8th ~ (Marathon)],ln,release,8,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609007,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [On the FM ~ 7th ~ (Marathon)],ln,release,7,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609009,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Raijin no Hidariude ~ 9th ~ (Marathon)],ln,release,9,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609000,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Dopamine ~ 10th ~ (Marathon)],ln,release,10,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609006,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [No. 6 ~ Yuugure ~ (Marathon)],ln,tech,12,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4608998,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Avalon no oka ~ Yoake ~ (Marathon)],ln,inverse,11,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609003,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Intersect Thunderbolt -Remix ~ Yoru ~ (Marathon)],ln,tech,13,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609002,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Inaiinai isonshou 1.25x ~ Yume ~ (Marathon)],ln,tech,15,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609005,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Nhelv 1.05x ~ Yami ~ (Marathon)],ln,tech,14,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609012,Various Artists - 4K LN Dan Courses v2 ~ Stage 2 Map Pack ~ [Cinderella Cage -Trancecore Mix- 1.6x ~ Yokaze ~ (Marathon)],ln,tech,16,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609086,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Nerevar Rising ~ 1st ~ (Marathon)],ln,inverse,1,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609080,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Heartbeats ~ 2nd ~ (Marathon)],ln,inverse,2,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609079,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [future gazer ~ 4th ~ (Marathon)],ln,inverse,4,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609081,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [i use raw expectation to unlock placebo. ~ 3rd ~ (Marathon)],ln,inverse,3,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609076,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [ 3 ~ 7th ~ (Marathon)],ln,inverse,7,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609085,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Mousou Express [Remix] ~ 6th ~ (Marathon)],ln,inverse,6,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609087,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Promise ~ 5th ~ (Marathon)],ln,inverse,5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609088,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Sakase natsuzora koi no hana. ~ 8th ~ (Marathon)],ln,inverse,8,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609077,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [cold planet ~ 9th ~ (Marathon)],ln,inverse,9,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609084,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Love is War ~ Yoake ~ (Marathon)],ln,density,11,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609089,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Sakura Trip 1.15x ~ 10th ~ (Marathon)],ln,inverse,10,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609078,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [ENDYMION ~ Yuugure ~ (Marathon)],ln,density,12,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609083,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Literal Crystal In The Cyphisonia 1.15x ~ Yoru ~],ln,density,13,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609082,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Indomitable Spirit [Hommarju Remix] 1.5x ~ Yami ~ (Marathon)],ln,density,14,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4614495,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [Lancelot -Flame of the Rebellion- 1.35x ~ Yokaze ~ (Marathon)],ln,density,16,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609090,Various Artists - 4K LN Dan Courses v2 ~ Stage 3 Map Pack ~ [White Hair Little Swords Girl 1.025x ~ Yume ~ (Marathon)],ln,density,15,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609231,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Trickl4sh 220 ~ 1st ~ (Marathon)],ln,density,1,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609229,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Rockhill ~ 2nd ~ (Marathon)],ln,density,2,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609227,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [OVERDRIVERS ~ 3rd ~ (Marathon)],ln,density,3,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609221,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Blacksphere ~ 5th ~ (Marathon)],ln,density,5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609217,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [#FairyJoke #SDVX_Edit ~ 4th ~ (Marathon)],ln,density,4,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609220,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Berry Go!! ~ 6th ~ (Marathon)],ln,density,6,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609228,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Owari to Hajimari no Oto ~ 8th ~ (Marathon)],ln,density,8,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4614493,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Tsumibito ~ 7th ~ (Marathon)],ln,density,7,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609226,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Ordinary world ~ 9th ~ (Marathon)],ln,density,9,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609222,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [Element of SPADA 1.1x ~ 10th ~ (Marathon)],ln,speed,12,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609219,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [asphyxia 1.05x ~ Yoake ~ (Marathon)],ln,speed,11,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609230,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [The lost ~ Yami ~ (Marathon)],ln,speed,14,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609225,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [NUCLEAR-STAR ~ Yume ~ (Marathon)],ln,speed,15,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609224,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [NEURO-CLOUD-9 ~ Yoru ~ (Marathon)],ln,speed,13,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4609232,Various Artists - 4K LN Dan Courses v2 ~ Stage 4 Map Pack ~ [R U Still xxxx 1.15x ~ Yokaze ~ (Marathon)],ln,speed,16,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4351661,Laur - Kokushi musou [World's Final End (17th edit)],ln,Unsigned,17,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4517847,Ludicin - Onus Rēgulus [In Abyss],ln,Unsigned,17,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+5029140,Various Artist - 4K LN Dan Courses - EXTRA - [17th Dan - Yeehee (Marathon)],ln,Unsigned,17,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+5366651,Ludicin - Blossom of Ashes [Divination of Calamity],ln,density,14.5,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+5366777,takehirotei - 定时地狱 ~The Perpetual Chaotically Unsynced Pendulum~ [Convergence],ln,Unsigned,14,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4824023,Laur - 国士無双 [LN bukbuk],ln,Unsigned,14.8,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4732296,ウォルピスカーター - Oxalis [Imitation],ln,Unsigned,13.6,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4652576,Xyris - Eviternity [LN Eviternity],ln,Unsigned,14.4,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+3793375,ああ…翡翠茶漬け… - stεganography [Cipher Encryption],ln,Unsigned,13.8,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4398536,Various Artists - Begin's 4K LN Pack Level 3 [Nanahoshi Kangengakudan - Andromeda],ln,density,15.2,Invalid: XDC1 algorithm does not support LN benchmark rows,,
+4398537,Various Artists - Begin's 4K LN Pack Level 3 [ROKINA - Icicle Stinger],ln,density,15.4,Invalid: XDC1 algorithm does not support LN benchmark rows,,
 2808346,Dark Sambaland[Easy](mizuki) x1.05,jack,anchor chordjack,14.6,14.29,0.31,0.31
 3580764,Dark Sambaland[Easy](mizuki) x1.2,jack,anchor chordjack,16.4,15.67,0.73,0.73
-3245370,Martial Arts(xingren),jack,anchor chordjack,10.5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+3245370,Martial Arts(xingren),jack,anchor chordjack,10.5,Invalid: below Alpha Low,,
 3245369,Martial Arts(xingren) x1.05,jack,anchor chordjack,11,11.31,-0.31,0.31
 3245376,Martial Arts(xingren) x1.3,jack,anchor chordjack,14.6,14.42,0.18,0.18
 3245375,Martial Arts(xingren) x1.35,jack,anchor chordjack,15,14.79,0.21,0.21
@@ -345,7 +345,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 2827581,ch3rry(my angel koishi) x1.4,stamina,dense handstream,14,14.27,-0.27,0.27
 2486099,Sorairo Days(icyworld) x1.5,stamina,dense handstream,14.1,14.04,0.06,0.06
 5195214,ANOMALY(lynessa) x1.31,stamina,dense handstream,14,13.75,0.25,0.25
-3123873,FUTURE DOMINATORS(icyworld),stamina,dense handstream,9,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+3123873,FUTURE DOMINATORS(icyworld),stamina,dense handstream,9,Invalid: below Alpha Low,,
 3123869,FUTURE DOMINATORS(icyworld) x1.1,stamina,dense handstream,11,11.65,-0.65,0.65
 3123870,FUTURE DOMINATORS(icyworld) x1.2,stamina,dense handstream,13.2,13.20,0.00,0.00
 3123871,FUTURE DOMINATORS(icyworld) x1.3,stamina,dense handstream,14,13.99,0.01,0.01
@@ -360,8 +360,8 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 2168030,SILENT DESERT(teradora),stamina,dense handstream,14.4,14.24,0.16,0.16
 3755311,SILENT DESERT(e9v2) x1.2,stamina,dense handstream,16.4,16.63,-0.23,0.23
 3588134,Nibelungen(lynessa) x1.1,stamina,dense handstream,13,12.97,0.03,0.03
-3535954,Heavens Fall(teradora),stamina,dense handstream,9,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-3535945,Heavens Fall(teradora) x1.05,stamina,dense handstream,9.5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+3535954,Heavens Fall(teradora),stamina,dense handstream,9,Invalid: below Alpha Low,,
+3535945,Heavens Fall(teradora) x1.05,stamina,dense handstream,9.5,Invalid: below Alpha Low,,
 3535947,Heavens Fall(teradora) x1.1,stamina,dense handstream,10.5,10.66,-0.16,0.16
 3535946,Heavens Fall(teradora) x1.15,stamina,dense handstream,11.4,11.64,-0.24,0.24
 3535949,Heavens Fall(teradora) x1.2,stamina,dense handstream,12.5,12.51,-0.01,0.01
@@ -380,7 +380,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 3850572,Perfect Cherry Storm(teradora) x1.45,stamina,dense handstream,14.6,14.82,-0.22,0.22
 4786209,Inner Universe(teradora) x1.885,stamina,dense handstream,16.6,16.42,0.18,0.18
 5370949,Inner Universe(teradora) x1.755,stamina,dense handstream,15.4,15.48,-0.08,0.08
-1304131,Chaoz Airflow(icyworld) x1.2,stamina,dense handstream,10.4,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+1304131,Chaoz Airflow(icyworld) x1.2,stamina,dense handstream,10.4,Invalid: below Alpha Low,,
 4476886,Bluenation(xingyue) x1.2,stamina,dense handstream,11,11.18,-0.18,0.18
 4476891,Bluenation(xingyue) x1.4,stamina,dense handstream,13.6,13.64,-0.04,0.04
 4476908,Bluenation(xingyue) x1.45,stamina,dense handstream,13.9,13.94,-0.04,0.04
@@ -411,7 +411,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 3521932,Hiasobi(focogamer) x1.2,jack,high chordjack,13.9,14.04,-0.14,0.14
 3928116,Joker(Rachel),jack,high chordjack,15.4,15.33,0.07,0.07
 3887322,Dark Sambaland x1.2,jack,high chordjack,13.8,14.01,-0.21,0.21
-1705687,Flower Dance(hievery) x1.3,jack,high chordjack,10.6,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+1705687,Flower Dance(hievery) x1.3,jack,high chordjack,10.6,Invalid: below Alpha Low,,
 1705688,Flower Dance(hievery) x1.4,jack,high chordjack,12,12.04,-0.04,0.04
 2121684,Hitogata(ice v),jack,high chordjack,13.6,13.83,-0.23,0.23
 2727203,Hitogata(ice v) x1.05,jack,high chordjack,14.4,14.27,0.13,0.13
@@ -445,7 +445,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 2357902,Triumphal Return(doudou0310) x1.25,jack,high chordjack,14.4,14.41,-0.01,0.01
 2357904,Triumphal Return(doudou0310) x1.3,jack,high chordjack,14.8,14.76,0.04,0.04
 3526591,Triumphal Return(doudou0310) x1.4,jack,high chordjack,15.6,15.59,0.01,0.01
-3182551,Dusk(mintapril),jack,high chordjack,8,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+3182551,Dusk(mintapril),jack,high chordjack,8,Invalid: below Alpha Low,,
 3182552,Dusk(mintapril) x1.1,jack,high chordjack,11,11.13,-0.13,0.13
 3182553,Dusk(mintapril) x1.2,jack,high chordjack,12.6,13.05,-0.45,0.45
 3182554,Dusk(mintapril) x1.3,jack,high chordjack,13.6,13.88,-0.28,0.28
@@ -486,10 +486,10 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 2497871,Sky is the Limit(aeyeong),jack,high chordjack,13,13.22,-0.22,0.22
 1990238,Sky is the Limit(aeyeong) x1.1,jack,high chordjack,14.5,14.21,0.29,0.29
 4487955,OdoRobo(jinkill) x1.1,jack,high chordjack,14.1,13.97,0.13,0.13
-3476974,Don't let you down(rg8v3),jack,high chordjack,7.9,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-3476968,Kikai Shoujo Gensou(rg9v3),jack,high chordjack,8.5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+3476974,Don't let you down(rg8v3),jack,high chordjack,7.9,Invalid: below Alpha Low,,
+3476968,Kikai Shoujo Gensou(rg9v3),jack,high chordjack,8.5,Invalid: below Alpha Low,,
 3824604,Hifumi Daisuki[Hard](Magikarp1234),jack,high chordjack,13.6,13.48,0.12,0.12
-4010826,Re Aoharu(magikarp),jack,high chordjack,4.8,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+4010826,Re Aoharu(magikarp),jack,high chordjack,4.8,Invalid: below Alpha Low,,
 4388484,hurricanic(stupud man),speed,high stream,14,14.01,-0.01,0.01
 3171267,hurricanic(stupud man) x1.05,speed,high stream,14.4,14.39,0.01,0.01
 4388482,hurricanic(stupud man) x1.1,speed,high stream,15,14.80,0.20,0.20
@@ -525,7 +525,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 3755587,Odoru Mizushibuki x1.3,tech,jack tech,13.6,13.84,-0.24,0.24
 3755588,Odoru Mizushibuki x1.4,tech,jack tech,14.6,14.54,0.06,0.06
 3168876,Odoru Mizushibuki x1.43,tech,jack tech,15,14.77,0.23,0.23
-3824635,Usagi Flap[Tech](Magikarp1234),tech,jack tech,10.5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+3824635,Usagi Flap[Tech](Magikarp1234),tech,jack tech,10.5,Invalid: below Alpha Low,,
 4606873,Still Into You(ska) x1.16,tech,jack tech,13.4,13.59,-0.19,0.19
 3322182,BLUE ARMY[UNFORGIVING ASSAULT],stamina,light handstream,13.4,13.35,0.05,0.05
 4610329,BLUE ARMY[UNFORGIVING ASSAULT] x1.06,stamina,light handstream,13.8,13.93,-0.13,0.13
@@ -538,10 +538,10 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 2567896,The Fate of(blessia),stamina,light jumpstream,14,14.00,0.00,0.00
 1887431,Aquaris(snover) x1.2,jack,low chordjack,13,13.17,-0.17,0.17
 1426702,Double Universe(hydria),jack,low chordjack,14,13.95,0.05,0.05
-3476969,Koi Kou Enishi(rg3v3),jack,low chordjack,3.6,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-3476970,Umiyuri Kaiteitan(rg4v3),jack,low chordjack,4.1,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-3476971,Platinum Disco(rg5v3),jack,low chordjack,5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-3476972,Chocolate Disco(rg6v3),jack,low chordjack,5.8,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+3476969,Koi Kou Enishi(rg3v3),jack,low chordjack,3.6,Invalid: below Alpha Low,,
+3476970,Umiyuri Kaiteitan(rg4v3),jack,low chordjack,4.1,Invalid: below Alpha Low,,
+3476971,Platinum Disco(rg5v3),jack,low chordjack,5,Invalid: below Alpha Low,,
+3476972,Chocolate Disco(rg6v3),jack,low chordjack,5.8,Invalid: below Alpha Low,,
 3928690,Reflec Streamz(gamma) x1.15,speed,low stream,14.6,14.44,0.16,0.16
 3251778,Lalala.Refrain[HD](snowph),speed,low stream,13.8,13.78,0.02,0.02
 3251776,Lalala.Refrain[HD](snowph) x1.1,speed,low stream,14.6,14.57,0.03,0.03
@@ -555,7 +555,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 3321440,Valkyrie Revolutia(rachel),jack,mid chordjack,16.4,16.34,0.06,0.06
 4704824,M-A[impossible jack](wllk2) x0.85,jack,mid chordjack,13.9,13.97,-0.07,0.07
 5561111,manual of youth(tsumikiyuzu) x1.3,jack,mid chordjack,14,14.25,-0.25,0.25
-3476973,Don't Stop The Music(rg7v3),jack,mid chordjack,6.7,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+3476973,Don't Stop The Music(rg7v3),jack,mid chordjack,6.7,Invalid: below Alpha Low,,
 4262736,oddloop(teradora),speed,mid stream,12.2,12.49,-0.29,0.29
 4670616,Toromi Hearts 2(rachel),speed,mid stream,14.6,14.57,0.03,0.03
 3163355,Palette(rachel) x1.2,speed,mid stream,14.6,14.73,-0.13,0.13
@@ -578,7 +578,7 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 1712332,northern_limit(underjoy),tech,stream tech,15.6,15.49,0.11,0.11
 3494225,Kimiyo[Agapimenoi](frolica),tech,stream tech,13.9,13.92,-0.02,0.02
 3494228,Kimiyo[Eirini](frolica),tech,stream tech,13.6,13.76,-0.16,0.16
-2981901,Acquaintance(skwid),tech,stream tech,10,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+2981901,Acquaintance(skwid),tech,stream tech,10,Invalid: below Alpha Low,,
 2981895,Acquaintance(skwid) x1.05,tech,stream tech,11,11.37,-0.37,0.37
 2981897,Acquaintance(skwid) x1.1,tech,stream tech,12,12.30,-0.30,0.30
 2981896,Acquaintance(skwid) x1.15,tech,stream tech,13,13.02,-0.02,0.02
@@ -607,15 +607,15 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 5167720,Bismuth[Nebula](eclipse),tech,stream tech,11.4,11.97,-0.57,0.57
 3444323,Nostos2021(xingren),tech,stream tech,17,17.20,-0.20,0.20
 4130341,Re Aoharu(11bit),tech,stream tech,13.2,13.35,-0.15,0.15
-,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ 1st ~ (Marathon)],course,rc course,1,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ 2nd ~ (Marathon)],course,rc course,2,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ 3rd ~ (Marathon)],course,rc course,3,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ 4th ~ (Marathon)],course,rc course,4,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ 5th ~ (Marathon)],course,rc course,5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ 6th ~ (Marathon)],course,rc course,6,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ 7th ~ (Marathon)],course,rc course,7,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ 8th ~ (Marathon)],course,rc course,8,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ 9th ~ (Marathon)],course,rc course,9,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ 1st ~ (Marathon)],course,rc course,1,Invalid: below Alpha Low,,
+,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ 2nd ~ (Marathon)],course,rc course,2,Invalid: below Alpha Low,,
+,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ 3rd ~ (Marathon)],course,rc course,3,Invalid: below Alpha Low,,
+,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ 4th ~ (Marathon)],course,rc course,4,Invalid: below Alpha Low,,
+,Various Artists - Dan ~ REFORM ~ 1st Pack (Thaumiel) [~ 5th ~ (Marathon)],course,rc course,5,Invalid: below Alpha Low,,
+,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ 6th ~ (Marathon)],course,rc course,6,Invalid: below Alpha Low,,
+,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ 7th ~ (Marathon)],course,rc course,7,Invalid: below Alpha Low,,
+,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ 8th ~ (Marathon)],course,rc course,8,Invalid: below Alpha Low,,
+,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ 9th ~ (Marathon)],course,rc course,9,Invalid: below Alpha Low,,
 ,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ 10th ~ (Marathon)],course,rc course,10,10.91,-0.91,0.91
 ,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ EXTRA-ALPHA ~ (Marathon)],course,rc course,11,11.89,-0.89,0.89
 ,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ EXTRA-BETA ~ (Marathon)],course,rc course,12,12.49,-0.49,0.49
@@ -623,14 +623,14 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 ,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ EXTRA-DELTA ~ (Marathon)],course,rc course,14,14.15,-0.15,0.15
 ,Various Artists - Dan ~ REFORM ~ 2nd Pack (Thaumiel) [~ EXTRA-EPSILON ~ (Marathon)],course,rc course,15,15.35,-0.35,0.35
 ,Various Artists - Dan ~ REFORM ~ FINAL ([GB]Thaumiel) [~ FINAL - ETA ~ ( Marathon )],course,rc course,17,17.27,-0.27,0.27
-5319863,Dan - Signicial's Courses[[4K] Stage III - Termination [3rd Dan] (Marathon)],course,rc course,3.1,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5319952,Dan - Signicial's Courses[[4K] Stage IV - Resuscitation [4th Dan] (Marathon)],course,rc course,3.7,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5031832,Dan - Signicial's Courses[[4K] Stage V - Disturbance [5th Dan] (Marathon)],course,rc course,4.6,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5031833,Dan - Signicial's Courses[[4K] Stage VI - Revitalization [6th Dan] (Marathon)],course,rc course,5.6,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5320775,Dan - Signicial's Courses[[4K] Stage VII - Motivation [7th Dan] (Marathon)],course,rc course,6.4,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5320776,Dan - Signicial's Courses[[4K] Stage VIII - Misfortune [8th Dan] (Marathon)],course,rc course,7.5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5320774,Dan - Signicial's Courses[[4K] Stage IX - Catastrophe [9th Dan] (Marathon)],course,rc course,8.7,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5031834,Dan - Signicial's Courses[[4K] Stage X - Finale [10th Dan] (Marathon)],course,rc course,9.6,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+5319863,Dan - Signicial's Courses[[4K] Stage III - Termination [3rd Dan] (Marathon)],course,rc course,3.1,Invalid: below Alpha Low,,
+5319952,Dan - Signicial's Courses[[4K] Stage IV - Resuscitation [4th Dan] (Marathon)],course,rc course,3.7,Invalid: below Alpha Low,,
+5031832,Dan - Signicial's Courses[[4K] Stage V - Disturbance [5th Dan] (Marathon)],course,rc course,4.6,Invalid: below Alpha Low,,
+5031833,Dan - Signicial's Courses[[4K] Stage VI - Revitalization [6th Dan] (Marathon)],course,rc course,5.6,Invalid: below Alpha Low,,
+5320775,Dan - Signicial's Courses[[4K] Stage VII - Motivation [7th Dan] (Marathon)],course,rc course,6.4,Invalid: below Alpha Low,,
+5320776,Dan - Signicial's Courses[[4K] Stage VIII - Misfortune [8th Dan] (Marathon)],course,rc course,7.5,Invalid: below Alpha Low,,
+5320774,Dan - Signicial's Courses[[4K] Stage IX - Catastrophe [9th Dan] (Marathon)],course,rc course,8.7,Invalid: below Alpha Low,,
+5031834,Dan - Signicial's Courses[[4K] Stage X - Finale [10th Dan] (Marathon)],course,rc course,9.6,Invalid: below Alpha Low,,
 3216602,Dan - Signicial's Courses[[4K] Stage XI - Alpha [11th Dan] (Marathon)],course,rc course,10.5,11.03,-0.53,0.53
 5637760,Dan - Signicial's Courses[[4K] Special Stage I - Luminal [11.5th Dan] (Marathon)],course,rc course,11.1,11.49,-0.39,0.39
 3216603,Dan - Signicial Courses[[4K] Stage XII - Beta [12th Dan] (Marathon)],course,rc course,11.8,12.15,-0.35,0.35
@@ -641,43 +641,43 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 5370092,Dan - Signicial's Courses[[4K] Extra Stage I - Zeta [16th Dan] (Marathon)],course,rc course,16.1,16.21,-0.11,0.11
 5597992,Dan - Signicial's Courses[[4K] Extra Stage II - Eta [17th Dan] (Marathon)],course,rc course,17.1,17.19,-0.09,0.09
 5680925,Dan - Signicial's Courses[[4K] Extra Stage III - Theta [18th Dan] (Marathon)],course,rc course,17.9,18.38,-0.48,0.48
-5695357,Reincarnation(signicial dan),jack,low chordjack,2.9,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5695347,Backyun! - BAD GIRL -(signicial dan),jack,low chordjack,3.7,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5695360,air's gravity(signicial dan),jack,low chordjack,4.8,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5695358,Another Medium(signicial dan),jack,low chordjack,5.6,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5695355,Saltwater Chicken & Duck Roasted Chicken & Duck(signicial dan),jack,low chordjack,6.6,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5695349,EVERGREEN(signicial dan),jack,mid chordjack,7.4,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5695345,Alea jacta est(signicial dan),jack,low chordjack,8.4,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5695353,What is love(signicial dan),jack,high chordjack,9.1,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5695359,Count What You Have Now(signicial dan) x1.05,jack,high chordjack,10.3,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+5695357,Reincarnation(signicial dan),jack,low chordjack,2.9,Invalid: below Alpha Low,,
+5695347,Backyun! - BAD GIRL -(signicial dan),jack,low chordjack,3.7,Invalid: below Alpha Low,,
+5695360,air's gravity(signicial dan),jack,low chordjack,4.8,Invalid: below Alpha Low,,
+5695358,Another Medium(signicial dan),jack,low chordjack,5.6,Invalid: below Alpha Low,,
+5695355,Saltwater Chicken & Duck Roasted Chicken & Duck(signicial dan),jack,low chordjack,6.6,Invalid: below Alpha Low,,
+5695349,EVERGREEN(signicial dan),jack,mid chordjack,7.4,Invalid: below Alpha Low,,
+5695345,Alea jacta est(signicial dan),jack,low chordjack,8.4,Invalid: below Alpha Low,,
+5695353,What is love(signicial dan),jack,high chordjack,9.1,Invalid: below Alpha Low,,
+5695359,Count What You Have Now(signicial dan) x1.05,jack,high chordjack,10.3,Invalid: below Alpha Low,,
 5590322,Cryonix(signicial dan),jack,low chordjack,11.5,12.52,-1.02,1.02
 5695348,lost found melody(signicial dan),jack,low chordjack,11.8,11.71,0.09,0.09
 5695354,The Safari(signicial dan),jack,anchor chordjack,12.6,12.38,0.22,0.22
 5695350,Nijiiro Kekkai Gekkyou no Goku(signicial dan),jack,anchor chordjack,13.6,13.72,-0.12,0.12
 5590317,Nijuu(signicial dan),jack,anchor chordjack,14.5,14.54,-0.04,0.04
 5695352,Ragnarok(signicial dan) x0.9,jack,high chordjack,16.1,16.10,0.00,0.00
-5370048,Ambitious(signicial dan),tech,stream tech,3.3,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5370044,for Q(signicial dan),tech,stream tech,3.7,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5370045,kibou no tsuki(signicial dan),tech,jack tech,4.5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5370043,BIRTH(signicial dan),tech,stream tech,5.7,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5370047,girls.exe(signicial dan),tech,stream tech,6.4,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5370050,Hestia(signicial dan),tech,stream tech,7.8,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5370046,T'Suramic(signicial dan),tech,stream tech,9.6,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5370036,Nowise(signicial dan),tech,jack tech,10.5,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5590320,Veins Resonance(signicial dan),tech,jack tech,10.7,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+5370048,Ambitious(signicial dan),tech,stream tech,3.3,Invalid: below Alpha Low,,
+5370044,for Q(signicial dan),tech,stream tech,3.7,Invalid: below Alpha Low,,
+5370045,kibou no tsuki(signicial dan),tech,jack tech,4.5,Invalid: below Alpha Low,,
+5370043,BIRTH(signicial dan),tech,stream tech,5.7,Invalid: below Alpha Low,,
+5370047,girls.exe(signicial dan),tech,stream tech,6.4,Invalid: below Alpha Low,,
+5370050,Hestia(signicial dan),tech,stream tech,7.8,Invalid: below Alpha Low,,
+5370046,T'Suramic(signicial dan),tech,stream tech,9.6,Invalid: below Alpha Low,,
+5370036,Nowise(signicial dan),tech,jack tech,10.5,Invalid: below Alpha Low,,
+5590320,Veins Resonance(signicial dan),tech,jack tech,10.7,Invalid: below Alpha Low,,
 5370049,Rainshower(signicial dan),tech,jack tech,11.6,10.90,0.70,0.70
 5370039,Sulfide(signicial dan),tech,stream tech,13.5,13.65,-0.15,0.15
 5590318,sirens eye(signicial dan),tech,stream tech,14.4,14.28,0.12,0.12
 5370038,POLYBIUS GB SPEEDRUN(signicial dan) x1.2,tech,stream tech,14.8,14.81,-0.01,0.01
 5370037,NUCLEAR-STAR(signicial dan),tech,stream tech,16.2,16.18,0.02,0.02
-5366872,Phi(signicial dan),speed,low stream,3.1,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5375029,498 Tokio(signicial dan),speed,low stream,3.8,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5366871,The Wanderlast(signicial dan),speed,low stream,4.4,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5366875,BREAK IT(signicial dan),speed,mid stream,5.8,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5366877,Serendipity(signicial dan),speed,low stream,6.1,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5366870,Eureka(signicial dan),speed,low stream,7.3,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5366868,Angel Halo(signicial dan),speed,high stream,9.1,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5366867,cold planet(signicial dan),speed,high stream,9.6,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+5366872,Phi(signicial dan),speed,low stream,3.1,Invalid: below Alpha Low,,
+5375029,498 Tokio(signicial dan),speed,low stream,3.8,Invalid: below Alpha Low,,
+5366871,The Wanderlast(signicial dan),speed,low stream,4.4,Invalid: below Alpha Low,,
+5366875,BREAK IT(signicial dan),speed,mid stream,5.8,Invalid: below Alpha Low,,
+5366877,Serendipity(signicial dan),speed,low stream,6.1,Invalid: below Alpha Low,,
+5366870,Eureka(signicial dan),speed,low stream,7.3,Invalid: below Alpha Low,,
+5366868,Angel Halo(signicial dan),speed,high stream,9.1,Invalid: below Alpha Low,,
+5366867,cold planet(signicial dan),speed,high stream,9.6,Invalid: below Alpha Low,,
 5366873,NightTheater(signicial dan),speed,high stream,10.7,10.50,0.20,0.20
 5590323,Kyoumen no Nami(signicial dan),speed,mid stream,11.7,11.39,0.31,0.31
 5366863,DON'T GIVE A FUCK(signicial dan),speed,high stream,11.6,11.96,-0.36,0.36
@@ -685,15 +685,15 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 5366864,Tojita Sekai(signicial dan),speed,low stream,13.9,14.11,-0.21,0.21
 5590321,Nevereverland(signicial dan) x1.05,speed,mid stream,14.5,14.75,-0.25,0.25
 5366865,Disconnected Trance(signicial dan) x1.05,speed,mid stream,14.9,15.06,-0.16,0.16
-5375823,Kouyou(signicial dan),stamina,light jumpstream,3.1,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5375826,Ouka Sange(signicial dan),stamina,light handstream,4.7,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5375824,Blue Moon(signicial dan),stamina,dense handstream,5.9,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5375829,Synthesis.(signicial dan),stamina,light handstream,6.4,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5375819,Literal Crystal in Cyphisonia(signicial dan),stamina,dense jumpstream,7.6,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5375831,CERCA-ESOTERICA(signicial dan),stamina,dense handstream,8.6,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5375820,Kisaragi(signicial dan),stamina,dense jumpstream,9.8,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+5375823,Kouyou(signicial dan),stamina,light jumpstream,3.1,Invalid: below Alpha Low,,
+5375826,Ouka Sange(signicial dan),stamina,light handstream,4.7,Invalid: below Alpha Low,,
+5375824,Blue Moon(signicial dan),stamina,dense handstream,5.9,Invalid: below Alpha Low,,
+5375829,Synthesis.(signicial dan),stamina,light handstream,6.4,Invalid: below Alpha Low,,
+5375819,Literal Crystal in Cyphisonia(signicial dan),stamina,dense jumpstream,7.6,Invalid: below Alpha Low,,
+5375831,CERCA-ESOTERICA(signicial dan),stamina,dense handstream,8.6,Invalid: below Alpha Low,,
+5375820,Kisaragi(signicial dan),stamina,dense jumpstream,9.8,Invalid: below Alpha Low,,
 5375825,Sendan Life(signicial dan),stamina,light jumpstream,10.7,10.74,-0.04,0.04
-5590319,Chronicle(signicial dan),stamina,dense handstream,10.8,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+5590319,Chronicle(signicial dan),stamina,dense handstream,10.8,Invalid: below Alpha Low,,
 5375822,The Limit Does Not Exist(signicial dan),stamina,dense jumpstream,12.2,11.67,0.53,0.53
 5375821,[ns](signicial dan),stamina,dense jumpstream,12.6,12.82,-0.22,0.22
 5375845,Excuse Me But Could You Please RIP(signicial dan),stamina,dense handstream,13.8,13.84,-0.04,0.04
@@ -709,10 +709,10 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 5679829,Discharge(signicial) x1.15,speed,low stream,18,18.37,-0.37,0.37
 5680977,It Has To Be This Way(signicial dan),stamina,dense handstream,18.3,18.29,0.01,0.01
 5253584,Life Garden(follow speed dan),speed,low stream,10.3,10.77,-0.47,0.47
-5253560,Elsa de la bibliotheque(follow speed dan),speed,mid stream,10.3,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+5253560,Elsa de la bibliotheque(follow speed dan),speed,mid stream,10.3,Invalid: below Alpha Low,,
 5253572,Chou Aoshiyounen no Tame no Choutan na Choukoten Choubukyoku(follow speed dan),speed,high stream,10.3,10.75,-0.45,0.45
 5253585,Hoshi ga Furanai Machi(follow speed dan),speed,high stream,10.4,10.65,-0.25,0.25
-5253561,Scarlet Tempest(follow speed dan),speed,mid stream,10.4,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+5253561,Scarlet Tempest(follow speed dan),speed,mid stream,10.4,Invalid: below Alpha Low,,
 5253573,Otenba Renjyo(follow speed dan),speed,high stream,10.4,11.78,-1.38,1.38
 5253586,Flower Dance(follow speed dan),speed,high stream,11.2,10.77,0.43,0.43
 5253562,Hymn(follow speed dan),speed,mid stream,11.2,11.10,0.10,0.10
@@ -1363,11 +1363,11 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 ,Kidzuitara Shunkashuutou 1.3[Xingyue],stamina,Unsigned,15.4,15.26,0.14,0.14
 ,Otenba Renjyo 1.15[Magikarp1234],stamina,Unsigned,15.4,15.78,-0.38,0.38
 ,Surface Tension 1.30[Hylotl],stamina,Unsigned,15.4,15.36,0.04,0.04
-5808951,4k Earthquake Jack Pack - Banzai - Zodiac,jack,mid chordjack,6.1,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5854883,4k Earthquake Jack Pack - Juno Reactor - Conga Fury,jack,mid chordjack,7.05,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5887779,4k Earthquake Jack Pack - Sorry about my face - shutdown,jack,anchor chordjack,8.4,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5808950,4k Earthquake Jack Pack - -45 - EXILE,jack,low chordjack,10.35,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
-5848865,4k Earthquake Jack Pack - Neurocore - Atlantis (Cut ver.),jack,low chordjack,11.25,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+5808951,4k Earthquake Jack Pack - Banzai - Zodiac,jack,mid chordjack,6.1,Invalid: below Alpha Low,,
+5854883,4k Earthquake Jack Pack - Juno Reactor - Conga Fury,jack,mid chordjack,7.05,Invalid: below Alpha Low,,
+5887779,4k Earthquake Jack Pack - Sorry about my face - shutdown,jack,anchor chordjack,8.4,Invalid: below Alpha Low,,
+5808950,4k Earthquake Jack Pack - -45 - EXILE,jack,low chordjack,10.35,Invalid: below Alpha Low,,
+5848865,4k Earthquake Jack Pack - Neurocore - Atlantis (Cut ver.),jack,low chordjack,11.25,Invalid: below Alpha Low,,
 5845858,4k Earthquake Jack Pack - Dual Mechanism - The Rebuild,jack,low chordjack,11.4,11.16,0.24,0.24
 5838583,4k Earthquake Jack Pack - inoqx - BURDEN (Granite Ocean Edit),jack,dense chordjack,11.75,12.07,-0.32,0.32
 5862203,4k Earthquake Jack Pack - -45 - Kuroneko Yanagi,jack,mid chordjack,12.3,12.22,0.08,0.08
@@ -1375,9 +1375,24 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 5980896,4k Earthquake Jack Pack - DJ Nanasaki - Unorthodox Red (Cut ver.),jack,low chordjack,14.2,14.55,-0.35,0.35
 5837224,4k Earthquake Jack Pack - onoken - K8107,jack,anchor chordjack,15.85,15.49,0.36,0.36
 5980895,4k Earthquake Jack Pack - Axciid - Red Room (Granite Ocean Edit),jack,high chordjack,15.9,15.83,0.07,0.07
-5952686,Nexon - Pulse Resonance,jack,mid chordjack,10.8,Invalid: below Alpha Low (XDC1 rates Alpha to Theta),,
+5952686,Nexon - Pulse Resonance,jack,mid chordjack,10.8,Invalid: below Alpha Low,,
 5969703,Kopophobia & SpaceChimp - No Time to Die x0.8,jack,low chordjack,15.3,14.65,0.65,0.65
 5969707,Kopophobia & SpaceChimp - No Time to Die,jack,low chordjack,17.95,15.98,1.97,1.97
 5790675,Inhuman - Inhuman,stamina,dense jumpstream,11.85,11.87,-0.02,0.02
 5962768,Neru - Ningen Shikkaku (Short ver.),jack,high chordjack,17.3,17.04,0.26,0.26
 5970092,Kuroneko Dungeon - Ryuu to shoujo to Decoherence,tech,mix tech,11.9,12.50,-0.60,0.60
+,Hachigatsu no Yoru(Nerfed) [1.12](Bulanzel),speed,Unsigned,14.6,14.58,0.02,0.02
+,Hari no Sora [1.15](RMAILtF930),speed,Unsigned,14.6,14.10,0.50,0.50
+,Stella [1.05](YuLuoX vs. RMAILtF930),speed,Unsigned,14.6,14.38,0.22,0.22
+,White Day [1.4](ska),speed,Unsigned,14.6,14.37,0.23,0.23
+,Kono Hiroi Sora no Shita de [1.03](MoKori),speed,Unsigned,14.8,14.94,-0.14,0.14
+,Valkyrie Revolutia(nerfed) (Odosaka Muyu),speed,Unsigned,14.8,14.80,0.00,0.00
+,Fake [1.05]([Crz]EzNys),speed,Unsigned,15,15.02,-0.02,0.02
+,Houkago Stride (YuLuoX),speed,Unsigned,15,14.77,0.23,0.23
+,Over the top [1.1](YuLuoX),speed,Unsigned,15,14.93,0.07,0.07
+,Xeno Phantasm [1.07](OGccp),speed,Unsigned,15,14.88,0.12,0.12
+,Blanoir [1.10]([Crz]Rachel),speed,Unsigned,15.2,14.85,0.35,0.35
+,Last Remote - Type gamma [1.20](crazyImmortals),speed,Unsigned,15.2,14.94,0.26,0.26
+,BABYLON [1.16](Ycloki),speed,Unsigned,15.4,15.26,0.14,0.14
+,Decoy [1.23](B0JP45),speed,Unsigned,15.4,15.48,-0.08,0.08
+,Dimension Wars (Cut) [1.02](Ycloki),speed,Unsigned,15.4,15.17,0.23,0.23

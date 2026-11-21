@@ -1381,3 +1381,18 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 5790675,Inhuman - Inhuman,stamina,dense jumpstream,11.85,10.21,1.64,1.64
 5962768,Neru - Ningen Shikkaku (Short ver.),jack,high chordjack,17.3,14.92,2.38,2.38
 5970092,Kuroneko Dungeon - Ryuu to shoujo to Decoherence,tech,mix tech,11.9,11.48,0.42,0.42
+,Hachigatsu no Yoru(Nerfed) [1.12](Bulanzel),speed,Unsigned,14.6,14.19,0.41,0.41
+,Hari no Sora [1.15](RMAILtF930),speed,Unsigned,14.6,13.19,1.41,1.41
+,Stella [1.05](YuLuoX vs. RMAILtF930),speed,Unsigned,14.6,13.73,0.87,0.87
+,White Day [1.4](ska),speed,Unsigned,14.6,14.34,0.26,0.26
+,Kono Hiroi Sora no Shita de [1.03](MoKori),speed,Unsigned,14.8,14.25,0.55,0.55
+,Valkyrie Revolutia(nerfed) (Odosaka Muyu),speed,Unsigned,14.8,14.47,0.33,0.33
+,Fake [1.05]([Crz]EzNys),speed,Unsigned,15,14.41,0.59,0.59
+,Houkago Stride (YuLuoX),speed,Unsigned,15,14.18,0.82,0.82
+,Over the top [1.1](YuLuoX),speed,Unsigned,15,14.40,0.60,0.60
+,Xeno Phantasm [1.07](OGccp),speed,Unsigned,15,14.36,0.64,0.64
+,Blanoir [1.10]([Crz]Rachel),speed,Unsigned,15.2,14.51,0.69,0.69
+,Last Remote - Type gamma [1.20](crazyImmortals),speed,Unsigned,15.2,14.37,0.83,0.83
+,BABYLON [1.16](Ycloki),speed,Unsigned,15.4,14.76,0.64,0.64
+,Decoy [1.23](B0JP45),speed,Unsigned,15.4,14.80,0.60,0.60
+,Dimension Wars (Cut) [1.02](Ycloki),speed,Unsigned,15.4,14.43,0.97,0.97

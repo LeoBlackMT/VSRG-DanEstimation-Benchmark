@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T05:29:33.596Z",
+  "generatedAt": "2026-11-21T18:10:38.000Z",
   "algorithms": [
     "Azusa",
     "Companella",
@@ -16,71 +16,71 @@
     {
       "fileName": "Azusa.csv",
       "algorithm": "Azusa",
-      "sizeBytes": 107938,
-      "modifiedAt": "2026-11-15T05:29:14.455Z",
+      "sizeBytes": 108967,
+      "modifiedAt": "2026-11-21T17:33:01.000Z",
       "source": "https://github.com/LeoBlackMT/osumania_map_analyser/tree/main/docs/azusa_algorithm.md"
     },
     {
       "fileName": "Companella.csv",
       "algorithm": "Companella",
-      "sizeBytes": 102903,
-      "modifiedAt": "2026-11-15T05:29:14.461Z",
+      "sizeBytes": 103933,
+      "modifiedAt": "2026-11-21T17:47:45.000Z",
       "source": "https://github.com/Leinadix/companella"
     },
     {
       "fileName": "Daniel.csv",
       "algorithm": "Daniel",
-      "sizeBytes": 112822,
-      "modifiedAt": "2026-11-15T05:28:54.463Z",
+      "sizeBytes": 113862,
+      "modifiedAt": "2026-11-21T17:44:55.000Z",
       "source": "https://github.com/TheBagelOfMan/Daniel"
     },
     {
       "fileName": "ISOR.csv",
       "algorithm": "ISOR",
-      "sizeBytes": 107326,
-      "modifiedAt": "2026-11-15T05:29:14.465Z",
+      "sizeBytes": 108355,
+      "modifiedAt": "2026-11-21T18:10:38.000Z",
       "source": "https://github.com/acarranzao1a-png/Dan-Overlay/"
     },
     {
       "fileName": "Koishi.csv",
       "algorithm": "Koishi",
-      "sizeBytes": 148622,
-      "modifiedAt": "2026-11-15T05:29:14.468Z",
+      "sizeBytes": 150955,
+      "modifiedAt": "2026-11-21T18:12:02.000Z",
       "source": "https://github.com/AquaStoneLZS/Koishi"
     },
     {
       "fileName": "Mixed.csv",
       "algorithm": "Mixed",
-      "sizeBytes": 103074,
-      "modifiedAt": "2026-11-15T05:29:14.472Z",
+      "sizeBytes": 104104,
+      "modifiedAt": "2026-11-21T17:43:40.000Z",
       "source": "https://github.com/LeoBlackMT/osumania_map_analyser"
     },
     {
       "fileName": "P1h.csv",
       "algorithm": "P1h",
-      "sizeBytes": 102570,
-      "modifiedAt": "2026-11-15T05:29:14.475Z",
+      "sizeBytes": 103595,
+      "modifiedAt": "2026-11-21T18:05:08.000Z",
       "source": "https://github.com/sky2002/osu-star-web"
     },
     {
       "fileName": "Roxy.csv",
       "algorithm": "Roxy",
-      "sizeBytes": 112828,
-      "modifiedAt": "2026-11-15T05:29:14.479Z",
+      "sizeBytes": 113858,
+      "modifiedAt": "2026-11-21T17:37:22.000Z",
       "source": "https://github.com/LeoBlackMT/osumania_map_analyser/tree/main/docs/roxy_algorithm.md"
     },
     {
       "fileName": "Sunny.csv",
       "algorithm": "Sunny",
-      "sizeBytes": 103200,
-      "modifiedAt": "2026-11-15T05:27:49.278Z",
+      "sizeBytes": 104225,
+      "modifiedAt": "2026-11-21T17:29:56.000Z",
       "source": "https://github.com/sunnyxxy/Star-Rating-Rebirth"
     },
     {
       "fileName": "XDC1.csv",
       "algorithm": "XDC1",
-      "sizeBytes": 109962,
-      "modifiedAt": "2026-11-15T05:29:14.482Z",
+      "sizeBytes": 110151,
+      "modifiedAt": "2026-11-21T17:48:41.000Z",
       "source": "https://github.com/TheBagelOfMan/xdc1"
     }
   ]
