@@ -1387,8 +1387,8 @@ bid,name,pattern,subPattern,expected,got,delta,deltaAbs
 ,White Day [1.4](ska),speed,Unsigned,14.6,15.11,-0.51,0.51
 ,Kono Hiroi Sora no Shita de [1.03](MoKori),speed,Unsigned,14.8,15.31,-0.51,0.51
 ,Valkyrie Revolutia(nerfed) (Odosaka Muyu),speed,Unsigned,14.8,15.05,-0.25,0.25
-,Fake [1.05]([Crz]EzNys),speed,Unsigned,15,15.42,-0.42,0.42
-,Houkago Stride (YuLuoX),speed,Unsigned,15,15.42,-0.42,0.42
+,Fake [1.05]([Crz]EzNys),speed,Unsigned,14.9,15.42,-0.52,0.52
+,Houkago Stride (YuLuoX),speed,Unsigned,14.8,15.42,-0.62,0.62
 ,Over the top [1.1](YuLuoX),speed,Unsigned,15,15.66,-0.66,0.66
 ,Xeno Phantasm [1.07](OGccp),speed,Unsigned,15,15.89,-0.89,0.89
 ,Blanoir [1.10]([Crz]Rachel),speed,Unsigned,15.2,15.41,-0.21,0.21
